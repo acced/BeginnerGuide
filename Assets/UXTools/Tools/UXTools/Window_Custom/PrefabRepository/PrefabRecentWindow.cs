@@ -347,10 +347,7 @@ namespace ThunderFireUITool
 
         private void DrawTexture(SceneView sceneView)
         {
-            if (SceneViewToolBar.OutSceneViewBounds(sceneView))
-            {
-                UXCustomSceneView.RemoveDelegate(DrawTexture);
-            }
+           
             Handles.BeginGUI();
             GUI.DrawTexture(new Rect(Event.current.mousePosition.x - texture.width / 2, Event.current.mousePosition.y - texture.height / 2, texture.width, texture.height), texture);
             Handles.EndGUI();

@@ -134,7 +134,7 @@ namespace ThunderFireUITool
 
             EditorPrefs.DeleteKey(ThunderFireUIToolConfig.PreviewPrefabPath);
             EditorPrefs.DeleteKey(ThunderFireUIToolConfig.PreviewOriginScene);
-            SceneViewToolBar.TryOpenToolbar();
+           
         }
     }
 }

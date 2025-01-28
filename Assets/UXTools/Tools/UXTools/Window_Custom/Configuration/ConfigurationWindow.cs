@@ -490,11 +490,7 @@ namespace ThunderFireUITool
             Selection.activeGameObject = null;
 
             SwitchSetting.ChangeSwitch(switchToggles);
-            if (SceneViewToolBar.HaveToolbar)
-            {
-                SceneViewToolBar.CloseEditor();
-                SceneViewToolBar.OpenEditor();
-            }
+           
             if (commonData != null)
             {
                 commonData.CustomUnityWindowTitle = projectNameTextField.value;

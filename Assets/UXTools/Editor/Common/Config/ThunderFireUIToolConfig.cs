@@ -89,7 +89,7 @@ namespace ThunderFireUITool
 
         #region MenuItem Name
         public const string MenuName = "ThunderFireUXTool/";
-        public const string ToolBar = "工具栏 (Toolbar)";
+       
 
         public const string About = "关于 (About)";
         public const string WelcomePage = "欢迎页 (Welcome Page)";
@@ -124,7 +124,7 @@ namespace ThunderFireUITool
         public const string Menu_Localization = MenuName + Localization;    //54
         public const string Menu_CreateBeginnerGuide = MenuName + CreateBeginnerGuide;  //55
 
-        public const string Menu_ToolBar = MenuName + ToolBar;  //101
+        
 
         public const string Menu_BackGround = MenuName + BackGround;    //151
         public const string Menu_AutoAssemblePrefab = MenuName + AutoStitching;    //152

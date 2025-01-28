@@ -70,8 +70,7 @@ namespace ThunderFireUITool
             }
 
 
-            SceneViewToolBar.CloseFunction();
-            SceneViewToolBar.InitFunction();
+           
 #if ODIN_INSPECTOR
             UIAtlasCheckUserData atlasData = AssetDatabase.LoadAssetAtPath<UIAtlasCheckUserData>(ThunderFireUIToolConfig.UICheckUserDataFullPath);
             if (atlasData == null)

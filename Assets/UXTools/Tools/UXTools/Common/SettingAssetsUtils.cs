@@ -10,8 +10,7 @@ namespace ThunderFireUITool
     {
         private static Dictionary<Type, string> AssetPathDic = new Dictionary<Type, string>
         {
-            {typeof(HierarchyManagementSetting), ThunderFireUIToolConfig.HierarchyManagementSettingPath},
-            {typeof(HierarchyManagementData), ThunderFireUIToolConfig.HierarchyManagementDataPath},
+            
 #if ODIN_INSPECTOR
             {typeof(UIAnimCheckSetting), ThunderFireUIToolConfig.UICheckAnimFullPath },
             {typeof(UIAtlasCheckRuleSettings), ThunderFireUIToolConfig.UICheckAnimFullPath },
