@@ -185,9 +185,9 @@ namespace ThunderFireUITool
 
             EditorPanel = editorTreeAsset.CloneTree().Children().First();
 #if UNITY_2021_1_OR_NEWER
-            EditorPanel.style.top = SwitchSetting.CheckValid(SwitchSetting.SwitchType.PrefabMultiOpen) ? 25 : 0;
+            EditorPanel.style.top = 20;
 #else
-            EditorPanel.style.top = SwitchSetting.CheckValid(SwitchSetting.SwitchType.PrefabMultiOpen) ? 47 : 22;
+            EditorPanel.style.top = 20;
 #endif
             sceneView.rootVisualElement.Add(EditorPanel);
 
