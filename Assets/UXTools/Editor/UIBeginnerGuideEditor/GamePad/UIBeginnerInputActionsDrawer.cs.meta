@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 9527f3e6d7ba440684092464aac31a68
+timeCreated: 1663312447
+AssetOrigin:
+  serializedVersion: 1
+  productId: 241533
+  packageName: ThunderFireUXTool
+  packageVersion: 1.0.2
+  assetPath: Assets/UXTools/Editor/Feature/UIBeginnerGuideEditor/GamePad/UIBeginnerInputActionsDrawer.cs
+  uploadId: 679434

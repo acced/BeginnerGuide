@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: af7e36ee1a1ae4442b40fdd3dc43e404
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 241533
+  packageName: ThunderFireUXTool
+  packageVersion: 1.0.2
+  assetPath: Assets/UXTools/Editor/Feature/UIBeginnerGuideEditor/GamePad/GuideGamePadEditor.cs
+  uploadId: 679434

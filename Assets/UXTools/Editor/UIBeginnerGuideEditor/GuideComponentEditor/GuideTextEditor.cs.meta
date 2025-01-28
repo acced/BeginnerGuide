@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 4c51c9c625c34a839e114a9a1f1a2246
+timeCreated: 1663916333
+AssetOrigin:
+  serializedVersion: 1
+  productId: 241533
+  packageName: ThunderFireUXTool
+  packageVersion: 1.0.2
+  assetPath: Assets/UXTools/Editor/Feature/UIBeginnerGuideEditor/GuideComponentEditor/GuideTextEditor.cs
+  uploadId: 679434

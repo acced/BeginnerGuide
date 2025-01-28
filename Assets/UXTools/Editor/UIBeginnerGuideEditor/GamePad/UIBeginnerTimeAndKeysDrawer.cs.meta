@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 1f3f5e9372e2490599502991d6fa953d
+timeCreated: 1663312507
+AssetOrigin:
+  serializedVersion: 1
+  productId: 241533
+  packageName: ThunderFireUXTool
+  packageVersion: 1.0.2
+  assetPath: Assets/UXTools/Editor/Feature/UIBeginnerGuideEditor/GamePad/UIBeginnerTimeAndKeysDrawer.cs
+  uploadId: 679434

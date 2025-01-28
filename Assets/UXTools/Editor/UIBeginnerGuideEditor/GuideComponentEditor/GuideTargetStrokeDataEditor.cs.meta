@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: ac7e182f5aec5f44c97d41dd83e64f9d
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 241533
+  packageName: ThunderFireUXTool
+  packageVersion: 1.0.2
+  assetPath: Assets/UXTools/Editor/Feature/UIBeginnerGuideEditor/GuideComponentEditor/GuideTargetStrokeDataEditor.cs
+  uploadId: 679434

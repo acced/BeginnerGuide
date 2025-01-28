@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 9d44bc809fbb4b0ea8d50fc49316570d
+timeCreated: 1663916956
+AssetOrigin:
+  serializedVersion: 1
+  productId: 241533
+  packageName: ThunderFireUXTool
+  packageVersion: 1.0.2
+  assetPath: Assets/UXTools/Editor/Feature/UIBeginnerGuideEditor/GuideComponentEditor/GuideTargetStrokeEditor.cs
+  uploadId: 679434
