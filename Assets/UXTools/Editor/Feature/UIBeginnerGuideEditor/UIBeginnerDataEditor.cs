@@ -5,6 +5,7 @@ using UnityEditor;
 using System;
 using UnityEditorInternal;
 using System.Linq;
+using UnityEngine.Events;
 
 namespace ThunderFireUITool
 {
@@ -18,7 +19,9 @@ namespace ThunderFireUITool
         private string GuidePrefabString = "GuidePrefab";
         private string ShowDataString = "ShowData";
         private string EditString = "Edit";
+        private string ClickEventString = "点击事件";
         private GUIContent GuidePrefabContent;
+        
 
         private void Init(SerializedProperty property)
         {
@@ -47,6 +50,10 @@ namespace ThunderFireUITool
             SerializedProperty prefabProperty = property.FindPropertyRelative("guideTemplatePrefab");
             SerializedProperty useOwnPrefab = property.FindPropertyRelative("UseOwnPrefab");
             SerializedProperty templateProperty = property.FindPropertyRelative("Template");
+            SerializedProperty clickProperty = property.FindPropertyRelative("Click");
+            
+            
+            
 
             var idRect = new Rect(position)
             {
@@ -77,7 +84,9 @@ namespace ThunderFireUITool
             {
                 tooltip = EditorLocalization.GetLocalization("UIBeginnerData", "WeakGuide");
             }
+           
             EditorGUI.LabelField(typeRect, new GUIContent("", tooltip));
+            
             curY += EditorGUIUtility.singleLineHeight + CustomEditorGUI.propertyInterval;
 
             if (typeProperty.intValue == (int)GuideFinishType.Weak)
@@ -160,6 +169,8 @@ namespace ThunderFireUITool
             // }
             // curY += EditorGUIUtility.singleLineHeight + CustomEditorGUI.propertyInterval;
 
+            
+            
             var btnRect1 = new Rect(position)
             {
                 height = EditorGUIUtility.singleLineHeight,
@@ -207,6 +218,12 @@ namespace ThunderFireUITool
                     }
                 }
             }
+            var btnRect2 = new Rect(position)
+            {
+                height = 50,
+                y = curY
+            };
+            EditorGUI.PropertyField(btnRect2,clickProperty);
         }
 
 
@@ -237,6 +254,9 @@ namespace ThunderFireUITool
                 {
                     defaultHeight = (EditorGUIUtility.singleLineHeight + CustomEditorGUI.propertyInterval) * 6;
                 }
+                var eventsProperty = data1Property.FindPropertyRelative("Click");
+                defaultHeight += EditorGUI.GetPropertyHeight(eventsProperty);
+                
                 return defaultHeight;
             };
 
@@ -306,6 +326,8 @@ namespace ThunderFireUITool
             Rect listRect = EditorGUILayout.GetControlRect();
             property.isExpanded = EditorGUI.BeginFoldoutHeaderGroup(listRect, property.isExpanded, new GUIContent(property.displayName));
             EditorGUI.EndFoldoutHeaderGroup();
+            
+            
 
             if (property.isExpanded)
                 List.DoLayoutList();

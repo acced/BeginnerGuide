@@ -134,6 +134,8 @@ public class UIBeginnerGuideData
     public string CustomImageDatas;
     public bool UseOwnPrefab = false;
     public GuideTemplate Template = GuideTemplate.t1;
+    
+    public UnityEvent Click;
 }
 
 public class UIBeginnerGuideDataList : MonoBehaviour

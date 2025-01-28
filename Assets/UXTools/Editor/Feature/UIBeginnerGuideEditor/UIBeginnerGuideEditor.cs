@@ -333,6 +333,7 @@ namespace ThunderFireUITool
             {
                 guideHighLightData.Saved = true;
                 index.guideHighLightData = guideHighLightData.Serialize();
+               
                 if (guideHighLightData.target != null)
                 {
                     index.highLightTarget = guideHighLightData.target.gameObject;

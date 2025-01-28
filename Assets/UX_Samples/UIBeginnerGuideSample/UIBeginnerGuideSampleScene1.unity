@@ -1629,10 +1629,10 @@ MonoBehaviour:
   guid: ad866273b71bf2049b4e759cbe8660fa
   guideDataList:
   - guideID: StrongGuide
-    guideFinishType: 0
+    guideFinishType: 1
     guideFinishDuration: 0
     guideTemplatePrefab: {fileID: 129291512494320572, guid: 14961014bd33abd4a818582f9c84ba81, type: 3}
-    guideHighLightData: '{"Saved":true,"anchoredPos":{"x":0.0,"y":0.0,"z":0.0},"offsetMax":{"x":0.0,"y":0.0},"offsetMin":{"x":0.0,"y":0.0},"anchorMin":{"x":0.0,"y":0.0},"anchorMax":{"x":1.0,"y":1.0},"pivot":{"x":0.5,"y":0.5},"Scale":{"x":1.0,"y":1.0,"z":1.0},"Rotation":{"x":0.0,"y":0.0,"z":0.0},"Size":{"x":0.0,"y":0.0},"Open":true,"highLightType":1,"isVague":false,"UseCustomTarget":true,"childPos":{"x":-650.0,"y":-144.0,"z":0.0},"childScale":{"x":1.0,"y":1.0,"z":1.0},"childRot":{"x":0.0,"y":0.0,"z":0.0},"childSize":{"x":388.75439453125,"y":129.1584930419922},"target":{"instanceID":25934},"OnClick":{"m_PersistentCalls":{"m_Calls":[{"m_Target":{"instanceID":25978},"m_TargetAssemblyTypeName":"UnityEngine.GameObject,
+    guideHighLightData: '{"Saved":true,"anchoredPos":{"x":0.0,"y":0.0,"z":0.0},"offsetMax":{"x":0.0,"y":0.0},"offsetMin":{"x":0.0,"y":0.0},"anchorMin":{"x":0.0,"y":0.0},"anchorMax":{"x":1.0,"y":1.0},"pivot":{"x":0.5,"y":0.5},"Scale":{"x":1.0,"y":1.0,"z":1.0},"Rotation":{"x":0.0,"y":0.0,"z":0.0},"Size":{"x":0.0,"y":0.0},"Open":true,"highLightType":1,"isVague":false,"UseCustomTarget":true,"childPos":{"x":-650.0,"y":-144.0,"z":0.0},"childScale":{"x":1.0,"y":1.0,"z":1.0},"childRot":{"x":0.0,"y":0.0,"z":0.0},"childSize":{"x":388.75439453125,"y":129.1584930419922},"target":{"instanceID":25934},"onClick":{"m_PersistentCalls":{"m_Calls":[{"m_Target":{"instanceID":30114},"m_TargetAssemblyTypeName":"UnityEngine.GameObject,
       UnityEngine","m_MethodName":"SetActive","m_Mode":6,"m_Arguments":{"m_ObjectArgument":{"instanceID":0},"m_ObjectArgumentAssemblyTypeName":"UnityEngine.Object,
       UnityEngine","m_IntArgument":0,"m_FloatArgument":0.0,"m_StringArgument":"","m_BoolArgument":true},"m_CallState":2}]}}}'
     highLightTarget: {fileID: 0}
@@ -1653,6 +1653,21 @@ MonoBehaviour:
     CustomImageDatas: '{"keys":["GuideTemplate_Gesture(Clone)"],"values":["{\"m_Material\":{\"instanceID\":0},\"m_Color\":{\"r\":0.0,\"g\":0.0,\"b\":0.0,\"a\":0.0},\"m_RaycastTarget\":false,\"m_RaycastPadding\":{\"x\":0.0,\"y\":0.0,\"z\":0.0,\"w\":0.0},\"m_Maskable\":true,\"m_OnCullStateChanged\":{\"m_PersistentCalls\":{\"m_Calls\":[]}},\"m_Sprite\":{\"instanceID\":0},\"m_Type\":1,\"m_PreserveAspect\":false,\"m_FillCenter\":true,\"m_FillMethod\":4,\"m_FillAmount\":1.0,\"m_FillClockwise\":true,\"m_FillOrigin\":0,\"m_UseSpriteMesh\":false,\"m_PixelsPerUnitMultiplier\":1.0}"]}'
     UseOwnPrefab: 0
     Template: 0
+    Click:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 887585718}
+          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_MethodName: SetActive
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
   - guideID: MiddleGuide
     guideFinishType: 1
     guideFinishDuration: 0
@@ -1676,6 +1691,9 @@ MonoBehaviour:
     CustomImageDatas: '{"keys":["GuideTemplate_Gesture(Clone)"],"values":["{\"m_Material\":{\"instanceID\":0},\"m_Color\":{\"r\":0.0,\"g\":0.0,\"b\":0.0,\"a\":0.0},\"m_RaycastTarget\":false,\"m_RaycastPadding\":{\"x\":0.0,\"y\":0.0,\"z\":0.0,\"w\":0.0},\"m_Maskable\":true,\"m_OnCullStateChanged\":{\"m_PersistentCalls\":{\"m_Calls\":[]}},\"m_Sprite\":{\"instanceID\":0},\"m_Type\":1,\"m_PreserveAspect\":false,\"m_FillCenter\":true,\"m_FillMethod\":4,\"m_FillAmount\":1.0,\"m_FillClockwise\":true,\"m_FillOrigin\":0,\"m_UseSpriteMesh\":false,\"m_PixelsPerUnitMultiplier\":1.0}"]}'
     UseOwnPrefab: 0
     Template: 0
+    Click:
+      m_PersistentCalls:
+        m_Calls: []
   - guideID: WeakGuide
     guideFinishType: 2
     guideFinishDuration: 3
@@ -1699,6 +1717,9 @@ MonoBehaviour:
     CustomImageDatas: '{"keys":["GuideTemplate_Gesture(Clone)"],"values":["{\"m_Material\":{\"instanceID\":0},\"m_Color\":{\"r\":0.0,\"g\":0.0,\"b\":0.0,\"a\":0.0},\"m_RaycastTarget\":false,\"m_Maskable\":true,\"m_OnCullStateChanged\":{\"m_PersistentCalls\":{\"m_Calls\":[]}},\"m_Sprite\":{\"instanceID\":0},\"m_Type\":1,\"m_PreserveAspect\":false,\"m_FillCenter\":true,\"m_FillMethod\":4,\"m_FillAmount\":1.0,\"m_FillClockwise\":true,\"m_FillOrigin\":0,\"m_UseSpriteMesh\":false,\"m_PixelsPerUnitMultiplier\":1.0}"]}'
     UseOwnPrefab: 0
     Template: 0
+    Click:
+      m_PersistentCalls:
+        m_Calls: []
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

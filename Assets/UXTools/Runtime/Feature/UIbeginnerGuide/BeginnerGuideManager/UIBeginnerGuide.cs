@@ -94,6 +94,7 @@ public class UIBeginnerGuide : UIBeginnerGuideBase
         {
             guideHighLightData = GetComponentInChildren<GuideHighLightData>();
             guideHighLightData.Load(guideData.guideHighLightData);
+            highLightWidget.m_ClickEvent = data.Click;
             highLightWidget.Init(guideHighLightData);
             if (guideData.highLightTarget)
             {

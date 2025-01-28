@@ -133,6 +133,11 @@ namespace ThunderFireUITool
                 Utils.OpenPrefab(AssetDatabase.GUIDToAssetPath(guid));
                 return;
             }
+            Debug.Log(1);
+            if (m_tabs == null)
+            {
+                InitPrefabTabs();
+            }
             if (!m_tabs.Contains(guid))
             {
                 m_tabs.Add(guid);

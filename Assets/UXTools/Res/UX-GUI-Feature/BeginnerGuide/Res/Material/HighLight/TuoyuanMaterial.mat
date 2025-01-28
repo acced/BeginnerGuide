@@ -9,6 +9,8 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: TuoyuanMaterial
   m_Shader: {fileID: 4800000, guid: 2a2ffdccc4fac024e94d5fe57c2b78c4, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
@@ -17,6 +19,7 @@ Material:
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
+  m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -75,7 +78,7 @@ Material:
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
-    - _SliderX: 109.999985
+    - _SliderX: 110.000046
     - _SliderY: 109.999985
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
@@ -90,7 +93,7 @@ Material:
     - _Width: 354.9662
     - _ZWrite: 1
     m_Colors:
-    - _Center: {r: -438.99994, g: 136.00002, b: 0, a: 0}
+    - _Center: {r: 479.99988, g: 136.00002, b: 0, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
   m_BuildTextureStacks: []

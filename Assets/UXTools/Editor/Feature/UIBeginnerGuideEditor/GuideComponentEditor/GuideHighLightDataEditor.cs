@@ -14,7 +14,7 @@ namespace ThunderFireUITool
         SerializedProperty m_target;
         SerializedProperty m_clickEvent;
 
-        // UIBeginnerGuide guide;
+        UIBeginnerGuide guide;
         GuideHighLightData data;
 
         private void OnEnable()
@@ -23,7 +23,7 @@ namespace ThunderFireUITool
             highLightTypeProperty = serializedObject.FindProperty("highLightType");
             m_UseCustomTarget = serializedObject.FindProperty("UseCustomTarget");
             m_target = serializedObject.FindProperty("target");
-            m_clickEvent = serializedObject.FindProperty("OnClick");
+            m_clickEvent = serializedObject.FindProperty("onClick");
 
             data = target as GuideHighLightData;
         }
@@ -37,7 +37,7 @@ namespace ThunderFireUITool
             string[] value = {EditorLocalization.GetLocalization("GuideHighLightData","Circle"), EditorLocalization.GetLocalization("GuideHighLightData","Square")};
             highLightTypeProperty.intValue = Utils.EnumPopupLayoutEx(EditorLocalization.GetLocalization("GuideHighLightData","HighLightType"), typeof(HighLightType),
                 highLightTypeProperty.intValue, value);
-            //EditorGUILayout.PropertyField(highLightTypeProperty, new GUIContent(EditorLocalization.GetLocalization("GuideHighLightData","HighLightType")));
+            EditorGUILayout.PropertyField(highLightTypeProperty, new GUIContent(EditorLocalization.GetLocalization("GuideHighLightData","HighLightType")));
             EditorGUILayout.PropertyField(m_UseCustomTarget,new GUIContent(EditorLocalization.GetLocalization("GuideHighLightData","UseCustomTarget")));
             EditorGUILayout.PropertyField(m_clickEvent,new GUIContent("点击会发生的事件"));
             if(m_UseCustomTarget.boolValue==true){

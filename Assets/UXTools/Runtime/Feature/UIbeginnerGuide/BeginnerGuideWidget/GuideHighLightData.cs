@@ -1,8 +1,10 @@
 
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.Serialization;
 
 [System.Serializable]
 public class GuideHighLightData : GuideWidgetData
@@ -15,7 +17,8 @@ public class GuideHighLightData : GuideWidgetData
     public Vector3 childRot;
     public Vector2 childSize;
     public RectTransform target;
-    public UnityEvent<int> OnClick;
+    
+    public UnityEvent onClick;
 
     public override string Serialize()
     {
@@ -32,9 +35,15 @@ public class GuideHighLightData : GuideWidgetData
     {
         target = go.GetComponent<RectTransform>();
     }
-    
-    
- 
-    
-    
+
+
+    public string SerializeEvent()
+    {
+        return JsonUtility.ToJson(onClick);
+    }
+
+    public void LoadClickJson(string dataClickJson)
+    {
+        onClick =  JsonUtility.FromJson<UnityEvent>(dataClickJson);
+    }
 }

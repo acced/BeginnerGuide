@@ -24,7 +24,7 @@ public class GuideHighLight : GuideWidgetBase, ICanvasRaycastFilter, IPointerCli
     private float width;        // 镂空区域的宽
     private float height;       // 镂空区域的高
     private Canvas canvas;
-    private UnityEvent<int> m_ClickEvent;
+    public UnityEvent m_ClickEvent;
 
     public GameObject childObject;
     public Material rectMaterial;
@@ -56,8 +56,6 @@ public class GuideHighLight : GuideWidgetBase, ICanvasRaycastFilter, IPointerCli
                 isCircle = true;
             }
             else isCircle = false;
-
-            m_ClickEvent = guideHighLightData.OnClick;
 
             isVague = guideHighLightData.isVague;
             UseCustomTarget = guideHighLightData.UseCustomTarget;
@@ -112,7 +110,7 @@ public class GuideHighLight : GuideWidgetBase, ICanvasRaycastFilter, IPointerCli
     }
     public void finish()
     {
-        m_ClickEvent?.Invoke(0);
+        m_ClickEvent?.Invoke();
         //延迟5秒执行
         UIBeginnerGuideManager.Instance.FinishGuide(guideID);
     }
