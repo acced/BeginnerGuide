@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 41996a8c128146e18cf96456e79d29e3
+timeCreated: 1718256662
+AssetOrigin:
+  serializedVersion: 1
+  productId: 241533
+  packageName: ThunderFireUXTool
+  packageVersion: 1.0.2
+  assetPath: Assets/UXTools/Editor/Tools/UXTools/Window_Custom/AssetItem/AssetFinder/AssetItemPicFinder.cs
+  uploadId: 679434

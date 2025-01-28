@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 3858e814e644407489a0662f8bb2ece3
+timeCreated: 1663207725
+AssetOrigin:
+  serializedVersion: 1
+  productId: 241533
+  packageName: ThunderFireUXTool
+  packageVersion: 1.0.2
+  assetPath: Assets/UXTools/Editor/Tools/UXTools/Utils/WindowUtils/UXBuilder/UXCheckBox/UXBuilderCheckBox.cs
+  uploadId: 679434

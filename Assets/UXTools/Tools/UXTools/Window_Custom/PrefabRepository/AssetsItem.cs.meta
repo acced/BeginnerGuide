@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 155a50ee6dbe35644bb63fcf2e5c6ae7
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 241533
+  packageName: ThunderFireUXTool
+  packageVersion: 1.0.2
+  assetPath: Assets/UXTools/Editor/Tools/UXTools/Window_Custom/PrefabRepository/AssetsItem.cs
+  uploadId: 679434

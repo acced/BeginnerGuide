@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 5ea236aced2a8e141bc5a1db42589f04
+timeCreated: 1520818956
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 241533
+  packageName: ThunderFireUXTool
+  packageVersion: 1.0.2
+  assetPath: Assets/UXTools/Editor/Tools/UXTools/Common/ContextMenu.cs
+  uploadId: 679434

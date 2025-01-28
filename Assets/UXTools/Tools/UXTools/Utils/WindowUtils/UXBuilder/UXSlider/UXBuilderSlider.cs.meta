@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 573cea7f613740c6ab045b5c23c437f2
+timeCreated: 1663559994
+AssetOrigin:
+  serializedVersion: 1
+  productId: 241533
+  packageName: ThunderFireUXTool
+  packageVersion: 1.0.2
+  assetPath: Assets/UXTools/Editor/Tools/UXTools/Utils/WindowUtils/UXBuilder/UXSlider/UXBuilderSlider.cs
+  uploadId: 679434

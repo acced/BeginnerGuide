@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 01b473e7591344f38c014801aa0b58a7
+timeCreated: 1670983636
+AssetOrigin:
+  serializedVersion: 1
+  productId: 241533
+  packageName: ThunderFireUXTool
+  packageVersion: 1.0.2
+  assetPath: Assets/UXTools/Editor/Tools/UXTools/Logic/UICheckerLogic/UIAnimCheckSetting.cs
+  uploadId: 679434

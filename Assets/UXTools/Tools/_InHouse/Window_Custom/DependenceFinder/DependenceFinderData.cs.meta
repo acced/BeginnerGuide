@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: d6fa9ebb432b45a3803d814e5f8c8ed2
+timeCreated: 1718787922
+AssetOrigin:
+  serializedVersion: 1
+  productId: 241533
+  packageName: ThunderFireUXTool
+  packageVersion: 1.0.2
+  assetPath: Assets/UXTools/Editor/Tools/_InHouse/Window_Custom/DependenceFinder/DependenceFinderData.cs
+  uploadId: 679434

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: b9d8d46cff572c242aac143b4e62cf6c
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 241533
+  packageName: ThunderFireUXTool
+  packageVersion: 1.0.2
+  assetPath: Assets/UXTools/Editor/Tools/UXTools/Logic/UICheckerLogic/UIResCheckWindow.cs
+  uploadId: 679434

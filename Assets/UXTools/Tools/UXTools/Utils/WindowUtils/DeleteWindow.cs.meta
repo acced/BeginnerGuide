@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 279d2212928b4db1bc7f439a1a328461
+timeCreated: 1661998144
+AssetOrigin:
+  serializedVersion: 1
+  productId: 241533
+  packageName: ThunderFireUXTool
+  packageVersion: 1.0.2
+  assetPath: Assets/UXTools/Editor/Tools/UXTools/Utils/WindowUtils/DeleteWindow.cs
+  uploadId: 679434

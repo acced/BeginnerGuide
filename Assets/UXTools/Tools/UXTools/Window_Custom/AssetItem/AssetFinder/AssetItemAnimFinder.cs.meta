@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: b94595a2e0444e1bafcf49ca24148d6c
+timeCreated: 1718258136
+AssetOrigin:
+  serializedVersion: 1
+  productId: 241533
+  packageName: ThunderFireUXTool
+  packageVersion: 1.0.2
+  assetPath: Assets/UXTools/Editor/Tools/UXTools/Window_Custom/AssetItem/AssetFinder/AssetItemAnimFinder.cs
+  uploadId: 679434

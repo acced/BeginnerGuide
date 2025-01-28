@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 49d321194c711994ca6c9b2b72f7a740
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 241533
+  packageName: ThunderFireUXTool
+  packageVersion: 1.0.2
+  assetPath: Assets/UXTools/Editor/Tools/_InHouse/Window_Editor/ProjectWindow/SVNCustomProjectWindow.cs
+  uploadId: 679434

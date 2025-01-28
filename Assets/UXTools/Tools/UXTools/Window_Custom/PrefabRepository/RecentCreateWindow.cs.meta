@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 1109217508654f1d8a3d9ef926e13612
+timeCreated: 1668589350
+AssetOrigin:
+  serializedVersion: 1
+  productId: 241533
+  packageName: ThunderFireUXTool
+  packageVersion: 1.0.2
+  assetPath: Assets/UXTools/Editor/Tools/UXTools/Window_Custom/PrefabRepository/RecentCreateWindow.cs
+  uploadId: 679434

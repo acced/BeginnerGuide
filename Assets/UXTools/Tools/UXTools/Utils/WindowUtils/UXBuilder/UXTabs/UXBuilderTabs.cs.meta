@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 5088b92f8be54ac1843aa983776403f8
+timeCreated: 1665209534
+AssetOrigin:
+  serializedVersion: 1
+  productId: 241533
+  packageName: ThunderFireUXTool
+  packageVersion: 1.0.2
+  assetPath: Assets/UXTools/Editor/Tools/UXTools/Utils/WindowUtils/UXBuilder/UXTabs/UXBuilderTabs.cs
+  uploadId: 679434

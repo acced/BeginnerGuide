@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 9eae67fca7fc43ebbf0afbe03e73f73a
+timeCreated: 1667532409
+AssetOrigin:
+  serializedVersion: 1
+  productId: 241533
+  packageName: ThunderFireUXTool
+  packageVersion: 1.0.2
+  assetPath: Assets/UXTools/Editor/Tools/UXTools/SettingsEditor/HierarchyManagement/TagColorDrawer.cs
+  uploadId: 679434

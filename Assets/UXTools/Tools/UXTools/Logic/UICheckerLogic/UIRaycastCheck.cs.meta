@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 89364520c0c089e44b9a462400914833
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 241533
+  packageName: ThunderFireUXTool
+  packageVersion: 1.0.2
+  assetPath: Assets/UXTools/Editor/Tools/UXTools/Logic/UICheckerLogic/UIRaycastCheck.cs
+  uploadId: 679434

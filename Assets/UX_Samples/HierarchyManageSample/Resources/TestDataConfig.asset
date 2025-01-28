@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2199bbd915984e29b98b57b6a3809a68, type: 3}
+  m_Name: TestDataConfig
+  m_EditorClassIdentifier: 
+  guidList:
+  - Name: ImageRed
+    Channel: HUD
+    Level: 0
+    Guid: 43992afd8567cf04884219b584a2f6d3
+  - Name: ImageWhite
+    Channel: "\u754C\u9762"
+    Level: 10
+    Guid: 01acbdfa310de3b4e87ea39cf27d5200
+  - Name: ImageGreen
+    Channel: "\u754C\u9762"
+    Level: 10
+    Guid: 621ea359def0bba4b93bd1bf3b58acc8
+  - Name: ImageBlue
+    Channel: "\u5F39\u7A97"
+    Level: 20
+    Guid: ae1202f5757bf6444b944d56e8467537

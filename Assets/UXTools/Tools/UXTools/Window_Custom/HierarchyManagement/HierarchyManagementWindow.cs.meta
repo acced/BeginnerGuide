@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: ad6444634f2442209354156413933abd
+timeCreated: 1665481171
+AssetOrigin:
+  serializedVersion: 1
+  productId: 241533
+  packageName: ThunderFireUXTool
+  packageVersion: 1.0.2
+  assetPath: Assets/UXTools/Editor/Tools/UXTools/Window_Custom/HierarchyManagement/HierarchyManagementWindow.cs
+  uploadId: 679434

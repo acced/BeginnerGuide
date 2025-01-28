@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 5107496ba2ac49829552be0262ddfcd9
+timeCreated: 1663555153
+AssetOrigin:
+  serializedVersion: 1
+  productId: 241533
+  packageName: ThunderFireUXTool
+  packageVersion: 1.0.2
+  assetPath: Assets/UXTools/Editor/Tools/UXTools/Utils/WindowUtils/UXBuilder/UXRadio/UXBuilderRadioGroup.cs
+  uploadId: 679434
