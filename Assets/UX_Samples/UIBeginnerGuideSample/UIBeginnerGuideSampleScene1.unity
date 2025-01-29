@@ -1538,7 +1538,7 @@ MonoBehaviour:
   guid: ad866273b71bf2049b4e759cbe8660fa
   guideDataList:
   - guideID: StrongGuide
-    guideFinishType: 1
+    guideFinishType: 0
     guideFinishDuration: 0
     guideTemplatePrefab: {fileID: 129291512494320572, guid: 14961014bd33abd4a818582f9c84ba81, type: 3}
     guideHighLightData: '{"Saved":true,"anchoredPos":{"x":0.0,"y":0.0,"z":0.0},"offsetMax":{"x":0.0,"y":0.0},"offsetMin":{"x":0.0,"y":0.0},"anchorMin":{"x":0.0,"y":0.0},"anchorMax":{"x":1.0,"y":1.0},"pivot":{"x":0.5,"y":0.5},"Scale":{"x":1.0,"y":1.0,"z":1.0},"Rotation":{"x":0.0,"y":0.0,"z":0.0},"Size":{"x":0.0,"y":0.0},"Open":true,"highLightType":1,"isVague":false,"UseCustomTarget":true,"childPos":{"x":-635.0,"y":65.0,"z":0.0},"childScale":{"x":1.0,"y":1.0,"z":1.0},"childRot":{"x":0.0,"y":0.0,"z":0.0},"childSize":{"x":388.75439453125,"y":129.1584930419922},"target":{"instanceID":25934},"onClick":{"m_PersistentCalls":{"m_Calls":[{"m_Target":{"instanceID":30114},"m_TargetAssemblyTypeName":"UnityEngine.GameObject,
