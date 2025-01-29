@@ -178,7 +178,7 @@ namespace ThunderFireUITool
             };
             if (GUI.Button(btnRect1, EditString))
             {
-                UXToolAnalysis.SendUXToolLog(UXToolAnalysisLog.BeginnerGuide);
+                
                 var guideDataList = property.serializedObject.targetObject as UIBeginnerGuideDataList;
                 UIBeginnerGuideData guidedata = guideDataList.guideDataList.Where(data => data.guideID == idProperty.stringValue).ToList().First();
                 if (!UIBeginnerGuideEditor.HasInstance)
@@ -286,7 +286,7 @@ namespace ThunderFireUITool
                 element.FindPropertyRelative("guideID").stringValue = "Guide(" + index + ")";
                 element.FindPropertyRelative("guideFinishType").enumValueIndex = 0;
                 element.FindPropertyRelative("guideTemplatePrefab").objectReferenceValue = null;
-                UXToolAnalysis.SendUXToolLog(UXToolAnalysisLog.BeginnerGuide);
+               
             };
             List.onRemoveCallback = (ReorderableList l) =>
             {
