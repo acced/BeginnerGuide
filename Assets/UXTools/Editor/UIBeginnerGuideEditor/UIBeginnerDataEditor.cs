@@ -19,7 +19,6 @@ namespace ThunderFireUITool
         private string GuidePrefabString = "GuidePrefab";
         private string ShowDataString = "ShowData";
         private string EditString = "Edit";
-        private string ClickEventString = "点击事件";
         private GUIContent GuidePrefabContent;
         
 
