@@ -333,13 +333,20 @@ namespace ThunderFireUITool
             {
                 guideHighLightData.Saved = true;
                 index.guideHighLightData = guideHighLightData.Serialize();
-                if (guideHighLightData.target != null)
+                try
                 {
-                    index.highLightTarget = guideHighLightData.target.gameObject;
+                    if (guideHighLightData.target != null)
+                    {
+                        index.highLightTarget = guideHighLightData.target.gameObject;
+                    }
+                    else
+                    {
+                        index.highLightTarget = null;
+                    }
                 }
-                else
+                catch (MissingReferenceException e)
                 {
-                    index.highLightTarget = null;
+                    Debug.LogWarning("Have MissingReferenceException");
                 }
             }
 
