@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4450052998782282569}
   - component: {fileID: 4450052998782282572}
-  - component: {fileID: 4450052998782282571}
   m_Layer: 5
   m_Name: rt
   m_TagString: Untagged
@@ -45,86 +44,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4450052998782282568}
   m_CullTransparentMesh: 0
---- !u!114 &4450052998782282571
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4450052998782282568}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18cf37a4c7625df4fad10d60af217b5e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: fe9b056115b6ee64aaafc8b8a9385855, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
-  m_ignoreLocalization: 1
-  origin_name: 
-  m_ColorType: 0
-  m_GradientColor:
-    serializedVersion: 2
-    key0: {r: 0, g: 0, b: 0, a: 1}
-    key1: {r: 1, g: 1, b: 1, a: 1}
-    key2: {r: 0, g: 0, b: 0, a: 0}
-    key3: {r: 0, g: 0, b: 0, a: 0}
-    key4: {r: 0, g: 0, b: 0, a: 0}
-    key5: {r: 0, g: 0, b: 0, a: 0}
-    key6: {r: 0, g: 0, b: 0, a: 0}
-    key7: {r: 0, g: 0, b: 0, a: 0}
-    ctime0: 0
-    ctime1: 65535
-    ctime2: 0
-    ctime3: 0
-    ctime4: 0
-    ctime5: 0
-    ctime6: 0
-    ctime7: 0
-    atime0: 0
-    atime1: 65535
-    atime2: 0
-    atime3: 0
-    atime4: 0
-    atime5: 0
-    atime6: 0
-    atime7: 0
-    m_Mode: 0
-    m_ColorSpace: -1
-    m_NumColorKeys: 2
-    m_NumAlphaKeys: 2
-  m_Direction: 0
-  m_LinearToGamma: 0
-  m_GammaToLinear: 0
-  m_EnableGrey: 0
-  m_EnableRadiusCorner: 0
-  m_Contrast: 1
-  m_Saturation: 0
-  m_CornerRadius: {x: 10, y: 10, z: 10, w: 10}
-  rect2props: {x: 0, y: 0, z: 0, w: 0}
-  image: {fileID: 0}
-  m_OriginFlipMode: 0
-  m_FlipMode: 0
-  m_FlipWithCopy: 1
-  m_FlipEdgeHorizontal: 2
-  m_FlipEdgeVertical: 5
-  m_FlipFillCenter: 3
-  m_FlipDirection: 3
 --- !u!1 &4450052998802762755
 GameObject:
   m_ObjectHideFlags: 0
@@ -135,7 +54,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4450052998802762756}
   - component: {fileID: 4450052998802762759}
-  - component: {fileID: 4450052998802762758}
+  - component: {fileID: 5610577073860908599}
   m_Layer: 5
   m_Name: lt
   m_TagString: Untagged
@@ -170,7 +89,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4450052998802762755}
   m_CullTransparentMesh: 0
---- !u!114 &4450052998802762758
+--- !u!114 &5610577073860908599
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -179,7 +98,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 4450052998802762755}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18cf37a4c7625df4fad10d60af217b5e, type: 3}
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
@@ -200,56 +119,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
-  m_ignoreLocalization: 1
-  origin_name: 
-  m_ColorType: 0
-  m_GradientColor:
-    serializedVersion: 2
-    key0: {r: 0, g: 0, b: 0, a: 1}
-    key1: {r: 1, g: 1, b: 1, a: 1}
-    key2: {r: 0, g: 0, b: 0, a: 0}
-    key3: {r: 0, g: 0, b: 0, a: 0}
-    key4: {r: 0, g: 0, b: 0, a: 0}
-    key5: {r: 0, g: 0, b: 0, a: 0}
-    key6: {r: 0, g: 0, b: 0, a: 0}
-    key7: {r: 0, g: 0, b: 0, a: 0}
-    ctime0: 0
-    ctime1: 65535
-    ctime2: 0
-    ctime3: 0
-    ctime4: 0
-    ctime5: 0
-    ctime6: 0
-    ctime7: 0
-    atime0: 0
-    atime1: 65535
-    atime2: 0
-    atime3: 0
-    atime4: 0
-    atime5: 0
-    atime6: 0
-    atime7: 0
-    m_Mode: 0
-    m_ColorSpace: -1
-    m_NumColorKeys: 2
-    m_NumAlphaKeys: 2
-  m_Direction: 0
-  m_LinearToGamma: 0
-  m_GammaToLinear: 0
-  m_EnableGrey: 0
-  m_EnableRadiusCorner: 0
-  m_Contrast: 1
-  m_Saturation: 0
-  m_CornerRadius: {x: 10, y: 10, z: 10, w: 10}
-  rect2props: {x: 0, y: 0, z: 0, w: 0}
-  image: {fileID: 0}
-  m_OriginFlipMode: 0
-  m_FlipMode: 0
-  m_FlipWithCopy: 1
-  m_FlipEdgeHorizontal: 2
-  m_FlipEdgeVertical: 5
-  m_FlipFillCenter: 3
-  m_FlipDirection: 3
 --- !u!1 &4450052998817662158
 GameObject:
   m_ObjectHideFlags: 0
@@ -260,7 +129,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4450052998817662159}
   - component: {fileID: 4450052998817662146}
-  - component: {fileID: 4450052998817662145}
   m_Layer: 5
   m_Name: right
   m_TagString: Untagged
@@ -295,86 +163,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4450052998817662158}
   m_CullTransparentMesh: 0
---- !u!114 &4450052998817662145
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4450052998817662158}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18cf37a4c7625df4fad10d60af217b5e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 8777d02fab43d2b418a28320b701d898, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
-  m_ignoreLocalization: 1
-  origin_name: 
-  m_ColorType: 0
-  m_GradientColor:
-    serializedVersion: 2
-    key0: {r: 0, g: 0, b: 0, a: 1}
-    key1: {r: 1, g: 1, b: 1, a: 1}
-    key2: {r: 0, g: 0, b: 0, a: 0}
-    key3: {r: 0, g: 0, b: 0, a: 0}
-    key4: {r: 0, g: 0, b: 0, a: 0}
-    key5: {r: 0, g: 0, b: 0, a: 0}
-    key6: {r: 0, g: 0, b: 0, a: 0}
-    key7: {r: 0, g: 0, b: 0, a: 0}
-    ctime0: 0
-    ctime1: 65535
-    ctime2: 0
-    ctime3: 0
-    ctime4: 0
-    ctime5: 0
-    ctime6: 0
-    ctime7: 0
-    atime0: 0
-    atime1: 65535
-    atime2: 0
-    atime3: 0
-    atime4: 0
-    atime5: 0
-    atime6: 0
-    atime7: 0
-    m_Mode: 0
-    m_ColorSpace: -1
-    m_NumColorKeys: 2
-    m_NumAlphaKeys: 2
-  m_Direction: 0
-  m_LinearToGamma: 0
-  m_GammaToLinear: 0
-  m_EnableGrey: 0
-  m_EnableRadiusCorner: 0
-  m_Contrast: 1
-  m_Saturation: 0
-  m_CornerRadius: {x: 10, y: 10, z: 10, w: 10}
-  rect2props: {x: 0, y: 0, z: 0, w: 0}
-  image: {fileID: 0}
-  m_OriginFlipMode: 0
-  m_FlipMode: 0
-  m_FlipWithCopy: 1
-  m_FlipEdgeHorizontal: 2
-  m_FlipEdgeVertical: 5
-  m_FlipFillCenter: 3
-  m_FlipDirection: 3
 --- !u!1 &4450052998839333712
 GameObject:
   m_ObjectHideFlags: 0
@@ -385,7 +173,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4450052998839333713}
   - component: {fileID: 4450052998839333716}
-  - component: {fileID: 4450052998839333715}
+  - component: {fileID: 4763168016741519835}
   m_Layer: 5
   m_Name: leftstick
   m_TagString: Untagged
@@ -420,7 +208,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4450052998839333712}
   m_CullTransparentMesh: 0
---- !u!114 &4450052998839333715
+--- !u!114 &4763168016741519835
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -429,7 +217,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 4450052998839333712}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18cf37a4c7625df4fad10d60af217b5e, type: 3}
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
@@ -450,56 +238,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
-  m_ignoreLocalization: 1
-  origin_name: 
-  m_ColorType: 0
-  m_GradientColor:
-    serializedVersion: 2
-    key0: {r: 0, g: 0, b: 0, a: 1}
-    key1: {r: 1, g: 1, b: 1, a: 1}
-    key2: {r: 0, g: 0, b: 0, a: 0}
-    key3: {r: 0, g: 0, b: 0, a: 0}
-    key4: {r: 0, g: 0, b: 0, a: 0}
-    key5: {r: 0, g: 0, b: 0, a: 0}
-    key6: {r: 0, g: 0, b: 0, a: 0}
-    key7: {r: 0, g: 0, b: 0, a: 0}
-    ctime0: 0
-    ctime1: 65535
-    ctime2: 0
-    ctime3: 0
-    ctime4: 0
-    ctime5: 0
-    ctime6: 0
-    ctime7: 0
-    atime0: 0
-    atime1: 65535
-    atime2: 0
-    atime3: 0
-    atime4: 0
-    atime5: 0
-    atime6: 0
-    atime7: 0
-    m_Mode: 0
-    m_ColorSpace: -1
-    m_NumColorKeys: 2
-    m_NumAlphaKeys: 2
-  m_Direction: 0
-  m_LinearToGamma: 0
-  m_GammaToLinear: 0
-  m_EnableGrey: 0
-  m_EnableRadiusCorner: 0
-  m_Contrast: 1
-  m_Saturation: 0
-  m_CornerRadius: {x: 10, y: 10, z: 10, w: 10}
-  rect2props: {x: 0, y: 0, z: 0, w: 0}
-  image: {fileID: 0}
-  m_OriginFlipMode: 0
-  m_FlipMode: 0
-  m_FlipWithCopy: 1
-  m_FlipEdgeHorizontal: 2
-  m_FlipEdgeVertical: 5
-  m_FlipFillCenter: 3
-  m_FlipDirection: 3
 --- !u!1 &4450052998844536960
 GameObject:
   m_ObjectHideFlags: 0
@@ -510,7 +248,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4450052998844536961}
   - component: {fileID: 4450052998844536964}
-  - component: {fileID: 4450052998844536963}
   m_Layer: 5
   m_Name: start
   m_TagString: Untagged
@@ -545,86 +282,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4450052998844536960}
   m_CullTransparentMesh: 0
---- !u!114 &4450052998844536963
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4450052998844536960}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18cf37a4c7625df4fad10d60af217b5e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: aed5b0806dfc5804c83c52f0c0d7f2b8, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
-  m_ignoreLocalization: 1
-  origin_name: 
-  m_ColorType: 0
-  m_GradientColor:
-    serializedVersion: 2
-    key0: {r: 0, g: 0, b: 0, a: 1}
-    key1: {r: 1, g: 1, b: 1, a: 1}
-    key2: {r: 0, g: 0, b: 0, a: 0}
-    key3: {r: 0, g: 0, b: 0, a: 0}
-    key4: {r: 0, g: 0, b: 0, a: 0}
-    key5: {r: 0, g: 0, b: 0, a: 0}
-    key6: {r: 0, g: 0, b: 0, a: 0}
-    key7: {r: 0, g: 0, b: 0, a: 0}
-    ctime0: 0
-    ctime1: 65535
-    ctime2: 0
-    ctime3: 0
-    ctime4: 0
-    ctime5: 0
-    ctime6: 0
-    ctime7: 0
-    atime0: 0
-    atime1: 65535
-    atime2: 0
-    atime3: 0
-    atime4: 0
-    atime5: 0
-    atime6: 0
-    atime7: 0
-    m_Mode: 0
-    m_ColorSpace: -1
-    m_NumColorKeys: 2
-    m_NumAlphaKeys: 2
-  m_Direction: 0
-  m_LinearToGamma: 0
-  m_GammaToLinear: 0
-  m_EnableGrey: 0
-  m_EnableRadiusCorner: 0
-  m_Contrast: 1
-  m_Saturation: 0
-  m_CornerRadius: {x: 10, y: 10, z: 10, w: 10}
-  rect2props: {x: 0, y: 0, z: 0, w: 0}
-  image: {fileID: 0}
-  m_OriginFlipMode: 0
-  m_FlipMode: 0
-  m_FlipWithCopy: 1
-  m_FlipEdgeHorizontal: 2
-  m_FlipEdgeVertical: 5
-  m_FlipFillCenter: 3
-  m_FlipDirection: 3
 --- !u!1 &4450052998852580562
 GameObject:
   m_ObjectHideFlags: 0
@@ -635,7 +292,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4450052998852580563}
   - component: {fileID: 4450052998852580566}
-  - component: {fileID: 4450052998852580565}
   m_Layer: 5
   m_Name: left
   m_TagString: Untagged
@@ -670,86 +326,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4450052998852580562}
   m_CullTransparentMesh: 0
---- !u!114 &4450052998852580565
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4450052998852580562}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18cf37a4c7625df4fad10d60af217b5e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3109894aebd4d2f4cb1a579a5500cf5a, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
-  m_ignoreLocalization: 1
-  origin_name: 
-  m_ColorType: 0
-  m_GradientColor:
-    serializedVersion: 2
-    key0: {r: 0, g: 0, b: 0, a: 1}
-    key1: {r: 1, g: 1, b: 1, a: 1}
-    key2: {r: 0, g: 0, b: 0, a: 0}
-    key3: {r: 0, g: 0, b: 0, a: 0}
-    key4: {r: 0, g: 0, b: 0, a: 0}
-    key5: {r: 0, g: 0, b: 0, a: 0}
-    key6: {r: 0, g: 0, b: 0, a: 0}
-    key7: {r: 0, g: 0, b: 0, a: 0}
-    ctime0: 0
-    ctime1: 65535
-    ctime2: 0
-    ctime3: 0
-    ctime4: 0
-    ctime5: 0
-    ctime6: 0
-    ctime7: 0
-    atime0: 0
-    atime1: 65535
-    atime2: 0
-    atime3: 0
-    atime4: 0
-    atime5: 0
-    atime6: 0
-    atime7: 0
-    m_Mode: 0
-    m_ColorSpace: -1
-    m_NumColorKeys: 2
-    m_NumAlphaKeys: 2
-  m_Direction: 0
-  m_LinearToGamma: 0
-  m_GammaToLinear: 0
-  m_EnableGrey: 0
-  m_EnableRadiusCorner: 0
-  m_Contrast: 1
-  m_Saturation: 0
-  m_CornerRadius: {x: 10, y: 10, z: 10, w: 10}
-  rect2props: {x: 0, y: 0, z: 0, w: 0}
-  image: {fileID: 0}
-  m_OriginFlipMode: 0
-  m_FlipMode: 0
-  m_FlipWithCopy: 1
-  m_FlipEdgeHorizontal: 2
-  m_FlipEdgeVertical: 5
-  m_FlipFillCenter: 3
-  m_FlipDirection: 3
 --- !u!1 &4450052998859382447
 GameObject:
   m_ObjectHideFlags: 0
@@ -760,7 +336,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4450052998859382432}
   - component: {fileID: 4450052998859382435}
-  - component: {fileID: 4450052998859382434}
   m_Layer: 5
   m_Name: rt
   m_TagString: Untagged
@@ -795,86 +370,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4450052998859382447}
   m_CullTransparentMesh: 0
---- !u!114 &4450052998859382434
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4450052998859382447}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18cf37a4c7625df4fad10d60af217b5e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 839e2641e990cad4e8bfdfdac37c5b79, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
-  m_ignoreLocalization: 1
-  origin_name: 
-  m_ColorType: 0
-  m_GradientColor:
-    serializedVersion: 2
-    key0: {r: 0, g: 0, b: 0, a: 1}
-    key1: {r: 1, g: 1, b: 1, a: 1}
-    key2: {r: 0, g: 0, b: 0, a: 0}
-    key3: {r: 0, g: 0, b: 0, a: 0}
-    key4: {r: 0, g: 0, b: 0, a: 0}
-    key5: {r: 0, g: 0, b: 0, a: 0}
-    key6: {r: 0, g: 0, b: 0, a: 0}
-    key7: {r: 0, g: 0, b: 0, a: 0}
-    ctime0: 0
-    ctime1: 65535
-    ctime2: 0
-    ctime3: 0
-    ctime4: 0
-    ctime5: 0
-    ctime6: 0
-    ctime7: 0
-    atime0: 0
-    atime1: 65535
-    atime2: 0
-    atime3: 0
-    atime4: 0
-    atime5: 0
-    atime6: 0
-    atime7: 0
-    m_Mode: 0
-    m_ColorSpace: -1
-    m_NumColorKeys: 2
-    m_NumAlphaKeys: 2
-  m_Direction: 0
-  m_LinearToGamma: 0
-  m_GammaToLinear: 0
-  m_EnableGrey: 0
-  m_EnableRadiusCorner: 0
-  m_Contrast: 1
-  m_Saturation: 0
-  m_CornerRadius: {x: 10, y: 10, z: 10, w: 10}
-  rect2props: {x: 0, y: 0, z: 0, w: 0}
-  image: {fileID: 0}
-  m_OriginFlipMode: 0
-  m_FlipMode: 0
-  m_FlipWithCopy: 1
-  m_FlipEdgeHorizontal: 2
-  m_FlipEdgeVertical: 5
-  m_FlipFillCenter: 3
-  m_FlipDirection: 3
 --- !u!1 &4450052998989104469
 GameObject:
   m_ObjectHideFlags: 0
@@ -885,7 +380,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4450052998989104470}
   - component: {fileID: 4450052998989104488}
-  - component: {fileID: 4450052998989104471}
+  - component: {fileID: 6397671720027832948}
   m_Layer: 5
   m_Name: right
   m_TagString: Untagged
@@ -920,7 +415,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4450052998989104469}
   m_CullTransparentMesh: 0
---- !u!114 &4450052998989104471
+--- !u!114 &6397671720027832948
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -929,7 +424,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 4450052998989104469}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18cf37a4c7625df4fad10d60af217b5e, type: 3}
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
@@ -950,56 +445,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
-  m_ignoreLocalization: 1
-  origin_name: 
-  m_ColorType: 0
-  m_GradientColor:
-    serializedVersion: 2
-    key0: {r: 0, g: 0, b: 0, a: 1}
-    key1: {r: 1, g: 1, b: 1, a: 1}
-    key2: {r: 0, g: 0, b: 0, a: 0}
-    key3: {r: 0, g: 0, b: 0, a: 0}
-    key4: {r: 0, g: 0, b: 0, a: 0}
-    key5: {r: 0, g: 0, b: 0, a: 0}
-    key6: {r: 0, g: 0, b: 0, a: 0}
-    key7: {r: 0, g: 0, b: 0, a: 0}
-    ctime0: 0
-    ctime1: 65535
-    ctime2: 0
-    ctime3: 0
-    ctime4: 0
-    ctime5: 0
-    ctime6: 0
-    ctime7: 0
-    atime0: 0
-    atime1: 65535
-    atime2: 0
-    atime3: 0
-    atime4: 0
-    atime5: 0
-    atime6: 0
-    atime7: 0
-    m_Mode: 0
-    m_ColorSpace: -1
-    m_NumColorKeys: 2
-    m_NumAlphaKeys: 2
-  m_Direction: 0
-  m_LinearToGamma: 0
-  m_GammaToLinear: 0
-  m_EnableGrey: 0
-  m_EnableRadiusCorner: 0
-  m_Contrast: 1
-  m_Saturation: 0
-  m_CornerRadius: {x: 10, y: 10, z: 10, w: 10}
-  rect2props: {x: 0, y: 0, z: 0, w: 0}
-  image: {fileID: 0}
-  m_OriginFlipMode: 0
-  m_FlipMode: 0
-  m_FlipWithCopy: 1
-  m_FlipEdgeHorizontal: 2
-  m_FlipEdgeVertical: 5
-  m_FlipFillCenter: 3
-  m_FlipDirection: 3
 --- !u!1 &4450052999064524692
 GameObject:
   m_ObjectHideFlags: 0
@@ -1010,7 +455,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4450052999064524693}
   - component: {fileID: 4450052999064524712}
-  - component: {fileID: 4450052999064524695}
   m_Layer: 5
   m_Name: up
   m_TagString: Untagged
@@ -1045,86 +489,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4450052999064524692}
   m_CullTransparentMesh: 0
---- !u!114 &4450052999064524695
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4450052999064524692}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18cf37a4c7625df4fad10d60af217b5e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 17b111fc72de6d34c8b80b10929c86eb, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
-  m_ignoreLocalization: 1
-  origin_name: 
-  m_ColorType: 0
-  m_GradientColor:
-    serializedVersion: 2
-    key0: {r: 0, g: 0, b: 0, a: 1}
-    key1: {r: 1, g: 1, b: 1, a: 1}
-    key2: {r: 0, g: 0, b: 0, a: 0}
-    key3: {r: 0, g: 0, b: 0, a: 0}
-    key4: {r: 0, g: 0, b: 0, a: 0}
-    key5: {r: 0, g: 0, b: 0, a: 0}
-    key6: {r: 0, g: 0, b: 0, a: 0}
-    key7: {r: 0, g: 0, b: 0, a: 0}
-    ctime0: 0
-    ctime1: 65535
-    ctime2: 0
-    ctime3: 0
-    ctime4: 0
-    ctime5: 0
-    ctime6: 0
-    ctime7: 0
-    atime0: 0
-    atime1: 65535
-    atime2: 0
-    atime3: 0
-    atime4: 0
-    atime5: 0
-    atime6: 0
-    atime7: 0
-    m_Mode: 0
-    m_ColorSpace: -1
-    m_NumColorKeys: 2
-    m_NumAlphaKeys: 2
-  m_Direction: 0
-  m_LinearToGamma: 0
-  m_GammaToLinear: 0
-  m_EnableGrey: 0
-  m_EnableRadiusCorner: 0
-  m_Contrast: 1
-  m_Saturation: 0
-  m_CornerRadius: {x: 10, y: 10, z: 10, w: 10}
-  rect2props: {x: 0, y: 0, z: 0, w: 0}
-  image: {fileID: 0}
-  m_OriginFlipMode: 0
-  m_FlipMode: 0
-  m_FlipWithCopy: 1
-  m_FlipEdgeHorizontal: 2
-  m_FlipEdgeVertical: 5
-  m_FlipFillCenter: 3
-  m_FlipDirection: 3
 --- !u!1 &4450052999140799528
 GameObject:
   m_ObjectHideFlags: 0
@@ -1135,7 +499,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4450052999140799529}
   - component: {fileID: 4450052999140799532}
-  - component: {fileID: 4450052999140799531}
   m_Layer: 5
   m_Name: rt
   m_TagString: Untagged
@@ -1170,86 +533,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4450052999140799528}
   m_CullTransparentMesh: 0
---- !u!114 &4450052999140799531
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4450052999140799528}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18cf37a4c7625df4fad10d60af217b5e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: a77314322cf5d214f8f11d034a0e5dfa, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
-  m_ignoreLocalization: 1
-  origin_name: 
-  m_ColorType: 0
-  m_GradientColor:
-    serializedVersion: 2
-    key0: {r: 0, g: 0, b: 0, a: 1}
-    key1: {r: 1, g: 1, b: 1, a: 1}
-    key2: {r: 0, g: 0, b: 0, a: 0}
-    key3: {r: 0, g: 0, b: 0, a: 0}
-    key4: {r: 0, g: 0, b: 0, a: 0}
-    key5: {r: 0, g: 0, b: 0, a: 0}
-    key6: {r: 0, g: 0, b: 0, a: 0}
-    key7: {r: 0, g: 0, b: 0, a: 0}
-    ctime0: 0
-    ctime1: 65535
-    ctime2: 0
-    ctime3: 0
-    ctime4: 0
-    ctime5: 0
-    ctime6: 0
-    ctime7: 0
-    atime0: 0
-    atime1: 65535
-    atime2: 0
-    atime3: 0
-    atime4: 0
-    atime5: 0
-    atime6: 0
-    atime7: 0
-    m_Mode: 0
-    m_ColorSpace: -1
-    m_NumColorKeys: 2
-    m_NumAlphaKeys: 2
-  m_Direction: 0
-  m_LinearToGamma: 0
-  m_GammaToLinear: 0
-  m_EnableGrey: 0
-  m_EnableRadiusCorner: 0
-  m_Contrast: 1
-  m_Saturation: 0
-  m_CornerRadius: {x: 10, y: 10, z: 10, w: 10}
-  rect2props: {x: 0, y: 0, z: 0, w: 0}
-  image: {fileID: 0}
-  m_OriginFlipMode: 0
-  m_FlipMode: 0
-  m_FlipWithCopy: 1
-  m_FlipEdgeHorizontal: 2
-  m_FlipEdgeVertical: 5
-  m_FlipFillCenter: 3
-  m_FlipDirection: 3
 --- !u!1 &4450052999150010924
 GameObject:
   m_ObjectHideFlags: 0
@@ -1260,7 +543,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4450052999150010925}
   - component: {fileID: 4450052999150010912}
-  - component: {fileID: 4450052999150010927}
   m_Layer: 5
   m_Name: leftstick
   m_TagString: Untagged
@@ -1295,86 +577,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4450052999150010924}
   m_CullTransparentMesh: 0
---- !u!114 &4450052999150010927
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4450052999150010924}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18cf37a4c7625df4fad10d60af217b5e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 8b6866f234d6eee4f8a35cec279d6109, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
-  m_ignoreLocalization: 1
-  origin_name: 
-  m_ColorType: 0
-  m_GradientColor:
-    serializedVersion: 2
-    key0: {r: 0, g: 0, b: 0, a: 1}
-    key1: {r: 1, g: 1, b: 1, a: 1}
-    key2: {r: 0, g: 0, b: 0, a: 0}
-    key3: {r: 0, g: 0, b: 0, a: 0}
-    key4: {r: 0, g: 0, b: 0, a: 0}
-    key5: {r: 0, g: 0, b: 0, a: 0}
-    key6: {r: 0, g: 0, b: 0, a: 0}
-    key7: {r: 0, g: 0, b: 0, a: 0}
-    ctime0: 0
-    ctime1: 65535
-    ctime2: 0
-    ctime3: 0
-    ctime4: 0
-    ctime5: 0
-    ctime6: 0
-    ctime7: 0
-    atime0: 0
-    atime1: 65535
-    atime2: 0
-    atime3: 0
-    atime4: 0
-    atime5: 0
-    atime6: 0
-    atime7: 0
-    m_Mode: 0
-    m_ColorSpace: -1
-    m_NumColorKeys: 2
-    m_NumAlphaKeys: 2
-  m_Direction: 0
-  m_LinearToGamma: 0
-  m_GammaToLinear: 0
-  m_EnableGrey: 0
-  m_EnableRadiusCorner: 0
-  m_Contrast: 1
-  m_Saturation: 0
-  m_CornerRadius: {x: 10, y: 10, z: 10, w: 10}
-  rect2props: {x: 0, y: 0, z: 0, w: 0}
-  image: {fileID: 0}
-  m_OriginFlipMode: 0
-  m_FlipMode: 0
-  m_FlipWithCopy: 1
-  m_FlipEdgeHorizontal: 2
-  m_FlipEdgeVertical: 5
-  m_FlipFillCenter: 3
-  m_FlipDirection: 3
 --- !u!1 &4450052999180927440
 GameObject:
   m_ObjectHideFlags: 0
@@ -1385,7 +587,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4450052999180927441}
   - component: {fileID: 4450052999180927444}
-  - component: {fileID: 4450052999180927443}
+  - component: {fileID: 4058427388086503852}
   m_Layer: 5
   m_Name: rightstick
   m_TagString: Untagged
@@ -1420,7 +622,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4450052999180927440}
   m_CullTransparentMesh: 0
---- !u!114 &4450052999180927443
+--- !u!114 &4058427388086503852
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1429,7 +631,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 4450052999180927440}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18cf37a4c7625df4fad10d60af217b5e, type: 3}
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
@@ -1450,56 +652,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
-  m_ignoreLocalization: 1
-  origin_name: 
-  m_ColorType: 0
-  m_GradientColor:
-    serializedVersion: 2
-    key0: {r: 0, g: 0, b: 0, a: 1}
-    key1: {r: 1, g: 1, b: 1, a: 1}
-    key2: {r: 0, g: 0, b: 0, a: 0}
-    key3: {r: 0, g: 0, b: 0, a: 0}
-    key4: {r: 0, g: 0, b: 0, a: 0}
-    key5: {r: 0, g: 0, b: 0, a: 0}
-    key6: {r: 0, g: 0, b: 0, a: 0}
-    key7: {r: 0, g: 0, b: 0, a: 0}
-    ctime0: 0
-    ctime1: 65535
-    ctime2: 0
-    ctime3: 0
-    ctime4: 0
-    ctime5: 0
-    ctime6: 0
-    ctime7: 0
-    atime0: 0
-    atime1: 65535
-    atime2: 0
-    atime3: 0
-    atime4: 0
-    atime5: 0
-    atime6: 0
-    atime7: 0
-    m_Mode: 0
-    m_ColorSpace: -1
-    m_NumColorKeys: 2
-    m_NumAlphaKeys: 2
-  m_Direction: 0
-  m_LinearToGamma: 0
-  m_GammaToLinear: 0
-  m_EnableGrey: 0
-  m_EnableRadiusCorner: 0
-  m_Contrast: 1
-  m_Saturation: 0
-  m_CornerRadius: {x: 10, y: 10, z: 10, w: 10}
-  rect2props: {x: 0, y: 0, z: 0, w: 0}
-  image: {fileID: 0}
-  m_OriginFlipMode: 0
-  m_FlipMode: 0
-  m_FlipWithCopy: 1
-  m_FlipEdgeHorizontal: 2
-  m_FlipEdgeVertical: 5
-  m_FlipFillCenter: 3
-  m_FlipDirection: 3
 --- !u!1 &4450052999186904847
 GameObject:
   m_ObjectHideFlags: 0
@@ -1510,7 +662,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4450052999186904832}
   - component: {fileID: 4450052999186904835}
-  - component: {fileID: 4450052999186904834}
   m_Layer: 5
   m_Name: lt
   m_TagString: Untagged
@@ -1545,86 +696,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4450052999186904847}
   m_CullTransparentMesh: 0
---- !u!114 &4450052999186904834
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4450052999186904847}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18cf37a4c7625df4fad10d60af217b5e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 021a7cf71538dce478cc6c7d045f693d, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
-  m_ignoreLocalization: 1
-  origin_name: 
-  m_ColorType: 0
-  m_GradientColor:
-    serializedVersion: 2
-    key0: {r: 0, g: 0, b: 0, a: 1}
-    key1: {r: 1, g: 1, b: 1, a: 1}
-    key2: {r: 0, g: 0, b: 0, a: 0}
-    key3: {r: 0, g: 0, b: 0, a: 0}
-    key4: {r: 0, g: 0, b: 0, a: 0}
-    key5: {r: 0, g: 0, b: 0, a: 0}
-    key6: {r: 0, g: 0, b: 0, a: 0}
-    key7: {r: 0, g: 0, b: 0, a: 0}
-    ctime0: 0
-    ctime1: 65535
-    ctime2: 0
-    ctime3: 0
-    ctime4: 0
-    ctime5: 0
-    ctime6: 0
-    ctime7: 0
-    atime0: 0
-    atime1: 65535
-    atime2: 0
-    atime3: 0
-    atime4: 0
-    atime5: 0
-    atime6: 0
-    atime7: 0
-    m_Mode: 0
-    m_ColorSpace: -1
-    m_NumColorKeys: 2
-    m_NumAlphaKeys: 2
-  m_Direction: 0
-  m_LinearToGamma: 0
-  m_GammaToLinear: 0
-  m_EnableGrey: 0
-  m_EnableRadiusCorner: 0
-  m_Contrast: 1
-  m_Saturation: 0
-  m_CornerRadius: {x: 10, y: 10, z: 10, w: 10}
-  rect2props: {x: 0, y: 0, z: 0, w: 0}
-  image: {fileID: 0}
-  m_OriginFlipMode: 0
-  m_FlipMode: 0
-  m_FlipWithCopy: 1
-  m_FlipEdgeHorizontal: 2
-  m_FlipEdgeVertical: 5
-  m_FlipFillCenter: 3
-  m_FlipDirection: 3
 --- !u!1 &4450052999206733398
 GameObject:
   m_ObjectHideFlags: 0
@@ -1635,7 +706,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4450052999206733399}
   - component: {fileID: 4450052999206733418}
-  - component: {fileID: 4450052999206733417}
   m_Layer: 5
   m_Name: select
   m_TagString: Untagged
@@ -1670,86 +740,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4450052999206733398}
   m_CullTransparentMesh: 0
---- !u!114 &4450052999206733417
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4450052999206733398}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18cf37a4c7625df4fad10d60af217b5e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: ef17659f7e6a1af49b4030e0ae1d89e2, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
-  m_ignoreLocalization: 1
-  origin_name: 
-  m_ColorType: 0
-  m_GradientColor:
-    serializedVersion: 2
-    key0: {r: 0, g: 0, b: 0, a: 1}
-    key1: {r: 1, g: 1, b: 1, a: 1}
-    key2: {r: 0, g: 0, b: 0, a: 0}
-    key3: {r: 0, g: 0, b: 0, a: 0}
-    key4: {r: 0, g: 0, b: 0, a: 0}
-    key5: {r: 0, g: 0, b: 0, a: 0}
-    key6: {r: 0, g: 0, b: 0, a: 0}
-    key7: {r: 0, g: 0, b: 0, a: 0}
-    ctime0: 0
-    ctime1: 65535
-    ctime2: 0
-    ctime3: 0
-    ctime4: 0
-    ctime5: 0
-    ctime6: 0
-    ctime7: 0
-    atime0: 0
-    atime1: 65535
-    atime2: 0
-    atime3: 0
-    atime4: 0
-    atime5: 0
-    atime6: 0
-    atime7: 0
-    m_Mode: 0
-    m_ColorSpace: -1
-    m_NumColorKeys: 2
-    m_NumAlphaKeys: 2
-  m_Direction: 0
-  m_LinearToGamma: 0
-  m_GammaToLinear: 0
-  m_EnableGrey: 0
-  m_EnableRadiusCorner: 0
-  m_Contrast: 1
-  m_Saturation: 0
-  m_CornerRadius: {x: 10, y: 10, z: 10, w: 10}
-  rect2props: {x: 0, y: 0, z: 0, w: 0}
-  image: {fileID: 0}
-  m_OriginFlipMode: 0
-  m_FlipMode: 0
-  m_FlipWithCopy: 1
-  m_FlipEdgeHorizontal: 2
-  m_FlipEdgeVertical: 5
-  m_FlipFillCenter: 3
-  m_FlipDirection: 3
 --- !u!1 &4450052999216446460
 GameObject:
   m_ObjectHideFlags: 0
@@ -1760,7 +750,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4450052999216446461}
   - component: {fileID: 4450052999216446448}
-  - component: {fileID: 4450052999216446463}
+  - component: {fileID: 6126749407977665301}
   m_Layer: 5
   m_Name: Pc
   m_TagString: Untagged
@@ -1811,7 +801,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4450052999216446460}
   m_CullTransparentMesh: 0
---- !u!114 &4450052999216446463
+--- !u!114 &6126749407977665301
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1820,7 +810,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 4450052999216446460}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18cf37a4c7625df4fad10d60af217b5e, type: 3}
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
@@ -1841,56 +831,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
-  m_ignoreLocalization: 1
-  origin_name: 
-  m_ColorType: 0
-  m_GradientColor:
-    serializedVersion: 2
-    key0: {r: 0, g: 0, b: 0, a: 1}
-    key1: {r: 1, g: 1, b: 1, a: 1}
-    key2: {r: 0, g: 0, b: 0, a: 0}
-    key3: {r: 0, g: 0, b: 0, a: 0}
-    key4: {r: 0, g: 0, b: 0, a: 0}
-    key5: {r: 0, g: 0, b: 0, a: 0}
-    key6: {r: 0, g: 0, b: 0, a: 0}
-    key7: {r: 0, g: 0, b: 0, a: 0}
-    ctime0: 0
-    ctime1: 65535
-    ctime2: 0
-    ctime3: 0
-    ctime4: 0
-    ctime5: 0
-    ctime6: 0
-    ctime7: 0
-    atime0: 0
-    atime1: 65535
-    atime2: 0
-    atime3: 0
-    atime4: 0
-    atime5: 0
-    atime6: 0
-    atime7: 0
-    m_Mode: 0
-    m_ColorSpace: -1
-    m_NumColorKeys: 2
-    m_NumAlphaKeys: 2
-  m_Direction: 0
-  m_LinearToGamma: 0
-  m_GammaToLinear: 0
-  m_EnableGrey: 0
-  m_EnableRadiusCorner: 0
-  m_Contrast: 1
-  m_Saturation: 0
-  m_CornerRadius: {x: 10, y: 10, z: 10, w: 10}
-  rect2props: {x: 0, y: 0, z: 0, w: 0}
-  image: {fileID: 0}
-  m_OriginFlipMode: 0
-  m_FlipMode: 0
-  m_FlipWithCopy: 1
-  m_FlipEdgeHorizontal: 2
-  m_FlipEdgeVertical: 5
-  m_FlipFillCenter: 3
-  m_FlipDirection: 3
 --- !u!1 &4450052999250810987
 GameObject:
   m_ObjectHideFlags: 0
@@ -1901,7 +841,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4450052999250810988}
   - component: {fileID: 4450052999250810991}
-  - component: {fileID: 4450052999250810990}
   m_Layer: 5
   m_Name: left
   m_TagString: Untagged
@@ -1936,86 +875,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4450052999250810987}
   m_CullTransparentMesh: 0
---- !u!114 &4450052999250810990
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4450052999250810987}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18cf37a4c7625df4fad10d60af217b5e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 5586627f71c5495479611e0d5666da73, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
-  m_ignoreLocalization: 1
-  origin_name: 
-  m_ColorType: 0
-  m_GradientColor:
-    serializedVersion: 2
-    key0: {r: 0, g: 0, b: 0, a: 1}
-    key1: {r: 1, g: 1, b: 1, a: 1}
-    key2: {r: 0, g: 0, b: 0, a: 0}
-    key3: {r: 0, g: 0, b: 0, a: 0}
-    key4: {r: 0, g: 0, b: 0, a: 0}
-    key5: {r: 0, g: 0, b: 0, a: 0}
-    key6: {r: 0, g: 0, b: 0, a: 0}
-    key7: {r: 0, g: 0, b: 0, a: 0}
-    ctime0: 0
-    ctime1: 65535
-    ctime2: 0
-    ctime3: 0
-    ctime4: 0
-    ctime5: 0
-    ctime6: 0
-    ctime7: 0
-    atime0: 0
-    atime1: 65535
-    atime2: 0
-    atime3: 0
-    atime4: 0
-    atime5: 0
-    atime6: 0
-    atime7: 0
-    m_Mode: 0
-    m_ColorSpace: -1
-    m_NumColorKeys: 2
-    m_NumAlphaKeys: 2
-  m_Direction: 0
-  m_LinearToGamma: 0
-  m_GammaToLinear: 0
-  m_EnableGrey: 0
-  m_EnableRadiusCorner: 0
-  m_Contrast: 1
-  m_Saturation: 0
-  m_CornerRadius: {x: 10, y: 10, z: 10, w: 10}
-  rect2props: {x: 0, y: 0, z: 0, w: 0}
-  image: {fileID: 0}
-  m_OriginFlipMode: 0
-  m_FlipMode: 0
-  m_FlipWithCopy: 1
-  m_FlipEdgeHorizontal: 2
-  m_FlipEdgeVertical: 5
-  m_FlipFillCenter: 3
-  m_FlipDirection: 3
 --- !u!1 &4450052999372049291
 GameObject:
   m_ObjectHideFlags: 0
@@ -2026,7 +885,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4450052999372049292}
   - component: {fileID: 4450052999372049295}
-  - component: {fileID: 4450052999372049294}
   m_Layer: 5
   m_Name: Xbox
   m_TagString: Untagged
@@ -2077,86 +935,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4450052999372049291}
   m_CullTransparentMesh: 0
---- !u!114 &4450052999372049294
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4450052999372049291}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18cf37a4c7625df4fad10d60af217b5e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 16468be14555e6b49815741930dacef1, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
-  m_ignoreLocalization: 1
-  origin_name: 
-  m_ColorType: 0
-  m_GradientColor:
-    serializedVersion: 2
-    key0: {r: 0, g: 0, b: 0, a: 1}
-    key1: {r: 1, g: 1, b: 1, a: 1}
-    key2: {r: 0, g: 0, b: 0, a: 0}
-    key3: {r: 0, g: 0, b: 0, a: 0}
-    key4: {r: 0, g: 0, b: 0, a: 0}
-    key5: {r: 0, g: 0, b: 0, a: 0}
-    key6: {r: 0, g: 0, b: 0, a: 0}
-    key7: {r: 0, g: 0, b: 0, a: 0}
-    ctime0: 0
-    ctime1: 65535
-    ctime2: 0
-    ctime3: 0
-    ctime4: 0
-    ctime5: 0
-    ctime6: 0
-    ctime7: 0
-    atime0: 0
-    atime1: 65535
-    atime2: 0
-    atime3: 0
-    atime4: 0
-    atime5: 0
-    atime6: 0
-    atime7: 0
-    m_Mode: 0
-    m_ColorSpace: -1
-    m_NumColorKeys: 2
-    m_NumAlphaKeys: 2
-  m_Direction: 0
-  m_LinearToGamma: 0
-  m_GammaToLinear: 0
-  m_EnableGrey: 0
-  m_EnableRadiusCorner: 0
-  m_Contrast: 1
-  m_Saturation: 0
-  m_CornerRadius: {x: 10, y: 10, z: 10, w: 10}
-  rect2props: {x: 0, y: 0, z: 0, w: 0}
-  image: {fileID: 0}
-  m_OriginFlipMode: 0
-  m_FlipMode: 0
-  m_FlipWithCopy: 1
-  m_FlipEdgeHorizontal: 2
-  m_FlipEdgeVertical: 5
-  m_FlipFillCenter: 3
-  m_FlipDirection: 3
 --- !u!1 &4450052999481289561
 GameObject:
   m_ObjectHideFlags: 0
@@ -2167,7 +945,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4450052999481289562}
   - component: {fileID: 4450052999481289565}
-  - component: {fileID: 4450052999481289564}
   m_Layer: 5
   m_Name: buttonWest
   m_TagString: Untagged
@@ -2202,86 +979,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4450052999481289561}
   m_CullTransparentMesh: 0
---- !u!114 &4450052999481289564
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4450052999481289561}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18cf37a4c7625df4fad10d60af217b5e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 94d28398aaf1dad4c8c2b147cba2ecb1, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
-  m_ignoreLocalization: 1
-  origin_name: 
-  m_ColorType: 0
-  m_GradientColor:
-    serializedVersion: 2
-    key0: {r: 0, g: 0, b: 0, a: 1}
-    key1: {r: 1, g: 1, b: 1, a: 1}
-    key2: {r: 0, g: 0, b: 0, a: 0}
-    key3: {r: 0, g: 0, b: 0, a: 0}
-    key4: {r: 0, g: 0, b: 0, a: 0}
-    key5: {r: 0, g: 0, b: 0, a: 0}
-    key6: {r: 0, g: 0, b: 0, a: 0}
-    key7: {r: 0, g: 0, b: 0, a: 0}
-    ctime0: 0
-    ctime1: 65535
-    ctime2: 0
-    ctime3: 0
-    ctime4: 0
-    ctime5: 0
-    ctime6: 0
-    ctime7: 0
-    atime0: 0
-    atime1: 65535
-    atime2: 0
-    atime3: 0
-    atime4: 0
-    atime5: 0
-    atime6: 0
-    atime7: 0
-    m_Mode: 0
-    m_ColorSpace: -1
-    m_NumColorKeys: 2
-    m_NumAlphaKeys: 2
-  m_Direction: 0
-  m_LinearToGamma: 0
-  m_GammaToLinear: 0
-  m_EnableGrey: 0
-  m_EnableRadiusCorner: 0
-  m_Contrast: 1
-  m_Saturation: 0
-  m_CornerRadius: {x: 10, y: 10, z: 10, w: 10}
-  rect2props: {x: 0, y: 0, z: 0, w: 0}
-  image: {fileID: 0}
-  m_OriginFlipMode: 0
-  m_FlipMode: 0
-  m_FlipWithCopy: 1
-  m_FlipEdgeHorizontal: 2
-  m_FlipEdgeVertical: 5
-  m_FlipFillCenter: 3
-  m_FlipDirection: 3
 --- !u!1 &4450052999492657239
 GameObject:
   m_ObjectHideFlags: 0
@@ -2337,7 +1034,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4450052999563894761}
   - component: {fileID: 4450052999563894764}
-  - component: {fileID: 4450052999563894763}
   m_Layer: 5
   m_Name: buttonSouth
   m_TagString: Untagged
@@ -2372,86 +1068,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4450052999563894760}
   m_CullTransparentMesh: 0
---- !u!114 &4450052999563894763
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4450052999563894760}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18cf37a4c7625df4fad10d60af217b5e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: ba7bedebaa6c676469b3705842554cf6, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
-  m_ignoreLocalization: 1
-  origin_name: 
-  m_ColorType: 0
-  m_GradientColor:
-    serializedVersion: 2
-    key0: {r: 0, g: 0, b: 0, a: 1}
-    key1: {r: 1, g: 1, b: 1, a: 1}
-    key2: {r: 0, g: 0, b: 0, a: 0}
-    key3: {r: 0, g: 0, b: 0, a: 0}
-    key4: {r: 0, g: 0, b: 0, a: 0}
-    key5: {r: 0, g: 0, b: 0, a: 0}
-    key6: {r: 0, g: 0, b: 0, a: 0}
-    key7: {r: 0, g: 0, b: 0, a: 0}
-    ctime0: 0
-    ctime1: 65535
-    ctime2: 0
-    ctime3: 0
-    ctime4: 0
-    ctime5: 0
-    ctime6: 0
-    ctime7: 0
-    atime0: 0
-    atime1: 65535
-    atime2: 0
-    atime3: 0
-    atime4: 0
-    atime5: 0
-    atime6: 0
-    atime7: 0
-    m_Mode: 0
-    m_ColorSpace: -1
-    m_NumColorKeys: 2
-    m_NumAlphaKeys: 2
-  m_Direction: 0
-  m_LinearToGamma: 0
-  m_GammaToLinear: 0
-  m_EnableGrey: 0
-  m_EnableRadiusCorner: 0
-  m_Contrast: 1
-  m_Saturation: 0
-  m_CornerRadius: {x: 10, y: 10, z: 10, w: 10}
-  rect2props: {x: 0, y: 0, z: 0, w: 0}
-  image: {fileID: 0}
-  m_OriginFlipMode: 0
-  m_FlipMode: 0
-  m_FlipWithCopy: 1
-  m_FlipEdgeHorizontal: 2
-  m_FlipEdgeVertical: 5
-  m_FlipFillCenter: 3
-  m_FlipDirection: 3
 --- !u!1 &4450052999564517712
 GameObject:
   m_ObjectHideFlags: 0
@@ -2462,7 +1078,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4450052999564517713}
   - component: {fileID: 4450052999564517716}
-  - component: {fileID: 4450052999564517715}
   m_Layer: 5
   m_Name: rb
   m_TagString: Untagged
@@ -2497,86 +1112,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4450052999564517712}
   m_CullTransparentMesh: 0
---- !u!114 &4450052999564517715
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4450052999564517712}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18cf37a4c7625df4fad10d60af217b5e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: c534ae0cab839b246b214aef20574059, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
-  m_ignoreLocalization: 1
-  origin_name: 
-  m_ColorType: 0
-  m_GradientColor:
-    serializedVersion: 2
-    key0: {r: 0, g: 0, b: 0, a: 1}
-    key1: {r: 1, g: 1, b: 1, a: 1}
-    key2: {r: 0, g: 0, b: 0, a: 0}
-    key3: {r: 0, g: 0, b: 0, a: 0}
-    key4: {r: 0, g: 0, b: 0, a: 0}
-    key5: {r: 0, g: 0, b: 0, a: 0}
-    key6: {r: 0, g: 0, b: 0, a: 0}
-    key7: {r: 0, g: 0, b: 0, a: 0}
-    ctime0: 0
-    ctime1: 65535
-    ctime2: 0
-    ctime3: 0
-    ctime4: 0
-    ctime5: 0
-    ctime6: 0
-    ctime7: 0
-    atime0: 0
-    atime1: 65535
-    atime2: 0
-    atime3: 0
-    atime4: 0
-    atime5: 0
-    atime6: 0
-    atime7: 0
-    m_Mode: 0
-    m_ColorSpace: -1
-    m_NumColorKeys: 2
-    m_NumAlphaKeys: 2
-  m_Direction: 0
-  m_LinearToGamma: 0
-  m_GammaToLinear: 0
-  m_EnableGrey: 0
-  m_EnableRadiusCorner: 0
-  m_Contrast: 1
-  m_Saturation: 0
-  m_CornerRadius: {x: 10, y: 10, z: 10, w: 10}
-  rect2props: {x: 0, y: 0, z: 0, w: 0}
-  image: {fileID: 0}
-  m_OriginFlipMode: 0
-  m_FlipMode: 0
-  m_FlipWithCopy: 1
-  m_FlipEdgeHorizontal: 2
-  m_FlipEdgeVertical: 5
-  m_FlipFillCenter: 3
-  m_FlipDirection: 3
 --- !u!1 &4450052999577936423
 GameObject:
   m_ObjectHideFlags: 0
@@ -2587,7 +1122,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4450052999577936440}
   - component: {fileID: 4450052999577936443}
-  - component: {fileID: 4450052999577936442}
+  - component: {fileID: 1383996521882388460}
   m_Layer: 5
   m_Name: start
   m_TagString: Untagged
@@ -2622,7 +1157,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4450052999577936423}
   m_CullTransparentMesh: 0
---- !u!114 &4450052999577936442
+--- !u!114 &1383996521882388460
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2631,7 +1166,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 4450052999577936423}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18cf37a4c7625df4fad10d60af217b5e, type: 3}
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
@@ -2652,56 +1187,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
-  m_ignoreLocalization: 1
-  origin_name: 
-  m_ColorType: 0
-  m_GradientColor:
-    serializedVersion: 2
-    key0: {r: 0, g: 0, b: 0, a: 1}
-    key1: {r: 1, g: 1, b: 1, a: 1}
-    key2: {r: 0, g: 0, b: 0, a: 0}
-    key3: {r: 0, g: 0, b: 0, a: 0}
-    key4: {r: 0, g: 0, b: 0, a: 0}
-    key5: {r: 0, g: 0, b: 0, a: 0}
-    key6: {r: 0, g: 0, b: 0, a: 0}
-    key7: {r: 0, g: 0, b: 0, a: 0}
-    ctime0: 0
-    ctime1: 65535
-    ctime2: 0
-    ctime3: 0
-    ctime4: 0
-    ctime5: 0
-    ctime6: 0
-    ctime7: 0
-    atime0: 0
-    atime1: 65535
-    atime2: 0
-    atime3: 0
-    atime4: 0
-    atime5: 0
-    atime6: 0
-    atime7: 0
-    m_Mode: 0
-    m_ColorSpace: -1
-    m_NumColorKeys: 2
-    m_NumAlphaKeys: 2
-  m_Direction: 0
-  m_LinearToGamma: 0
-  m_GammaToLinear: 0
-  m_EnableGrey: 0
-  m_EnableRadiusCorner: 0
-  m_Contrast: 1
-  m_Saturation: 0
-  m_CornerRadius: {x: 10, y: 10, z: 10, w: 10}
-  rect2props: {x: 0, y: 0, z: 0, w: 0}
-  image: {fileID: 0}
-  m_OriginFlipMode: 0
-  m_FlipMode: 0
-  m_FlipWithCopy: 1
-  m_FlipEdgeHorizontal: 2
-  m_FlipEdgeVertical: 5
-  m_FlipFillCenter: 3
-  m_FlipDirection: 3
 --- !u!1 &4450052999589968049
 GameObject:
   m_ObjectHideFlags: 0
@@ -2712,7 +1197,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4450052999589968050}
   - component: {fileID: 4450052999589968053}
-  - component: {fileID: 4450052999589968052}
   m_Layer: 5
   m_Name: rb
   m_TagString: Untagged
@@ -2747,86 +1231,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4450052999589968049}
   m_CullTransparentMesh: 0
---- !u!114 &4450052999589968052
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4450052999589968049}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18cf37a4c7625df4fad10d60af217b5e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 72148cd09c2371c47adf33359c0925b7, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
-  m_ignoreLocalization: 1
-  origin_name: 
-  m_ColorType: 0
-  m_GradientColor:
-    serializedVersion: 2
-    key0: {r: 0, g: 0, b: 0, a: 1}
-    key1: {r: 1, g: 1, b: 1, a: 1}
-    key2: {r: 0, g: 0, b: 0, a: 0}
-    key3: {r: 0, g: 0, b: 0, a: 0}
-    key4: {r: 0, g: 0, b: 0, a: 0}
-    key5: {r: 0, g: 0, b: 0, a: 0}
-    key6: {r: 0, g: 0, b: 0, a: 0}
-    key7: {r: 0, g: 0, b: 0, a: 0}
-    ctime0: 0
-    ctime1: 65535
-    ctime2: 0
-    ctime3: 0
-    ctime4: 0
-    ctime5: 0
-    ctime6: 0
-    ctime7: 0
-    atime0: 0
-    atime1: 65535
-    atime2: 0
-    atime3: 0
-    atime4: 0
-    atime5: 0
-    atime6: 0
-    atime7: 0
-    m_Mode: 0
-    m_ColorSpace: -1
-    m_NumColorKeys: 2
-    m_NumAlphaKeys: 2
-  m_Direction: 0
-  m_LinearToGamma: 0
-  m_GammaToLinear: 0
-  m_EnableGrey: 0
-  m_EnableRadiusCorner: 0
-  m_Contrast: 1
-  m_Saturation: 0
-  m_CornerRadius: {x: 10, y: 10, z: 10, w: 10}
-  rect2props: {x: 0, y: 0, z: 0, w: 0}
-  image: {fileID: 0}
-  m_OriginFlipMode: 0
-  m_FlipMode: 0
-  m_FlipWithCopy: 1
-  m_FlipEdgeHorizontal: 2
-  m_FlipEdgeVertical: 5
-  m_FlipFillCenter: 3
-  m_FlipDirection: 3
 --- !u!1 &4450052999616818735
 GameObject:
   m_ObjectHideFlags: 0
@@ -2837,7 +1241,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4450052999616818720}
   - component: {fileID: 4450052999616818723}
-  - component: {fileID: 4450052999616818722}
   m_Layer: 5
   m_Name: rightstick
   m_TagString: Untagged
@@ -2872,86 +1275,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4450052999616818735}
   m_CullTransparentMesh: 0
---- !u!114 &4450052999616818722
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4450052999616818735}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18cf37a4c7625df4fad10d60af217b5e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 59e4b6242a4df364b95b4f00426a8eab, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
-  m_ignoreLocalization: 1
-  origin_name: 
-  m_ColorType: 0
-  m_GradientColor:
-    serializedVersion: 2
-    key0: {r: 0, g: 0, b: 0, a: 1}
-    key1: {r: 1, g: 1, b: 1, a: 1}
-    key2: {r: 0, g: 0, b: 0, a: 0}
-    key3: {r: 0, g: 0, b: 0, a: 0}
-    key4: {r: 0, g: 0, b: 0, a: 0}
-    key5: {r: 0, g: 0, b: 0, a: 0}
-    key6: {r: 0, g: 0, b: 0, a: 0}
-    key7: {r: 0, g: 0, b: 0, a: 0}
-    ctime0: 0
-    ctime1: 65535
-    ctime2: 0
-    ctime3: 0
-    ctime4: 0
-    ctime5: 0
-    ctime6: 0
-    ctime7: 0
-    atime0: 0
-    atime1: 65535
-    atime2: 0
-    atime3: 0
-    atime4: 0
-    atime5: 0
-    atime6: 0
-    atime7: 0
-    m_Mode: 0
-    m_ColorSpace: -1
-    m_NumColorKeys: 2
-    m_NumAlphaKeys: 2
-  m_Direction: 0
-  m_LinearToGamma: 0
-  m_GammaToLinear: 0
-  m_EnableGrey: 0
-  m_EnableRadiusCorner: 0
-  m_Contrast: 1
-  m_Saturation: 0
-  m_CornerRadius: {x: 10, y: 10, z: 10, w: 10}
-  rect2props: {x: 0, y: 0, z: 0, w: 0}
-  image: {fileID: 0}
-  m_OriginFlipMode: 0
-  m_FlipMode: 0
-  m_FlipWithCopy: 1
-  m_FlipEdgeHorizontal: 2
-  m_FlipEdgeVertical: 5
-  m_FlipFillCenter: 3
-  m_FlipDirection: 3
 --- !u!1 &4450052999619188208
 GameObject:
   m_ObjectHideFlags: 0
@@ -2962,7 +1285,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4450052999619188209}
   - component: {fileID: 4450052999619188212}
-  - component: {fileID: 4450052999619188211}
   m_Layer: 5
   m_Name: up
   m_TagString: Untagged
@@ -2997,86 +1319,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4450052999619188208}
   m_CullTransparentMesh: 0
---- !u!114 &4450052999619188211
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4450052999619188208}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18cf37a4c7625df4fad10d60af217b5e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 86178d21ee98d23439869d0223e99541, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
-  m_ignoreLocalization: 1
-  origin_name: 
-  m_ColorType: 0
-  m_GradientColor:
-    serializedVersion: 2
-    key0: {r: 0, g: 0, b: 0, a: 1}
-    key1: {r: 1, g: 1, b: 1, a: 1}
-    key2: {r: 0, g: 0, b: 0, a: 0}
-    key3: {r: 0, g: 0, b: 0, a: 0}
-    key4: {r: 0, g: 0, b: 0, a: 0}
-    key5: {r: 0, g: 0, b: 0, a: 0}
-    key6: {r: 0, g: 0, b: 0, a: 0}
-    key7: {r: 0, g: 0, b: 0, a: 0}
-    ctime0: 0
-    ctime1: 65535
-    ctime2: 0
-    ctime3: 0
-    ctime4: 0
-    ctime5: 0
-    ctime6: 0
-    ctime7: 0
-    atime0: 0
-    atime1: 65535
-    atime2: 0
-    atime3: 0
-    atime4: 0
-    atime5: 0
-    atime6: 0
-    atime7: 0
-    m_Mode: 0
-    m_ColorSpace: -1
-    m_NumColorKeys: 2
-    m_NumAlphaKeys: 2
-  m_Direction: 0
-  m_LinearToGamma: 0
-  m_GammaToLinear: 0
-  m_EnableGrey: 0
-  m_EnableRadiusCorner: 0
-  m_Contrast: 1
-  m_Saturation: 0
-  m_CornerRadius: {x: 10, y: 10, z: 10, w: 10}
-  rect2props: {x: 0, y: 0, z: 0, w: 0}
-  image: {fileID: 0}
-  m_OriginFlipMode: 0
-  m_FlipMode: 0
-  m_FlipWithCopy: 1
-  m_FlipEdgeHorizontal: 2
-  m_FlipEdgeVertical: 5
-  m_FlipFillCenter: 3
-  m_FlipDirection: 3
 --- !u!1 &4450052999665939441
 GameObject:
   m_ObjectHideFlags: 0
@@ -3087,7 +1329,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4450052999665939442}
   - component: {fileID: 4450052999665939445}
-  - component: {fileID: 4450052999665939444}
   m_Layer: 5
   m_Name: down
   m_TagString: Untagged
@@ -3122,86 +1363,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4450052999665939441}
   m_CullTransparentMesh: 0
---- !u!114 &4450052999665939444
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4450052999665939441}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18cf37a4c7625df4fad10d60af217b5e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 2e9a3904c0f8c444a8756f9e97e09151, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
-  m_ignoreLocalization: 1
-  origin_name: 
-  m_ColorType: 0
-  m_GradientColor:
-    serializedVersion: 2
-    key0: {r: 0, g: 0, b: 0, a: 1}
-    key1: {r: 1, g: 1, b: 1, a: 1}
-    key2: {r: 0, g: 0, b: 0, a: 0}
-    key3: {r: 0, g: 0, b: 0, a: 0}
-    key4: {r: 0, g: 0, b: 0, a: 0}
-    key5: {r: 0, g: 0, b: 0, a: 0}
-    key6: {r: 0, g: 0, b: 0, a: 0}
-    key7: {r: 0, g: 0, b: 0, a: 0}
-    ctime0: 0
-    ctime1: 65535
-    ctime2: 0
-    ctime3: 0
-    ctime4: 0
-    ctime5: 0
-    ctime6: 0
-    ctime7: 0
-    atime0: 0
-    atime1: 65535
-    atime2: 0
-    atime3: 0
-    atime4: 0
-    atime5: 0
-    atime6: 0
-    atime7: 0
-    m_Mode: 0
-    m_ColorSpace: -1
-    m_NumColorKeys: 2
-    m_NumAlphaKeys: 2
-  m_Direction: 0
-  m_LinearToGamma: 0
-  m_GammaToLinear: 0
-  m_EnableGrey: 0
-  m_EnableRadiusCorner: 0
-  m_Contrast: 1
-  m_Saturation: 0
-  m_CornerRadius: {x: 10, y: 10, z: 10, w: 10}
-  rect2props: {x: 0, y: 0, z: 0, w: 0}
-  image: {fileID: 0}
-  m_OriginFlipMode: 0
-  m_FlipMode: 0
-  m_FlipWithCopy: 1
-  m_FlipEdgeHorizontal: 2
-  m_FlipEdgeVertical: 5
-  m_FlipFillCenter: 3
-  m_FlipDirection: 3
 --- !u!1 &4450052999686187992
 GameObject:
   m_ObjectHideFlags: 0
@@ -3212,7 +1373,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4450052999686187993}
   - component: {fileID: 4450052999686187996}
-  - component: {fileID: 4450052999686187995}
   m_Layer: 5
   m_Name: down
   m_TagString: Untagged
@@ -3247,86 +1407,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4450052999686187992}
   m_CullTransparentMesh: 0
---- !u!114 &4450052999686187995
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4450052999686187992}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18cf37a4c7625df4fad10d60af217b5e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: ee3aae79703f46248a0b9b10bd42ccdc, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
-  m_ignoreLocalization: 1
-  origin_name: 
-  m_ColorType: 0
-  m_GradientColor:
-    serializedVersion: 2
-    key0: {r: 0, g: 0, b: 0, a: 1}
-    key1: {r: 1, g: 1, b: 1, a: 1}
-    key2: {r: 0, g: 0, b: 0, a: 0}
-    key3: {r: 0, g: 0, b: 0, a: 0}
-    key4: {r: 0, g: 0, b: 0, a: 0}
-    key5: {r: 0, g: 0, b: 0, a: 0}
-    key6: {r: 0, g: 0, b: 0, a: 0}
-    key7: {r: 0, g: 0, b: 0, a: 0}
-    ctime0: 0
-    ctime1: 65535
-    ctime2: 0
-    ctime3: 0
-    ctime4: 0
-    ctime5: 0
-    ctime6: 0
-    ctime7: 0
-    atime0: 0
-    atime1: 65535
-    atime2: 0
-    atime3: 0
-    atime4: 0
-    atime5: 0
-    atime6: 0
-    atime7: 0
-    m_Mode: 0
-    m_ColorSpace: -1
-    m_NumColorKeys: 2
-    m_NumAlphaKeys: 2
-  m_Direction: 0
-  m_LinearToGamma: 0
-  m_GammaToLinear: 0
-  m_EnableGrey: 0
-  m_EnableRadiusCorner: 0
-  m_Contrast: 1
-  m_Saturation: 0
-  m_CornerRadius: {x: 10, y: 10, z: 10, w: 10}
-  rect2props: {x: 0, y: 0, z: 0, w: 0}
-  image: {fileID: 0}
-  m_OriginFlipMode: 0
-  m_FlipMode: 0
-  m_FlipWithCopy: 1
-  m_FlipEdgeHorizontal: 2
-  m_FlipEdgeVertical: 5
-  m_FlipFillCenter: 3
-  m_FlipDirection: 3
 --- !u!1 &4450052999751674751
 GameObject:
   m_ObjectHideFlags: 0
@@ -3337,7 +1417,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4450052999751674736}
   - component: {fileID: 4450052999751674739}
-  - component: {fileID: 4450052999751674738}
   m_Layer: 5
   m_Name: rightstick
   m_TagString: Untagged
@@ -3372,86 +1451,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4450052999751674751}
   m_CullTransparentMesh: 0
---- !u!114 &4450052999751674738
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4450052999751674751}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18cf37a4c7625df4fad10d60af217b5e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: a84ea0710b923de4da480057bb57cd72, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
-  m_ignoreLocalization: 1
-  origin_name: 
-  m_ColorType: 0
-  m_GradientColor:
-    serializedVersion: 2
-    key0: {r: 0, g: 0, b: 0, a: 1}
-    key1: {r: 1, g: 1, b: 1, a: 1}
-    key2: {r: 0, g: 0, b: 0, a: 0}
-    key3: {r: 0, g: 0, b: 0, a: 0}
-    key4: {r: 0, g: 0, b: 0, a: 0}
-    key5: {r: 0, g: 0, b: 0, a: 0}
-    key6: {r: 0, g: 0, b: 0, a: 0}
-    key7: {r: 0, g: 0, b: 0, a: 0}
-    ctime0: 0
-    ctime1: 65535
-    ctime2: 0
-    ctime3: 0
-    ctime4: 0
-    ctime5: 0
-    ctime6: 0
-    ctime7: 0
-    atime0: 0
-    atime1: 65535
-    atime2: 0
-    atime3: 0
-    atime4: 0
-    atime5: 0
-    atime6: 0
-    atime7: 0
-    m_Mode: 0
-    m_ColorSpace: -1
-    m_NumColorKeys: 2
-    m_NumAlphaKeys: 2
-  m_Direction: 0
-  m_LinearToGamma: 0
-  m_GammaToLinear: 0
-  m_EnableGrey: 0
-  m_EnableRadiusCorner: 0
-  m_Contrast: 1
-  m_Saturation: 0
-  m_CornerRadius: {x: 10, y: 10, z: 10, w: 10}
-  rect2props: {x: 0, y: 0, z: 0, w: 0}
-  image: {fileID: 0}
-  m_OriginFlipMode: 0
-  m_FlipMode: 0
-  m_FlipWithCopy: 1
-  m_FlipEdgeHorizontal: 2
-  m_FlipEdgeVertical: 5
-  m_FlipFillCenter: 3
-  m_FlipDirection: 3
 --- !u!1 &4450052999774691455
 GameObject:
   m_ObjectHideFlags: 0
@@ -3462,7 +1461,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4450052999774691440}
   - component: {fileID: 4450052999774691443}
-  - component: {fileID: 4450052999774691442}
+  - component: {fileID: 1238580168983212969}
   m_Layer: 5
   m_Name: select
   m_TagString: Untagged
@@ -3497,7 +1496,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4450052999774691455}
   m_CullTransparentMesh: 0
---- !u!114 &4450052999774691442
+--- !u!114 &1238580168983212969
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -3506,7 +1505,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 4450052999774691455}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18cf37a4c7625df4fad10d60af217b5e, type: 3}
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
@@ -3527,56 +1526,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
-  m_ignoreLocalization: 1
-  origin_name: 
-  m_ColorType: 0
-  m_GradientColor:
-    serializedVersion: 2
-    key0: {r: 0, g: 0, b: 0, a: 1}
-    key1: {r: 1, g: 1, b: 1, a: 1}
-    key2: {r: 0, g: 0, b: 0, a: 0}
-    key3: {r: 0, g: 0, b: 0, a: 0}
-    key4: {r: 0, g: 0, b: 0, a: 0}
-    key5: {r: 0, g: 0, b: 0, a: 0}
-    key6: {r: 0, g: 0, b: 0, a: 0}
-    key7: {r: 0, g: 0, b: 0, a: 0}
-    ctime0: 0
-    ctime1: 65535
-    ctime2: 0
-    ctime3: 0
-    ctime4: 0
-    ctime5: 0
-    ctime6: 0
-    ctime7: 0
-    atime0: 0
-    atime1: 65535
-    atime2: 0
-    atime3: 0
-    atime4: 0
-    atime5: 0
-    atime6: 0
-    atime7: 0
-    m_Mode: 0
-    m_ColorSpace: -1
-    m_NumColorKeys: 2
-    m_NumAlphaKeys: 2
-  m_Direction: 0
-  m_LinearToGamma: 0
-  m_GammaToLinear: 0
-  m_EnableGrey: 0
-  m_EnableRadiusCorner: 0
-  m_Contrast: 1
-  m_Saturation: 0
-  m_CornerRadius: {x: 10, y: 10, z: 10, w: 10}
-  rect2props: {x: 0, y: 0, z: 0, w: 0}
-  image: {fileID: 0}
-  m_OriginFlipMode: 0
-  m_FlipMode: 0
-  m_FlipWithCopy: 1
-  m_FlipEdgeHorizontal: 2
-  m_FlipEdgeVertical: 5
-  m_FlipFillCenter: 3
-  m_FlipDirection: 3
 --- !u!1 &4450052999775961837
 GameObject:
   m_ObjectHideFlags: 0
@@ -3587,7 +1536,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4450052999775961838}
   - component: {fileID: 4450052999775961825}
-  - component: {fileID: 4450052999775961824}
   m_Layer: 5
   m_Name: rightstick
   m_TagString: Untagged
@@ -3622,86 +1570,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4450052999775961837}
   m_CullTransparentMesh: 0
---- !u!114 &4450052999775961824
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4450052999775961837}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18cf37a4c7625df4fad10d60af217b5e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 1009ccebe686bd549829ad70ae054eba, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
-  m_ignoreLocalization: 1
-  origin_name: 
-  m_ColorType: 0
-  m_GradientColor:
-    serializedVersion: 2
-    key0: {r: 0, g: 0, b: 0, a: 1}
-    key1: {r: 1, g: 1, b: 1, a: 1}
-    key2: {r: 0, g: 0, b: 0, a: 0}
-    key3: {r: 0, g: 0, b: 0, a: 0}
-    key4: {r: 0, g: 0, b: 0, a: 0}
-    key5: {r: 0, g: 0, b: 0, a: 0}
-    key6: {r: 0, g: 0, b: 0, a: 0}
-    key7: {r: 0, g: 0, b: 0, a: 0}
-    ctime0: 0
-    ctime1: 65535
-    ctime2: 0
-    ctime3: 0
-    ctime4: 0
-    ctime5: 0
-    ctime6: 0
-    ctime7: 0
-    atime0: 0
-    atime1: 65535
-    atime2: 0
-    atime3: 0
-    atime4: 0
-    atime5: 0
-    atime6: 0
-    atime7: 0
-    m_Mode: 0
-    m_ColorSpace: -1
-    m_NumColorKeys: 2
-    m_NumAlphaKeys: 2
-  m_Direction: 0
-  m_LinearToGamma: 0
-  m_GammaToLinear: 0
-  m_EnableGrey: 0
-  m_EnableRadiusCorner: 0
-  m_Contrast: 1
-  m_Saturation: 0
-  m_CornerRadius: {x: 10, y: 10, z: 10, w: 10}
-  rect2props: {x: 0, y: 0, z: 0, w: 0}
-  image: {fileID: 0}
-  m_OriginFlipMode: 0
-  m_FlipMode: 0
-  m_FlipWithCopy: 1
-  m_FlipEdgeHorizontal: 2
-  m_FlipEdgeVertical: 5
-  m_FlipFillCenter: 3
-  m_FlipDirection: 3
 --- !u!1 &4450052999798581481
 GameObject:
   m_ObjectHideFlags: 0
@@ -3712,7 +1580,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4450052999798581482}
   - component: {fileID: 4450052999798581485}
-  - component: {fileID: 4450052999798581484}
   m_Layer: 5
   m_Name: select
   m_TagString: Untagged
@@ -3747,86 +1614,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4450052999798581481}
   m_CullTransparentMesh: 0
---- !u!114 &4450052999798581484
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4450052999798581481}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18cf37a4c7625df4fad10d60af217b5e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 9991b46b99751664f801fa2ca5f8bdef, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
-  m_ignoreLocalization: 1
-  origin_name: 
-  m_ColorType: 0
-  m_GradientColor:
-    serializedVersion: 2
-    key0: {r: 0, g: 0, b: 0, a: 1}
-    key1: {r: 1, g: 1, b: 1, a: 1}
-    key2: {r: 0, g: 0, b: 0, a: 0}
-    key3: {r: 0, g: 0, b: 0, a: 0}
-    key4: {r: 0, g: 0, b: 0, a: 0}
-    key5: {r: 0, g: 0, b: 0, a: 0}
-    key6: {r: 0, g: 0, b: 0, a: 0}
-    key7: {r: 0, g: 0, b: 0, a: 0}
-    ctime0: 0
-    ctime1: 65535
-    ctime2: 0
-    ctime3: 0
-    ctime4: 0
-    ctime5: 0
-    ctime6: 0
-    ctime7: 0
-    atime0: 0
-    atime1: 65535
-    atime2: 0
-    atime3: 0
-    atime4: 0
-    atime5: 0
-    atime6: 0
-    atime7: 0
-    m_Mode: 0
-    m_ColorSpace: -1
-    m_NumColorKeys: 2
-    m_NumAlphaKeys: 2
-  m_Direction: 0
-  m_LinearToGamma: 0
-  m_GammaToLinear: 0
-  m_EnableGrey: 0
-  m_EnableRadiusCorner: 0
-  m_Contrast: 1
-  m_Saturation: 0
-  m_CornerRadius: {x: 10, y: 10, z: 10, w: 10}
-  rect2props: {x: 0, y: 0, z: 0, w: 0}
-  image: {fileID: 0}
-  m_OriginFlipMode: 0
-  m_FlipMode: 0
-  m_FlipWithCopy: 1
-  m_FlipEdgeHorizontal: 2
-  m_FlipEdgeVertical: 5
-  m_FlipFillCenter: 3
-  m_FlipDirection: 3
 --- !u!1 &4450052999812113491
 GameObject:
   m_ObjectHideFlags: 0
@@ -3837,7 +1624,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4450052999812113492}
   - component: {fileID: 4450052999812113495}
-  - component: {fileID: 4450052999812113494}
   m_Layer: 5
   m_Name: up
   m_TagString: Untagged
@@ -3872,86 +1658,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4450052999812113491}
   m_CullTransparentMesh: 0
---- !u!114 &4450052999812113494
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4450052999812113491}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18cf37a4c7625df4fad10d60af217b5e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3b7910331870913419f6e73a758d246e, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
-  m_ignoreLocalization: 1
-  origin_name: 
-  m_ColorType: 0
-  m_GradientColor:
-    serializedVersion: 2
-    key0: {r: 0, g: 0, b: 0, a: 1}
-    key1: {r: 1, g: 1, b: 1, a: 1}
-    key2: {r: 0, g: 0, b: 0, a: 0}
-    key3: {r: 0, g: 0, b: 0, a: 0}
-    key4: {r: 0, g: 0, b: 0, a: 0}
-    key5: {r: 0, g: 0, b: 0, a: 0}
-    key6: {r: 0, g: 0, b: 0, a: 0}
-    key7: {r: 0, g: 0, b: 0, a: 0}
-    ctime0: 0
-    ctime1: 65535
-    ctime2: 0
-    ctime3: 0
-    ctime4: 0
-    ctime5: 0
-    ctime6: 0
-    ctime7: 0
-    atime0: 0
-    atime1: 65535
-    atime2: 0
-    atime3: 0
-    atime4: 0
-    atime5: 0
-    atime6: 0
-    atime7: 0
-    m_Mode: 0
-    m_ColorSpace: -1
-    m_NumColorKeys: 2
-    m_NumAlphaKeys: 2
-  m_Direction: 0
-  m_LinearToGamma: 0
-  m_GammaToLinear: 0
-  m_EnableGrey: 0
-  m_EnableRadiusCorner: 0
-  m_Contrast: 1
-  m_Saturation: 0
-  m_CornerRadius: {x: 10, y: 10, z: 10, w: 10}
-  rect2props: {x: 0, y: 0, z: 0, w: 0}
-  image: {fileID: 0}
-  m_OriginFlipMode: 0
-  m_FlipMode: 0
-  m_FlipWithCopy: 1
-  m_FlipEdgeHorizontal: 2
-  m_FlipEdgeVertical: 5
-  m_FlipFillCenter: 3
-  m_FlipDirection: 3
 --- !u!1 &4450052999837390322
 GameObject:
   m_ObjectHideFlags: 0
@@ -3962,7 +1668,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4450052999837390323}
   - component: {fileID: 4450052999837390326}
-  - component: {fileID: 4450052999837390325}
   m_Layer: 5
   m_Name: leftstick
   m_TagString: Untagged
@@ -3997,86 +1702,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4450052999837390322}
   m_CullTransparentMesh: 0
---- !u!114 &4450052999837390325
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4450052999837390322}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18cf37a4c7625df4fad10d60af217b5e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 822d44e3e4c29b24b8f0c5ad4dc4e7f2, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
-  m_ignoreLocalization: 1
-  origin_name: 
-  m_ColorType: 0
-  m_GradientColor:
-    serializedVersion: 2
-    key0: {r: 0, g: 0, b: 0, a: 1}
-    key1: {r: 1, g: 1, b: 1, a: 1}
-    key2: {r: 0, g: 0, b: 0, a: 0}
-    key3: {r: 0, g: 0, b: 0, a: 0}
-    key4: {r: 0, g: 0, b: 0, a: 0}
-    key5: {r: 0, g: 0, b: 0, a: 0}
-    key6: {r: 0, g: 0, b: 0, a: 0}
-    key7: {r: 0, g: 0, b: 0, a: 0}
-    ctime0: 0
-    ctime1: 65535
-    ctime2: 0
-    ctime3: 0
-    ctime4: 0
-    ctime5: 0
-    ctime6: 0
-    ctime7: 0
-    atime0: 0
-    atime1: 65535
-    atime2: 0
-    atime3: 0
-    atime4: 0
-    atime5: 0
-    atime6: 0
-    atime7: 0
-    m_Mode: 0
-    m_ColorSpace: -1
-    m_NumColorKeys: 2
-    m_NumAlphaKeys: 2
-  m_Direction: 0
-  m_LinearToGamma: 0
-  m_GammaToLinear: 0
-  m_EnableGrey: 0
-  m_EnableRadiusCorner: 0
-  m_Contrast: 1
-  m_Saturation: 0
-  m_CornerRadius: {x: 10, y: 10, z: 10, w: 10}
-  rect2props: {x: 0, y: 0, z: 0, w: 0}
-  image: {fileID: 0}
-  m_OriginFlipMode: 0
-  m_FlipMode: 0
-  m_FlipWithCopy: 1
-  m_FlipEdgeHorizontal: 2
-  m_FlipEdgeVertical: 5
-  m_FlipFillCenter: 3
-  m_FlipDirection: 3
 --- !u!1 &4450052999845415169
 GameObject:
   m_ObjectHideFlags: 0
@@ -4087,7 +1712,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4450052999845415170}
   - component: {fileID: 4450052999845415173}
-  - component: {fileID: 4450052999845415172}
   m_Layer: 5
   m_Name: start
   m_TagString: Untagged
@@ -4122,86 +1746,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4450052999845415169}
   m_CullTransparentMesh: 0
---- !u!114 &4450052999845415172
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4450052999845415169}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18cf37a4c7625df4fad10d60af217b5e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 457a2709b87f0d94fbc97b41cfa89fae, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
-  m_ignoreLocalization: 1
-  origin_name: 
-  m_ColorType: 0
-  m_GradientColor:
-    serializedVersion: 2
-    key0: {r: 0, g: 0, b: 0, a: 1}
-    key1: {r: 1, g: 1, b: 1, a: 1}
-    key2: {r: 0, g: 0, b: 0, a: 0}
-    key3: {r: 0, g: 0, b: 0, a: 0}
-    key4: {r: 0, g: 0, b: 0, a: 0}
-    key5: {r: 0, g: 0, b: 0, a: 0}
-    key6: {r: 0, g: 0, b: 0, a: 0}
-    key7: {r: 0, g: 0, b: 0, a: 0}
-    ctime0: 0
-    ctime1: 65535
-    ctime2: 0
-    ctime3: 0
-    ctime4: 0
-    ctime5: 0
-    ctime6: 0
-    ctime7: 0
-    atime0: 0
-    atime1: 65535
-    atime2: 0
-    atime3: 0
-    atime4: 0
-    atime5: 0
-    atime6: 0
-    atime7: 0
-    m_Mode: 0
-    m_ColorSpace: -1
-    m_NumColorKeys: 2
-    m_NumAlphaKeys: 2
-  m_Direction: 0
-  m_LinearToGamma: 0
-  m_GammaToLinear: 0
-  m_EnableGrey: 0
-  m_EnableRadiusCorner: 0
-  m_Contrast: 1
-  m_Saturation: 0
-  m_CornerRadius: {x: 10, y: 10, z: 10, w: 10}
-  rect2props: {x: 0, y: 0, z: 0, w: 0}
-  image: {fileID: 0}
-  m_OriginFlipMode: 0
-  m_FlipMode: 0
-  m_FlipWithCopy: 1
-  m_FlipEdgeHorizontal: 2
-  m_FlipEdgeVertical: 5
-  m_FlipFillCenter: 3
-  m_FlipDirection: 3
 --- !u!1 &4450052999847438198
 GameObject:
   m_ObjectHideFlags: 0
@@ -4212,7 +1756,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4450052999847438199}
   - component: {fileID: 4450052999847442570}
-  - component: {fileID: 4450052999847442569}
   m_Layer: 5
   m_Name: lb
   m_TagString: Untagged
@@ -4247,86 +1790,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4450052999847438198}
   m_CullTransparentMesh: 0
---- !u!114 &4450052999847442569
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4450052999847438198}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18cf37a4c7625df4fad10d60af217b5e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 047c406e53e7b5948ae4bf585ca68b79, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
-  m_ignoreLocalization: 1
-  origin_name: 
-  m_ColorType: 0
-  m_GradientColor:
-    serializedVersion: 2
-    key0: {r: 0, g: 0, b: 0, a: 1}
-    key1: {r: 1, g: 1, b: 1, a: 1}
-    key2: {r: 0, g: 0, b: 0, a: 0}
-    key3: {r: 0, g: 0, b: 0, a: 0}
-    key4: {r: 0, g: 0, b: 0, a: 0}
-    key5: {r: 0, g: 0, b: 0, a: 0}
-    key6: {r: 0, g: 0, b: 0, a: 0}
-    key7: {r: 0, g: 0, b: 0, a: 0}
-    ctime0: 0
-    ctime1: 65535
-    ctime2: 0
-    ctime3: 0
-    ctime4: 0
-    ctime5: 0
-    ctime6: 0
-    ctime7: 0
-    atime0: 0
-    atime1: 65535
-    atime2: 0
-    atime3: 0
-    atime4: 0
-    atime5: 0
-    atime6: 0
-    atime7: 0
-    m_Mode: 0
-    m_ColorSpace: -1
-    m_NumColorKeys: 2
-    m_NumAlphaKeys: 2
-  m_Direction: 0
-  m_LinearToGamma: 0
-  m_GammaToLinear: 0
-  m_EnableGrey: 0
-  m_EnableRadiusCorner: 0
-  m_Contrast: 1
-  m_Saturation: 0
-  m_CornerRadius: {x: 10, y: 10, z: 10, w: 10}
-  rect2props: {x: 0, y: 0, z: 0, w: 0}
-  image: {fileID: 0}
-  m_OriginFlipMode: 0
-  m_FlipMode: 0
-  m_FlipWithCopy: 1
-  m_FlipEdgeHorizontal: 2
-  m_FlipEdgeVertical: 5
-  m_FlipFillCenter: 3
-  m_FlipDirection: 3
 --- !u!1 &4450052999849269102
 GameObject:
   m_ObjectHideFlags: 0
@@ -4337,7 +1800,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4450052999849269103}
   - component: {fileID: 4450052999849269090}
-  - component: {fileID: 4450052999849269089}
   m_Layer: 5
   m_Name: Ps
   m_TagString: Untagged
@@ -4388,86 +1850,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4450052999849269102}
   m_CullTransparentMesh: 0
---- !u!114 &4450052999849269089
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4450052999849269102}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18cf37a4c7625df4fad10d60af217b5e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 1253f56e46557bf43ab518af1bc81395, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
-  m_ignoreLocalization: 1
-  origin_name: 
-  m_ColorType: 0
-  m_GradientColor:
-    serializedVersion: 2
-    key0: {r: 0, g: 0, b: 0, a: 1}
-    key1: {r: 1, g: 1, b: 1, a: 1}
-    key2: {r: 0, g: 0, b: 0, a: 0}
-    key3: {r: 0, g: 0, b: 0, a: 0}
-    key4: {r: 0, g: 0, b: 0, a: 0}
-    key5: {r: 0, g: 0, b: 0, a: 0}
-    key6: {r: 0, g: 0, b: 0, a: 0}
-    key7: {r: 0, g: 0, b: 0, a: 0}
-    ctime0: 0
-    ctime1: 65535
-    ctime2: 0
-    ctime3: 0
-    ctime4: 0
-    ctime5: 0
-    ctime6: 0
-    ctime7: 0
-    atime0: 0
-    atime1: 65535
-    atime2: 0
-    atime3: 0
-    atime4: 0
-    atime5: 0
-    atime6: 0
-    atime7: 0
-    m_Mode: 0
-    m_ColorSpace: -1
-    m_NumColorKeys: 2
-    m_NumAlphaKeys: 2
-  m_Direction: 0
-  m_LinearToGamma: 0
-  m_GammaToLinear: 0
-  m_EnableGrey: 0
-  m_EnableRadiusCorner: 0
-  m_Contrast: 1
-  m_Saturation: 0
-  m_CornerRadius: {x: 10, y: 10, z: 10, w: 10}
-  rect2props: {x: 0, y: 0, z: 0, w: 0}
-  image: {fileID: 0}
-  m_OriginFlipMode: 0
-  m_FlipMode: 0
-  m_FlipWithCopy: 1
-  m_FlipEdgeHorizontal: 2
-  m_FlipEdgeVertical: 5
-  m_FlipFillCenter: 3
-  m_FlipDirection: 3
 --- !u!1 &4450052999866720752
 GameObject:
   m_ObjectHideFlags: 0
@@ -4478,7 +1860,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4450052999866720753}
   - component: {fileID: 4450052999866720756}
-  - component: {fileID: 4450052999866720755}
   m_Layer: 5
   m_Name: buttonEast
   m_TagString: Untagged
@@ -4513,86 +1894,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4450052999866720752}
   m_CullTransparentMesh: 0
---- !u!114 &4450052999866720755
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4450052999866720752}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18cf37a4c7625df4fad10d60af217b5e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 9ebd8488557a229498419fe251336d05, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
-  m_ignoreLocalization: 1
-  origin_name: 
-  m_ColorType: 0
-  m_GradientColor:
-    serializedVersion: 2
-    key0: {r: 0, g: 0, b: 0, a: 1}
-    key1: {r: 1, g: 1, b: 1, a: 1}
-    key2: {r: 0, g: 0, b: 0, a: 0}
-    key3: {r: 0, g: 0, b: 0, a: 0}
-    key4: {r: 0, g: 0, b: 0, a: 0}
-    key5: {r: 0, g: 0, b: 0, a: 0}
-    key6: {r: 0, g: 0, b: 0, a: 0}
-    key7: {r: 0, g: 0, b: 0, a: 0}
-    ctime0: 0
-    ctime1: 65535
-    ctime2: 0
-    ctime3: 0
-    ctime4: 0
-    ctime5: 0
-    ctime6: 0
-    ctime7: 0
-    atime0: 0
-    atime1: 65535
-    atime2: 0
-    atime3: 0
-    atime4: 0
-    atime5: 0
-    atime6: 0
-    atime7: 0
-    m_Mode: 0
-    m_ColorSpace: -1
-    m_NumColorKeys: 2
-    m_NumAlphaKeys: 2
-  m_Direction: 0
-  m_LinearToGamma: 0
-  m_GammaToLinear: 0
-  m_EnableGrey: 0
-  m_EnableRadiusCorner: 0
-  m_Contrast: 1
-  m_Saturation: 0
-  m_CornerRadius: {x: 10, y: 10, z: 10, w: 10}
-  rect2props: {x: 0, y: 0, z: 0, w: 0}
-  image: {fileID: 0}
-  m_OriginFlipMode: 0
-  m_FlipMode: 0
-  m_FlipWithCopy: 1
-  m_FlipEdgeHorizontal: 2
-  m_FlipEdgeVertical: 5
-  m_FlipFillCenter: 3
-  m_FlipDirection: 3
 --- !u!1 &4450052999868920091
 GameObject:
   m_ObjectHideFlags: 0
@@ -4603,7 +1904,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4450052999868920092}
   - component: {fileID: 4450052999868920095}
-  - component: {fileID: 4450052999868920094}
+  - component: {fileID: 855935460324475556}
   m_Layer: 5
   m_Name: buttonSouth
   m_TagString: Untagged
@@ -4638,7 +1939,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4450052999868920091}
   m_CullTransparentMesh: 0
---- !u!114 &4450052999868920094
+--- !u!114 &855935460324475556
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4647,7 +1948,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 4450052999868920091}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18cf37a4c7625df4fad10d60af217b5e, type: 3}
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
@@ -4668,56 +1969,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
-  m_ignoreLocalization: 1
-  origin_name: 
-  m_ColorType: 0
-  m_GradientColor:
-    serializedVersion: 2
-    key0: {r: 0, g: 0, b: 0, a: 1}
-    key1: {r: 1, g: 1, b: 1, a: 1}
-    key2: {r: 0, g: 0, b: 0, a: 0}
-    key3: {r: 0, g: 0, b: 0, a: 0}
-    key4: {r: 0, g: 0, b: 0, a: 0}
-    key5: {r: 0, g: 0, b: 0, a: 0}
-    key6: {r: 0, g: 0, b: 0, a: 0}
-    key7: {r: 0, g: 0, b: 0, a: 0}
-    ctime0: 0
-    ctime1: 65535
-    ctime2: 0
-    ctime3: 0
-    ctime4: 0
-    ctime5: 0
-    ctime6: 0
-    ctime7: 0
-    atime0: 0
-    atime1: 65535
-    atime2: 0
-    atime3: 0
-    atime4: 0
-    atime5: 0
-    atime6: 0
-    atime7: 0
-    m_Mode: 0
-    m_ColorSpace: -1
-    m_NumColorKeys: 2
-    m_NumAlphaKeys: 2
-  m_Direction: 0
-  m_LinearToGamma: 0
-  m_GammaToLinear: 0
-  m_EnableGrey: 0
-  m_EnableRadiusCorner: 0
-  m_Contrast: 1
-  m_Saturation: 0
-  m_CornerRadius: {x: 10, y: 10, z: 10, w: 10}
-  rect2props: {x: 0, y: 0, z: 0, w: 0}
-  image: {fileID: 0}
-  m_OriginFlipMode: 0
-  m_FlipMode: 0
-  m_FlipWithCopy: 1
-  m_FlipEdgeHorizontal: 2
-  m_FlipEdgeVertical: 5
-  m_FlipFillCenter: 3
-  m_FlipDirection: 3
 --- !u!1 &4450052999935987786
 GameObject:
   m_ObjectHideFlags: 0
@@ -4728,7 +1979,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4450052999935987787}
   - component: {fileID: 4450052999935987790}
-  - component: {fileID: 4450052999935987789}
   m_Layer: 5
   m_Name: buttonSouth
   m_TagString: Untagged
@@ -4763,86 +2013,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4450052999935987786}
   m_CullTransparentMesh: 0
---- !u!114 &4450052999935987789
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4450052999935987786}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18cf37a4c7625df4fad10d60af217b5e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 2b85caab422d3b44698e732df0d97c4b, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
-  m_ignoreLocalization: 1
-  origin_name: 
-  m_ColorType: 0
-  m_GradientColor:
-    serializedVersion: 2
-    key0: {r: 0, g: 0, b: 0, a: 1}
-    key1: {r: 1, g: 1, b: 1, a: 1}
-    key2: {r: 0, g: 0, b: 0, a: 0}
-    key3: {r: 0, g: 0, b: 0, a: 0}
-    key4: {r: 0, g: 0, b: 0, a: 0}
-    key5: {r: 0, g: 0, b: 0, a: 0}
-    key6: {r: 0, g: 0, b: 0, a: 0}
-    key7: {r: 0, g: 0, b: 0, a: 0}
-    ctime0: 0
-    ctime1: 65535
-    ctime2: 0
-    ctime3: 0
-    ctime4: 0
-    ctime5: 0
-    ctime6: 0
-    ctime7: 0
-    atime0: 0
-    atime1: 65535
-    atime2: 0
-    atime3: 0
-    atime4: 0
-    atime5: 0
-    atime6: 0
-    atime7: 0
-    m_Mode: 0
-    m_ColorSpace: -1
-    m_NumColorKeys: 2
-    m_NumAlphaKeys: 2
-  m_Direction: 0
-  m_LinearToGamma: 0
-  m_GammaToLinear: 0
-  m_EnableGrey: 0
-  m_EnableRadiusCorner: 0
-  m_Contrast: 1
-  m_Saturation: 0
-  m_CornerRadius: {x: 10, y: 10, z: 10, w: 10}
-  rect2props: {x: 0, y: 0, z: 0, w: 0}
-  image: {fileID: 0}
-  m_OriginFlipMode: 0
-  m_FlipMode: 0
-  m_FlipWithCopy: 1
-  m_FlipEdgeHorizontal: 2
-  m_FlipEdgeVertical: 5
-  m_FlipFillCenter: 3
-  m_FlipDirection: 3
 --- !u!1 &4450052999938487125
 GameObject:
   m_ObjectHideFlags: 0
@@ -4853,7 +2023,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4450052999938487126}
   - component: {fileID: 4450052999938487145}
-  - component: {fileID: 4450052999938487144}
   m_Layer: 5
   m_Name: buttonWest
   m_TagString: Untagged
@@ -4888,86 +2057,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4450052999938487125}
   m_CullTransparentMesh: 0
---- !u!114 &4450052999938487144
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4450052999938487125}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18cf37a4c7625df4fad10d60af217b5e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 0067c369e1d6c3f4e9ec4d20df4b4e61, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
-  m_ignoreLocalization: 1
-  origin_name: 
-  m_ColorType: 0
-  m_GradientColor:
-    serializedVersion: 2
-    key0: {r: 0, g: 0, b: 0, a: 1}
-    key1: {r: 1, g: 1, b: 1, a: 1}
-    key2: {r: 0, g: 0, b: 0, a: 0}
-    key3: {r: 0, g: 0, b: 0, a: 0}
-    key4: {r: 0, g: 0, b: 0, a: 0}
-    key5: {r: 0, g: 0, b: 0, a: 0}
-    key6: {r: 0, g: 0, b: 0, a: 0}
-    key7: {r: 0, g: 0, b: 0, a: 0}
-    ctime0: 0
-    ctime1: 65535
-    ctime2: 0
-    ctime3: 0
-    ctime4: 0
-    ctime5: 0
-    ctime6: 0
-    ctime7: 0
-    atime0: 0
-    atime1: 65535
-    atime2: 0
-    atime3: 0
-    atime4: 0
-    atime5: 0
-    atime6: 0
-    atime7: 0
-    m_Mode: 0
-    m_ColorSpace: -1
-    m_NumColorKeys: 2
-    m_NumAlphaKeys: 2
-  m_Direction: 0
-  m_LinearToGamma: 0
-  m_GammaToLinear: 0
-  m_EnableGrey: 0
-  m_EnableRadiusCorner: 0
-  m_Contrast: 1
-  m_Saturation: 0
-  m_CornerRadius: {x: 10, y: 10, z: 10, w: 10}
-  rect2props: {x: 0, y: 0, z: 0, w: 0}
-  image: {fileID: 0}
-  m_OriginFlipMode: 0
-  m_FlipMode: 0
-  m_FlipWithCopy: 1
-  m_FlipEdgeHorizontal: 2
-  m_FlipEdgeVertical: 5
-  m_FlipFillCenter: 3
-  m_FlipDirection: 3
 --- !u!1 &4450052999963564882
 GameObject:
   m_ObjectHideFlags: 0
@@ -4978,7 +2067,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4450052999963564883}
   - component: {fileID: 4450052999963564886}
-  - component: {fileID: 4450052999963564885}
+  - component: {fileID: 1259630957409096844}
   m_Layer: 5
   m_Name: buttonNorth
   m_TagString: Untagged
@@ -5013,7 +2102,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4450052999963564882}
   m_CullTransparentMesh: 0
---- !u!114 &4450052999963564885
+--- !u!114 &1259630957409096844
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5022,7 +2111,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 4450052999963564882}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18cf37a4c7625df4fad10d60af217b5e, type: 3}
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
@@ -5043,56 +2132,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
-  m_ignoreLocalization: 1
-  origin_name: 
-  m_ColorType: 0
-  m_GradientColor:
-    serializedVersion: 2
-    key0: {r: 0, g: 0, b: 0, a: 1}
-    key1: {r: 1, g: 1, b: 1, a: 1}
-    key2: {r: 0, g: 0, b: 0, a: 0}
-    key3: {r: 0, g: 0, b: 0, a: 0}
-    key4: {r: 0, g: 0, b: 0, a: 0}
-    key5: {r: 0, g: 0, b: 0, a: 0}
-    key6: {r: 0, g: 0, b: 0, a: 0}
-    key7: {r: 0, g: 0, b: 0, a: 0}
-    ctime0: 0
-    ctime1: 65535
-    ctime2: 0
-    ctime3: 0
-    ctime4: 0
-    ctime5: 0
-    ctime6: 0
-    ctime7: 0
-    atime0: 0
-    atime1: 65535
-    atime2: 0
-    atime3: 0
-    atime4: 0
-    atime5: 0
-    atime6: 0
-    atime7: 0
-    m_Mode: 0
-    m_ColorSpace: -1
-    m_NumColorKeys: 2
-    m_NumAlphaKeys: 2
-  m_Direction: 0
-  m_LinearToGamma: 0
-  m_GammaToLinear: 0
-  m_EnableGrey: 0
-  m_EnableRadiusCorner: 0
-  m_Contrast: 1
-  m_Saturation: 0
-  m_CornerRadius: {x: 10, y: 10, z: 10, w: 10}
-  rect2props: {x: 0, y: 0, z: 0, w: 0}
-  image: {fileID: 0}
-  m_OriginFlipMode: 0
-  m_FlipMode: 0
-  m_FlipWithCopy: 1
-  m_FlipEdgeHorizontal: 2
-  m_FlipEdgeVertical: 5
-  m_FlipFillCenter: 3
-  m_FlipDirection: 3
 --- !u!1 &4450052999963869527
 GameObject:
   m_ObjectHideFlags: 0
@@ -5103,7 +2142,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4450052999963869544}
   - component: {fileID: 4450052999963869547}
-  - component: {fileID: 4450052999963869546}
   m_Layer: 5
   m_Name: leftstick
   m_TagString: Untagged
@@ -5138,86 +2176,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4450052999963869527}
   m_CullTransparentMesh: 0
---- !u!114 &4450052999963869546
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4450052999963869527}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18cf37a4c7625df4fad10d60af217b5e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 01b87da0f9ab1aa4da5b0804825be083, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
-  m_ignoreLocalization: 1
-  origin_name: 
-  m_ColorType: 0
-  m_GradientColor:
-    serializedVersion: 2
-    key0: {r: 0, g: 0, b: 0, a: 1}
-    key1: {r: 1, g: 1, b: 1, a: 1}
-    key2: {r: 0, g: 0, b: 0, a: 0}
-    key3: {r: 0, g: 0, b: 0, a: 0}
-    key4: {r: 0, g: 0, b: 0, a: 0}
-    key5: {r: 0, g: 0, b: 0, a: 0}
-    key6: {r: 0, g: 0, b: 0, a: 0}
-    key7: {r: 0, g: 0, b: 0, a: 0}
-    ctime0: 0
-    ctime1: 65535
-    ctime2: 0
-    ctime3: 0
-    ctime4: 0
-    ctime5: 0
-    ctime6: 0
-    ctime7: 0
-    atime0: 0
-    atime1: 65535
-    atime2: 0
-    atime3: 0
-    atime4: 0
-    atime5: 0
-    atime6: 0
-    atime7: 0
-    m_Mode: 0
-    m_ColorSpace: -1
-    m_NumColorKeys: 2
-    m_NumAlphaKeys: 2
-  m_Direction: 0
-  m_LinearToGamma: 0
-  m_GammaToLinear: 0
-  m_EnableGrey: 0
-  m_EnableRadiusCorner: 0
-  m_Contrast: 1
-  m_Saturation: 0
-  m_CornerRadius: {x: 10, y: 10, z: 10, w: 10}
-  rect2props: {x: 0, y: 0, z: 0, w: 0}
-  image: {fileID: 0}
-  m_OriginFlipMode: 0
-  m_FlipMode: 0
-  m_FlipWithCopy: 1
-  m_FlipEdgeHorizontal: 2
-  m_FlipEdgeVertical: 5
-  m_FlipFillCenter: 3
-  m_FlipDirection: 3
 --- !u!1 &4450052999971712591
 GameObject:
   m_ObjectHideFlags: 0
@@ -5228,7 +2186,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4450052999971712576}
   - component: {fileID: 4450052999971712579}
-  - component: {fileID: 4450052999971712578}
   m_Layer: 5
   m_Name: buttonSouth
   m_TagString: Untagged
@@ -5263,86 +2220,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4450052999971712591}
   m_CullTransparentMesh: 0
---- !u!114 &4450052999971712578
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4450052999971712591}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18cf37a4c7625df4fad10d60af217b5e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: c8238e53d1fac8b4cb254f4d6eef087b, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
-  m_ignoreLocalization: 1
-  origin_name: 
-  m_ColorType: 0
-  m_GradientColor:
-    serializedVersion: 2
-    key0: {r: 0, g: 0, b: 0, a: 1}
-    key1: {r: 1, g: 1, b: 1, a: 1}
-    key2: {r: 0, g: 0, b: 0, a: 0}
-    key3: {r: 0, g: 0, b: 0, a: 0}
-    key4: {r: 0, g: 0, b: 0, a: 0}
-    key5: {r: 0, g: 0, b: 0, a: 0}
-    key6: {r: 0, g: 0, b: 0, a: 0}
-    key7: {r: 0, g: 0, b: 0, a: 0}
-    ctime0: 0
-    ctime1: 65535
-    ctime2: 0
-    ctime3: 0
-    ctime4: 0
-    ctime5: 0
-    ctime6: 0
-    ctime7: 0
-    atime0: 0
-    atime1: 65535
-    atime2: 0
-    atime3: 0
-    atime4: 0
-    atime5: 0
-    atime6: 0
-    atime7: 0
-    m_Mode: 0
-    m_ColorSpace: -1
-    m_NumColorKeys: 2
-    m_NumAlphaKeys: 2
-  m_Direction: 0
-  m_LinearToGamma: 0
-  m_GammaToLinear: 0
-  m_EnableGrey: 0
-  m_EnableRadiusCorner: 0
-  m_Contrast: 1
-  m_Saturation: 0
-  m_CornerRadius: {x: 10, y: 10, z: 10, w: 10}
-  rect2props: {x: 0, y: 0, z: 0, w: 0}
-  image: {fileID: 0}
-  m_OriginFlipMode: 0
-  m_FlipMode: 0
-  m_FlipWithCopy: 1
-  m_FlipEdgeHorizontal: 2
-  m_FlipEdgeVertical: 5
-  m_FlipFillCenter: 3
-  m_FlipDirection: 3
 --- !u!1 &4450053000028294375
 GameObject:
   m_ObjectHideFlags: 0
@@ -5353,7 +2230,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4450053000028294392}
   - component: {fileID: 4450053000028294395}
-  - component: {fileID: 4450053000028294394}
   m_Layer: 5
   m_Name: lt
   m_TagString: Untagged
@@ -5388,86 +2264,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4450053000028294375}
   m_CullTransparentMesh: 0
---- !u!114 &4450053000028294394
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4450053000028294375}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18cf37a4c7625df4fad10d60af217b5e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: bf4f76576f8c34f48ac9e5d3295db6da, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
-  m_ignoreLocalization: 1
-  origin_name: 
-  m_ColorType: 0
-  m_GradientColor:
-    serializedVersion: 2
-    key0: {r: 0, g: 0, b: 0, a: 1}
-    key1: {r: 1, g: 1, b: 1, a: 1}
-    key2: {r: 0, g: 0, b: 0, a: 0}
-    key3: {r: 0, g: 0, b: 0, a: 0}
-    key4: {r: 0, g: 0, b: 0, a: 0}
-    key5: {r: 0, g: 0, b: 0, a: 0}
-    key6: {r: 0, g: 0, b: 0, a: 0}
-    key7: {r: 0, g: 0, b: 0, a: 0}
-    ctime0: 0
-    ctime1: 65535
-    ctime2: 0
-    ctime3: 0
-    ctime4: 0
-    ctime5: 0
-    ctime6: 0
-    ctime7: 0
-    atime0: 0
-    atime1: 65535
-    atime2: 0
-    atime3: 0
-    atime4: 0
-    atime5: 0
-    atime6: 0
-    atime7: 0
-    m_Mode: 0
-    m_ColorSpace: -1
-    m_NumColorKeys: 2
-    m_NumAlphaKeys: 2
-  m_Direction: 0
-  m_LinearToGamma: 0
-  m_GammaToLinear: 0
-  m_EnableGrey: 0
-  m_EnableRadiusCorner: 0
-  m_Contrast: 1
-  m_Saturation: 0
-  m_CornerRadius: {x: 10, y: 10, z: 10, w: 10}
-  rect2props: {x: 0, y: 0, z: 0, w: 0}
-  image: {fileID: 0}
-  m_OriginFlipMode: 0
-  m_FlipMode: 0
-  m_FlipWithCopy: 1
-  m_FlipEdgeHorizontal: 2
-  m_FlipEdgeVertical: 5
-  m_FlipFillCenter: 3
-  m_FlipDirection: 3
 --- !u!1 &4450053000117089386
 GameObject:
   m_ObjectHideFlags: 0
@@ -5478,7 +2274,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4450053000117089387}
   - component: {fileID: 4450053000117089390}
-  - component: {fileID: 4450053000117089389}
   m_Layer: 5
   m_Name: buttonNorth
   m_TagString: Untagged
@@ -5513,86 +2308,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4450053000117089386}
   m_CullTransparentMesh: 0
---- !u!114 &4450053000117089389
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4450053000117089386}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18cf37a4c7625df4fad10d60af217b5e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: b2dfc0e8a8c638d4fbde378e24215db9, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
-  m_ignoreLocalization: 1
-  origin_name: 
-  m_ColorType: 0
-  m_GradientColor:
-    serializedVersion: 2
-    key0: {r: 0, g: 0, b: 0, a: 1}
-    key1: {r: 1, g: 1, b: 1, a: 1}
-    key2: {r: 0, g: 0, b: 0, a: 0}
-    key3: {r: 0, g: 0, b: 0, a: 0}
-    key4: {r: 0, g: 0, b: 0, a: 0}
-    key5: {r: 0, g: 0, b: 0, a: 0}
-    key6: {r: 0, g: 0, b: 0, a: 0}
-    key7: {r: 0, g: 0, b: 0, a: 0}
-    ctime0: 0
-    ctime1: 65535
-    ctime2: 0
-    ctime3: 0
-    ctime4: 0
-    ctime5: 0
-    ctime6: 0
-    ctime7: 0
-    atime0: 0
-    atime1: 65535
-    atime2: 0
-    atime3: 0
-    atime4: 0
-    atime5: 0
-    atime6: 0
-    atime7: 0
-    m_Mode: 0
-    m_ColorSpace: -1
-    m_NumColorKeys: 2
-    m_NumAlphaKeys: 2
-  m_Direction: 0
-  m_LinearToGamma: 0
-  m_GammaToLinear: 0
-  m_EnableGrey: 0
-  m_EnableRadiusCorner: 0
-  m_Contrast: 1
-  m_Saturation: 0
-  m_CornerRadius: {x: 10, y: 10, z: 10, w: 10}
-  rect2props: {x: 0, y: 0, z: 0, w: 0}
-  image: {fileID: 0}
-  m_OriginFlipMode: 0
-  m_FlipMode: 0
-  m_FlipWithCopy: 1
-  m_FlipEdgeHorizontal: 2
-  m_FlipEdgeVertical: 5
-  m_FlipFillCenter: 3
-  m_FlipDirection: 3
 --- !u!1 &4450053000157212600
 GameObject:
   m_ObjectHideFlags: 0
@@ -5603,7 +2318,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4450053000157212601}
   - component: {fileID: 4450053000157212603}
-  - component: {fileID: 4450053000157212602}
+  - component: {fileID: 4317735375871434740}
   m_Layer: 5
   m_Name: left
   m_TagString: Untagged
@@ -5638,7 +2353,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4450053000157212600}
   m_CullTransparentMesh: 0
---- !u!114 &4450053000157212602
+--- !u!114 &4317735375871434740
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5647,7 +2362,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 4450053000157212600}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18cf37a4c7625df4fad10d60af217b5e, type: 3}
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
@@ -5668,56 +2383,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
-  m_ignoreLocalization: 1
-  origin_name: 
-  m_ColorType: 0
-  m_GradientColor:
-    serializedVersion: 2
-    key0: {r: 0, g: 0, b: 0, a: 1}
-    key1: {r: 1, g: 1, b: 1, a: 1}
-    key2: {r: 0, g: 0, b: 0, a: 0}
-    key3: {r: 0, g: 0, b: 0, a: 0}
-    key4: {r: 0, g: 0, b: 0, a: 0}
-    key5: {r: 0, g: 0, b: 0, a: 0}
-    key6: {r: 0, g: 0, b: 0, a: 0}
-    key7: {r: 0, g: 0, b: 0, a: 0}
-    ctime0: 0
-    ctime1: 65535
-    ctime2: 0
-    ctime3: 0
-    ctime4: 0
-    ctime5: 0
-    ctime6: 0
-    ctime7: 0
-    atime0: 0
-    atime1: 65535
-    atime2: 0
-    atime3: 0
-    atime4: 0
-    atime5: 0
-    atime6: 0
-    atime7: 0
-    m_Mode: 0
-    m_ColorSpace: -1
-    m_NumColorKeys: 2
-    m_NumAlphaKeys: 2
-  m_Direction: 0
-  m_LinearToGamma: 0
-  m_GammaToLinear: 0
-  m_EnableGrey: 0
-  m_EnableRadiusCorner: 0
-  m_Contrast: 1
-  m_Saturation: 0
-  m_CornerRadius: {x: 10, y: 10, z: 10, w: 10}
-  rect2props: {x: 0, y: 0, z: 0, w: 0}
-  image: {fileID: 0}
-  m_OriginFlipMode: 0
-  m_FlipMode: 0
-  m_FlipWithCopy: 1
-  m_FlipEdgeHorizontal: 2
-  m_FlipEdgeVertical: 5
-  m_FlipFillCenter: 3
-  m_FlipDirection: 3
 --- !u!1 &4450053000157544562
 GameObject:
   m_ObjectHideFlags: 0
@@ -5728,7 +2393,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4450053000157544563}
   - component: {fileID: 4450053000157544566}
-  - component: {fileID: 4450053000157544565}
   m_Layer: 5
   m_Name: right
   m_TagString: Untagged
@@ -5763,86 +2427,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4450053000157544562}
   m_CullTransparentMesh: 0
---- !u!114 &4450053000157544565
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4450053000157544562}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18cf37a4c7625df4fad10d60af217b5e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 663e8d9c4af162a42b0291d124f08e23, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
-  m_ignoreLocalization: 1
-  origin_name: 
-  m_ColorType: 0
-  m_GradientColor:
-    serializedVersion: 2
-    key0: {r: 0, g: 0, b: 0, a: 1}
-    key1: {r: 1, g: 1, b: 1, a: 1}
-    key2: {r: 0, g: 0, b: 0, a: 0}
-    key3: {r: 0, g: 0, b: 0, a: 0}
-    key4: {r: 0, g: 0, b: 0, a: 0}
-    key5: {r: 0, g: 0, b: 0, a: 0}
-    key6: {r: 0, g: 0, b: 0, a: 0}
-    key7: {r: 0, g: 0, b: 0, a: 0}
-    ctime0: 0
-    ctime1: 65535
-    ctime2: 0
-    ctime3: 0
-    ctime4: 0
-    ctime5: 0
-    ctime6: 0
-    ctime7: 0
-    atime0: 0
-    atime1: 65535
-    atime2: 0
-    atime3: 0
-    atime4: 0
-    atime5: 0
-    atime6: 0
-    atime7: 0
-    m_Mode: 0
-    m_ColorSpace: -1
-    m_NumColorKeys: 2
-    m_NumAlphaKeys: 2
-  m_Direction: 0
-  m_LinearToGamma: 0
-  m_GammaToLinear: 0
-  m_EnableGrey: 0
-  m_EnableRadiusCorner: 0
-  m_Contrast: 1
-  m_Saturation: 0
-  m_CornerRadius: {x: 10, y: 10, z: 10, w: 10}
-  rect2props: {x: 0, y: 0, z: 0, w: 0}
-  image: {fileID: 0}
-  m_OriginFlipMode: 0
-  m_FlipMode: 0
-  m_FlipWithCopy: 1
-  m_FlipEdgeHorizontal: 2
-  m_FlipEdgeVertical: 5
-  m_FlipFillCenter: 3
-  m_FlipDirection: 3
 --- !u!1 &4450053000174932894
 GameObject:
   m_ObjectHideFlags: 0
@@ -5853,7 +2437,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4450053000174932895}
   - component: {fileID: 4450053000174932882}
-  - component: {fileID: 4450053000174932881}
   m_Layer: 5
   m_Name: lb
   m_TagString: Untagged
@@ -5888,86 +2471,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4450053000174932894}
   m_CullTransparentMesh: 0
---- !u!114 &4450053000174932881
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4450053000174932894}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18cf37a4c7625df4fad10d60af217b5e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 40ce6803183529f4f8cb189d4c09c141, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
-  m_ignoreLocalization: 1
-  origin_name: 
-  m_ColorType: 0
-  m_GradientColor:
-    serializedVersion: 2
-    key0: {r: 0, g: 0, b: 0, a: 1}
-    key1: {r: 1, g: 1, b: 1, a: 1}
-    key2: {r: 0, g: 0, b: 0, a: 0}
-    key3: {r: 0, g: 0, b: 0, a: 0}
-    key4: {r: 0, g: 0, b: 0, a: 0}
-    key5: {r: 0, g: 0, b: 0, a: 0}
-    key6: {r: 0, g: 0, b: 0, a: 0}
-    key7: {r: 0, g: 0, b: 0, a: 0}
-    ctime0: 0
-    ctime1: 65535
-    ctime2: 0
-    ctime3: 0
-    ctime4: 0
-    ctime5: 0
-    ctime6: 0
-    ctime7: 0
-    atime0: 0
-    atime1: 65535
-    atime2: 0
-    atime3: 0
-    atime4: 0
-    atime5: 0
-    atime6: 0
-    atime7: 0
-    m_Mode: 0
-    m_ColorSpace: -1
-    m_NumColorKeys: 2
-    m_NumAlphaKeys: 2
-  m_Direction: 0
-  m_LinearToGamma: 0
-  m_GammaToLinear: 0
-  m_EnableGrey: 0
-  m_EnableRadiusCorner: 0
-  m_Contrast: 1
-  m_Saturation: 0
-  m_CornerRadius: {x: 10, y: 10, z: 10, w: 10}
-  rect2props: {x: 0, y: 0, z: 0, w: 0}
-  image: {fileID: 0}
-  m_OriginFlipMode: 0
-  m_FlipMode: 0
-  m_FlipWithCopy: 1
-  m_FlipEdgeHorizontal: 2
-  m_FlipEdgeVertical: 5
-  m_FlipFillCenter: 3
-  m_FlipDirection: 3
 --- !u!1 &4450053000215958752
 GameObject:
   m_ObjectHideFlags: 0
@@ -5978,7 +2481,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4450053000215958753}
   - component: {fileID: 4450053000215958756}
-  - component: {fileID: 4450053000215958755}
   m_Layer: 5
   m_Name: buttonWest
   m_TagString: Untagged
@@ -6013,86 +2515,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4450053000215958752}
   m_CullTransparentMesh: 0
---- !u!114 &4450053000215958755
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4450053000215958752}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18cf37a4c7625df4fad10d60af217b5e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: c2bc38357a60b454dabab66d850b2d98, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
-  m_ignoreLocalization: 1
-  origin_name: 
-  m_ColorType: 0
-  m_GradientColor:
-    serializedVersion: 2
-    key0: {r: 0, g: 0, b: 0, a: 1}
-    key1: {r: 1, g: 1, b: 1, a: 1}
-    key2: {r: 0, g: 0, b: 0, a: 0}
-    key3: {r: 0, g: 0, b: 0, a: 0}
-    key4: {r: 0, g: 0, b: 0, a: 0}
-    key5: {r: 0, g: 0, b: 0, a: 0}
-    key6: {r: 0, g: 0, b: 0, a: 0}
-    key7: {r: 0, g: 0, b: 0, a: 0}
-    ctime0: 0
-    ctime1: 65535
-    ctime2: 0
-    ctime3: 0
-    ctime4: 0
-    ctime5: 0
-    ctime6: 0
-    ctime7: 0
-    atime0: 0
-    atime1: 65535
-    atime2: 0
-    atime3: 0
-    atime4: 0
-    atime5: 0
-    atime6: 0
-    atime7: 0
-    m_Mode: 0
-    m_ColorSpace: -1
-    m_NumColorKeys: 2
-    m_NumAlphaKeys: 2
-  m_Direction: 0
-  m_LinearToGamma: 0
-  m_GammaToLinear: 0
-  m_EnableGrey: 0
-  m_EnableRadiusCorner: 0
-  m_Contrast: 1
-  m_Saturation: 0
-  m_CornerRadius: {x: 10, y: 10, z: 10, w: 10}
-  rect2props: {x: 0, y: 0, z: 0, w: 0}
-  image: {fileID: 0}
-  m_OriginFlipMode: 0
-  m_FlipMode: 0
-  m_FlipWithCopy: 1
-  m_FlipEdgeHorizontal: 2
-  m_FlipEdgeVertical: 5
-  m_FlipFillCenter: 3
-  m_FlipDirection: 3
 --- !u!1 &4450053000247779105
 GameObject:
   m_ObjectHideFlags: 0
@@ -6103,7 +2525,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4450053000247779106}
   - component: {fileID: 4450053000247779109}
-  - component: {fileID: 4450053000247779108}
   m_Layer: 5
   m_Name: buttonNorth
   m_TagString: Untagged
@@ -6138,86 +2559,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4450053000247779105}
   m_CullTransparentMesh: 0
---- !u!114 &4450053000247779108
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4450053000247779105}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18cf37a4c7625df4fad10d60af217b5e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: d339ecdfaaab7004f8f057a91e014080, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
-  m_ignoreLocalization: 1
-  origin_name: 
-  m_ColorType: 0
-  m_GradientColor:
-    serializedVersion: 2
-    key0: {r: 0, g: 0, b: 0, a: 1}
-    key1: {r: 1, g: 1, b: 1, a: 1}
-    key2: {r: 0, g: 0, b: 0, a: 0}
-    key3: {r: 0, g: 0, b: 0, a: 0}
-    key4: {r: 0, g: 0, b: 0, a: 0}
-    key5: {r: 0, g: 0, b: 0, a: 0}
-    key6: {r: 0, g: 0, b: 0, a: 0}
-    key7: {r: 0, g: 0, b: 0, a: 0}
-    ctime0: 0
-    ctime1: 65535
-    ctime2: 0
-    ctime3: 0
-    ctime4: 0
-    ctime5: 0
-    ctime6: 0
-    ctime7: 0
-    atime0: 0
-    atime1: 65535
-    atime2: 0
-    atime3: 0
-    atime4: 0
-    atime5: 0
-    atime6: 0
-    atime7: 0
-    m_Mode: 0
-    m_ColorSpace: -1
-    m_NumColorKeys: 2
-    m_NumAlphaKeys: 2
-  m_Direction: 0
-  m_LinearToGamma: 0
-  m_GammaToLinear: 0
-  m_EnableGrey: 0
-  m_EnableRadiusCorner: 0
-  m_Contrast: 1
-  m_Saturation: 0
-  m_CornerRadius: {x: 10, y: 10, z: 10, w: 10}
-  rect2props: {x: 0, y: 0, z: 0, w: 0}
-  image: {fileID: 0}
-  m_OriginFlipMode: 0
-  m_FlipMode: 0
-  m_FlipWithCopy: 1
-  m_FlipEdgeHorizontal: 2
-  m_FlipEdgeVertical: 5
-  m_FlipFillCenter: 3
-  m_FlipDirection: 3
 --- !u!1 &4450053000288319041
 GameObject:
   m_ObjectHideFlags: 0
@@ -6228,7 +2569,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4450053000288319042}
   - component: {fileID: 4450053000288319044}
-  - component: {fileID: 4450053000288319043}
+  - component: {fileID: 9039486304144488322}
   m_Layer: 5
   m_Name: down
   m_TagString: Untagged
@@ -6263,7 +2604,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4450053000288319041}
   m_CullTransparentMesh: 0
---- !u!114 &4450053000288319043
+--- !u!114 &9039486304144488322
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -6272,7 +2613,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 4450053000288319041}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18cf37a4c7625df4fad10d60af217b5e, type: 3}
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
@@ -6293,56 +2634,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
-  m_ignoreLocalization: 1
-  origin_name: 
-  m_ColorType: 0
-  m_GradientColor:
-    serializedVersion: 2
-    key0: {r: 0, g: 0, b: 0, a: 1}
-    key1: {r: 1, g: 1, b: 1, a: 1}
-    key2: {r: 0, g: 0, b: 0, a: 0}
-    key3: {r: 0, g: 0, b: 0, a: 0}
-    key4: {r: 0, g: 0, b: 0, a: 0}
-    key5: {r: 0, g: 0, b: 0, a: 0}
-    key6: {r: 0, g: 0, b: 0, a: 0}
-    key7: {r: 0, g: 0, b: 0, a: 0}
-    ctime0: 0
-    ctime1: 65535
-    ctime2: 0
-    ctime3: 0
-    ctime4: 0
-    ctime5: 0
-    ctime6: 0
-    ctime7: 0
-    atime0: 0
-    atime1: 65535
-    atime2: 0
-    atime3: 0
-    atime4: 0
-    atime5: 0
-    atime6: 0
-    atime7: 0
-    m_Mode: 0
-    m_ColorSpace: -1
-    m_NumColorKeys: 2
-    m_NumAlphaKeys: 2
-  m_Direction: 0
-  m_LinearToGamma: 0
-  m_GammaToLinear: 0
-  m_EnableGrey: 0
-  m_EnableRadiusCorner: 0
-  m_Contrast: 1
-  m_Saturation: 0
-  m_CornerRadius: {x: 10, y: 10, z: 10, w: 10}
-  rect2props: {x: 0, y: 0, z: 0, w: 0}
-  image: {fileID: 0}
-  m_OriginFlipMode: 0
-  m_FlipMode: 0
-  m_FlipWithCopy: 1
-  m_FlipEdgeHorizontal: 2
-  m_FlipEdgeVertical: 5
-  m_FlipFillCenter: 3
-  m_FlipDirection: 3
 --- !u!1 &4450053000319560474
 GameObject:
   m_ObjectHideFlags: 0
@@ -6353,7 +2644,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4450053000319560475}
   - component: {fileID: 4450053000319560478}
-  - component: {fileID: 4450053000319560477}
   m_Layer: 5
   m_Name: left
   m_TagString: Untagged
@@ -6388,86 +2678,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4450053000319560474}
   m_CullTransparentMesh: 0
---- !u!114 &4450053000319560477
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4450053000319560474}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18cf37a4c7625df4fad10d60af217b5e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 375b66080af62fd40ae443f01b729af2, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
-  m_ignoreLocalization: 1
-  origin_name: 
-  m_ColorType: 0
-  m_GradientColor:
-    serializedVersion: 2
-    key0: {r: 0, g: 0, b: 0, a: 1}
-    key1: {r: 1, g: 1, b: 1, a: 1}
-    key2: {r: 0, g: 0, b: 0, a: 0}
-    key3: {r: 0, g: 0, b: 0, a: 0}
-    key4: {r: 0, g: 0, b: 0, a: 0}
-    key5: {r: 0, g: 0, b: 0, a: 0}
-    key6: {r: 0, g: 0, b: 0, a: 0}
-    key7: {r: 0, g: 0, b: 0, a: 0}
-    ctime0: 0
-    ctime1: 65535
-    ctime2: 0
-    ctime3: 0
-    ctime4: 0
-    ctime5: 0
-    ctime6: 0
-    ctime7: 0
-    atime0: 0
-    atime1: 65535
-    atime2: 0
-    atime3: 0
-    atime4: 0
-    atime5: 0
-    atime6: 0
-    atime7: 0
-    m_Mode: 0
-    m_ColorSpace: -1
-    m_NumColorKeys: 2
-    m_NumAlphaKeys: 2
-  m_Direction: 0
-  m_LinearToGamma: 0
-  m_GammaToLinear: 0
-  m_EnableGrey: 0
-  m_EnableRadiusCorner: 0
-  m_Contrast: 1
-  m_Saturation: 0
-  m_CornerRadius: {x: 10, y: 10, z: 10, w: 10}
-  rect2props: {x: 0, y: 0, z: 0, w: 0}
-  image: {fileID: 0}
-  m_OriginFlipMode: 0
-  m_FlipMode: 0
-  m_FlipWithCopy: 1
-  m_FlipEdgeHorizontal: 2
-  m_FlipEdgeVertical: 5
-  m_FlipFillCenter: 3
-  m_FlipDirection: 3
 --- !u!1 &4450053000360773502
 GameObject:
   m_ObjectHideFlags: 0
@@ -6478,7 +2688,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4450053000360773503}
   - component: {fileID: 4450053000360773490}
-  - component: {fileID: 4450053000360773489}
+  - component: {fileID: 8403972258216056778}
   m_Layer: 5
   m_Name: buttonEast
   m_TagString: Untagged
@@ -6502,7 +2712,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 96.5, y: 0.0000020862}
+  m_AnchoredPosition: {x: 96.5, y: 0.0000020861626}
   m_SizeDelta: {x: 23.4, y: 20.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4450053000360773490
@@ -6513,7 +2723,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4450053000360773502}
   m_CullTransparentMesh: 0
---- !u!114 &4450053000360773489
+--- !u!114 &8403972258216056778
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -6522,7 +2732,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 4450053000360773502}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18cf37a4c7625df4fad10d60af217b5e, type: 3}
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
@@ -6543,56 +2753,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
-  m_ignoreLocalization: 1
-  origin_name: 
-  m_ColorType: 0
-  m_GradientColor:
-    serializedVersion: 2
-    key0: {r: 0, g: 0, b: 0, a: 1}
-    key1: {r: 1, g: 1, b: 1, a: 1}
-    key2: {r: 0, g: 0, b: 0, a: 0}
-    key3: {r: 0, g: 0, b: 0, a: 0}
-    key4: {r: 0, g: 0, b: 0, a: 0}
-    key5: {r: 0, g: 0, b: 0, a: 0}
-    key6: {r: 0, g: 0, b: 0, a: 0}
-    key7: {r: 0, g: 0, b: 0, a: 0}
-    ctime0: 0
-    ctime1: 65535
-    ctime2: 0
-    ctime3: 0
-    ctime4: 0
-    ctime5: 0
-    ctime6: 0
-    ctime7: 0
-    atime0: 0
-    atime1: 65535
-    atime2: 0
-    atime3: 0
-    atime4: 0
-    atime5: 0
-    atime6: 0
-    atime7: 0
-    m_Mode: 0
-    m_ColorSpace: -1
-    m_NumColorKeys: 2
-    m_NumAlphaKeys: 2
-  m_Direction: 0
-  m_LinearToGamma: 0
-  m_GammaToLinear: 0
-  m_EnableGrey: 0
-  m_EnableRadiusCorner: 0
-  m_Contrast: 1
-  m_Saturation: 0
-  m_CornerRadius: {x: 10, y: 10, z: 10, w: 10}
-  rect2props: {x: 0, y: 0, z: 0, w: 0}
-  image: {fileID: 0}
-  m_OriginFlipMode: 0
-  m_FlipMode: 0
-  m_FlipWithCopy: 1
-  m_FlipEdgeHorizontal: 2
-  m_FlipEdgeVertical: 5
-  m_FlipFillCenter: 3
-  m_FlipDirection: 3
 --- !u!1 &4450053000374196468
 GameObject:
   m_ObjectHideFlags: 0
@@ -6603,7 +2763,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4450053000374196469}
   - component: {fileID: 4450053000374196232}
-  - component: {fileID: 4450053000374196471}
   m_Layer: 5
   m_Name: start
   m_TagString: Untagged
@@ -6638,86 +2797,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4450053000374196468}
   m_CullTransparentMesh: 0
---- !u!114 &4450053000374196471
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4450053000374196468}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18cf37a4c7625df4fad10d60af217b5e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6bb61da7c155dbe4c8ea5214984f07c6, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
-  m_ignoreLocalization: 1
-  origin_name: 
-  m_ColorType: 0
-  m_GradientColor:
-    serializedVersion: 2
-    key0: {r: 0, g: 0, b: 0, a: 1}
-    key1: {r: 1, g: 1, b: 1, a: 1}
-    key2: {r: 0, g: 0, b: 0, a: 0}
-    key3: {r: 0, g: 0, b: 0, a: 0}
-    key4: {r: 0, g: 0, b: 0, a: 0}
-    key5: {r: 0, g: 0, b: 0, a: 0}
-    key6: {r: 0, g: 0, b: 0, a: 0}
-    key7: {r: 0, g: 0, b: 0, a: 0}
-    ctime0: 0
-    ctime1: 65535
-    ctime2: 0
-    ctime3: 0
-    ctime4: 0
-    ctime5: 0
-    ctime6: 0
-    ctime7: 0
-    atime0: 0
-    atime1: 65535
-    atime2: 0
-    atime3: 0
-    atime4: 0
-    atime5: 0
-    atime6: 0
-    atime7: 0
-    m_Mode: 0
-    m_ColorSpace: -1
-    m_NumColorKeys: 2
-    m_NumAlphaKeys: 2
-  m_Direction: 0
-  m_LinearToGamma: 0
-  m_GammaToLinear: 0
-  m_EnableGrey: 0
-  m_EnableRadiusCorner: 0
-  m_Contrast: 1
-  m_Saturation: 0
-  m_CornerRadius: {x: 10, y: 10, z: 10, w: 10}
-  rect2props: {x: 0, y: 0, z: 0, w: 0}
-  image: {fileID: 0}
-  m_OriginFlipMode: 0
-  m_FlipMode: 0
-  m_FlipWithCopy: 1
-  m_FlipEdgeHorizontal: 2
-  m_FlipEdgeVertical: 5
-  m_FlipFillCenter: 3
-  m_FlipDirection: 3
 --- !u!1 &4450053000401267739
 GameObject:
   m_ObjectHideFlags: 0
@@ -6728,7 +2807,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4450053000401267740}
   - component: {fileID: 4450053000401267743}
-  - component: {fileID: 4450053000401267742}
+  - component: {fileID: 249393332567203837}
   m_Layer: 5
   m_Name: rb
   m_TagString: Untagged
@@ -6763,7 +2842,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4450053000401267739}
   m_CullTransparentMesh: 0
---- !u!114 &4450053000401267742
+--- !u!114 &249393332567203837
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -6772,7 +2851,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 4450053000401267739}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18cf37a4c7625df4fad10d60af217b5e, type: 3}
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
@@ -6793,56 +2872,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
-  m_ignoreLocalization: 1
-  origin_name: 
-  m_ColorType: 0
-  m_GradientColor:
-    serializedVersion: 2
-    key0: {r: 0, g: 0, b: 0, a: 1}
-    key1: {r: 1, g: 1, b: 1, a: 1}
-    key2: {r: 0, g: 0, b: 0, a: 0}
-    key3: {r: 0, g: 0, b: 0, a: 0}
-    key4: {r: 0, g: 0, b: 0, a: 0}
-    key5: {r: 0, g: 0, b: 0, a: 0}
-    key6: {r: 0, g: 0, b: 0, a: 0}
-    key7: {r: 0, g: 0, b: 0, a: 0}
-    ctime0: 0
-    ctime1: 65535
-    ctime2: 0
-    ctime3: 0
-    ctime4: 0
-    ctime5: 0
-    ctime6: 0
-    ctime7: 0
-    atime0: 0
-    atime1: 65535
-    atime2: 0
-    atime3: 0
-    atime4: 0
-    atime5: 0
-    atime6: 0
-    atime7: 0
-    m_Mode: 0
-    m_ColorSpace: -1
-    m_NumColorKeys: 2
-    m_NumAlphaKeys: 2
-  m_Direction: 0
-  m_LinearToGamma: 0
-  m_GammaToLinear: 0
-  m_EnableGrey: 0
-  m_EnableRadiusCorner: 0
-  m_Contrast: 1
-  m_Saturation: 0
-  m_CornerRadius: {x: 10, y: 10, z: 10, w: 10}
-  rect2props: {x: 0, y: 0, z: 0, w: 0}
-  image: {fileID: 0}
-  m_OriginFlipMode: 0
-  m_FlipMode: 0
-  m_FlipWithCopy: 1
-  m_FlipEdgeHorizontal: 2
-  m_FlipEdgeVertical: 5
-  m_FlipFillCenter: 3
-  m_FlipDirection: 3
 --- !u!1 &4450053000435740932
 GameObject:
   m_ObjectHideFlags: 0
@@ -6853,7 +2882,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4450053000435740933}
   - component: {fileID: 4450053000435740952}
-  - component: {fileID: 4450053000435740935}
   m_Layer: 5
   m_Name: buttonEast
   m_TagString: Untagged
@@ -6888,86 +2916,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4450053000435740932}
   m_CullTransparentMesh: 0
---- !u!114 &4450053000435740935
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4450053000435740932}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18cf37a4c7625df4fad10d60af217b5e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: b2dfc0e8a8c638d4fbde378e24215db9, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
-  m_ignoreLocalization: 1
-  origin_name: 
-  m_ColorType: 0
-  m_GradientColor:
-    serializedVersion: 2
-    key0: {r: 0, g: 0, b: 0, a: 1}
-    key1: {r: 1, g: 1, b: 1, a: 1}
-    key2: {r: 0, g: 0, b: 0, a: 0}
-    key3: {r: 0, g: 0, b: 0, a: 0}
-    key4: {r: 0, g: 0, b: 0, a: 0}
-    key5: {r: 0, g: 0, b: 0, a: 0}
-    key6: {r: 0, g: 0, b: 0, a: 0}
-    key7: {r: 0, g: 0, b: 0, a: 0}
-    ctime0: 0
-    ctime1: 65535
-    ctime2: 0
-    ctime3: 0
-    ctime4: 0
-    ctime5: 0
-    ctime6: 0
-    ctime7: 0
-    atime0: 0
-    atime1: 65535
-    atime2: 0
-    atime3: 0
-    atime4: 0
-    atime5: 0
-    atime6: 0
-    atime7: 0
-    m_Mode: 0
-    m_ColorSpace: -1
-    m_NumColorKeys: 2
-    m_NumAlphaKeys: 2
-  m_Direction: 0
-  m_LinearToGamma: 0
-  m_GammaToLinear: 0
-  m_EnableGrey: 0
-  m_EnableRadiusCorner: 0
-  m_Contrast: 1
-  m_Saturation: 0
-  m_CornerRadius: {x: 10, y: 10, z: 10, w: 10}
-  rect2props: {x: 0, y: 0, z: 0, w: 0}
-  image: {fileID: 0}
-  m_OriginFlipMode: 0
-  m_FlipMode: 0
-  m_FlipWithCopy: 1
-  m_FlipEdgeHorizontal: 2
-  m_FlipEdgeVertical: 5
-  m_FlipFillCenter: 3
-  m_FlipDirection: 3
 --- !u!1 &4450053000485925853
 GameObject:
   m_ObjectHideFlags: 0
@@ -6978,7 +2926,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4450053000485925854}
   - component: {fileID: 4450053000485925841}
-  - component: {fileID: 4450053000485925840}
+  - component: {fileID: 1633242954352603546}
   m_Layer: 5
   m_Name: up
   m_TagString: Untagged
@@ -7013,7 +2961,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4450053000485925853}
   m_CullTransparentMesh: 0
---- !u!114 &4450053000485925840
+--- !u!114 &1633242954352603546
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -7022,7 +2970,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 4450053000485925853}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18cf37a4c7625df4fad10d60af217b5e, type: 3}
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
@@ -7033,7 +2981,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 70253711d0c59c941bcd50f929b1c04c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e6a8850b6499a1f4cbed64b4e5ddae46, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -7043,56 +2991,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
-  m_ignoreLocalization: 1
-  origin_name: 
-  m_ColorType: 0
-  m_GradientColor:
-    serializedVersion: 2
-    key0: {r: 0, g: 0, b: 0, a: 1}
-    key1: {r: 1, g: 1, b: 1, a: 1}
-    key2: {r: 0, g: 0, b: 0, a: 0}
-    key3: {r: 0, g: 0, b: 0, a: 0}
-    key4: {r: 0, g: 0, b: 0, a: 0}
-    key5: {r: 0, g: 0, b: 0, a: 0}
-    key6: {r: 0, g: 0, b: 0, a: 0}
-    key7: {r: 0, g: 0, b: 0, a: 0}
-    ctime0: 0
-    ctime1: 65535
-    ctime2: 0
-    ctime3: 0
-    ctime4: 0
-    ctime5: 0
-    ctime6: 0
-    ctime7: 0
-    atime0: 0
-    atime1: 65535
-    atime2: 0
-    atime3: 0
-    atime4: 0
-    atime5: 0
-    atime6: 0
-    atime7: 0
-    m_Mode: 0
-    m_ColorSpace: -1
-    m_NumColorKeys: 2
-    m_NumAlphaKeys: 2
-  m_Direction: 0
-  m_LinearToGamma: 0
-  m_GammaToLinear: 0
-  m_EnableGrey: 0
-  m_EnableRadiusCorner: 0
-  m_Contrast: 1
-  m_Saturation: 0
-  m_CornerRadius: {x: 10, y: 10, z: 10, w: 10}
-  rect2props: {x: 0, y: 0, z: 0, w: 0}
-  image: {fileID: 0}
-  m_OriginFlipMode: 0
-  m_FlipMode: 0
-  m_FlipWithCopy: 1
-  m_FlipEdgeHorizontal: 2
-  m_FlipEdgeVertical: 5
-  m_FlipFillCenter: 3
-  m_FlipDirection: 3
 --- !u!1 &4450053000491352641
 GameObject:
   m_ObjectHideFlags: 0
@@ -7173,7 +3071,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4450053000546172839}
   - component: {fileID: 4450053000546172858}
-  - component: {fileID: 4450053000546172857}
+  - component: {fileID: 3792285672907182263}
   m_Layer: 5
   m_Name: rt
   m_TagString: Untagged
@@ -7208,7 +3106,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4450053000546172838}
   m_CullTransparentMesh: 0
---- !u!114 &4450053000546172857
+--- !u!114 &3792285672907182263
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -7217,7 +3115,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 4450053000546172838}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18cf37a4c7625df4fad10d60af217b5e, type: 3}
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
@@ -7238,56 +3136,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
-  m_ignoreLocalization: 1
-  origin_name: 
-  m_ColorType: 0
-  m_GradientColor:
-    serializedVersion: 2
-    key0: {r: 0, g: 0, b: 0, a: 1}
-    key1: {r: 1, g: 1, b: 1, a: 1}
-    key2: {r: 0, g: 0, b: 0, a: 0}
-    key3: {r: 0, g: 0, b: 0, a: 0}
-    key4: {r: 0, g: 0, b: 0, a: 0}
-    key5: {r: 0, g: 0, b: 0, a: 0}
-    key6: {r: 0, g: 0, b: 0, a: 0}
-    key7: {r: 0, g: 0, b: 0, a: 0}
-    ctime0: 0
-    ctime1: 65535
-    ctime2: 0
-    ctime3: 0
-    ctime4: 0
-    ctime5: 0
-    ctime6: 0
-    ctime7: 0
-    atime0: 0
-    atime1: 65535
-    atime2: 0
-    atime3: 0
-    atime4: 0
-    atime5: 0
-    atime6: 0
-    atime7: 0
-    m_Mode: 0
-    m_ColorSpace: -1
-    m_NumColorKeys: 2
-    m_NumAlphaKeys: 2
-  m_Direction: 0
-  m_LinearToGamma: 0
-  m_GammaToLinear: 0
-  m_EnableGrey: 0
-  m_EnableRadiusCorner: 0
-  m_Contrast: 1
-  m_Saturation: 0
-  m_CornerRadius: {x: 10, y: 10, z: 10, w: 10}
-  rect2props: {x: 0, y: 0, z: 0, w: 0}
-  image: {fileID: 0}
-  m_OriginFlipMode: 0
-  m_FlipMode: 0
-  m_FlipWithCopy: 1
-  m_FlipEdgeHorizontal: 2
-  m_FlipEdgeVertical: 5
-  m_FlipFillCenter: 3
-  m_FlipDirection: 3
 --- !u!1 &4450053000598792185
 GameObject:
   m_ObjectHideFlags: 0
@@ -7298,7 +3146,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4450053000598792186}
   - component: {fileID: 4450053000598792189}
-  - component: {fileID: 4450053000598792188}
   m_Layer: 5
   m_Name: down
   m_TagString: Untagged
@@ -7333,86 +3180,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4450053000598792185}
   m_CullTransparentMesh: 0
---- !u!114 &4450053000598792188
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4450053000598792185}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18cf37a4c7625df4fad10d60af217b5e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 31f8f9898401e5240b6a19c03c0c046d, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
-  m_ignoreLocalization: 1
-  origin_name: 
-  m_ColorType: 0
-  m_GradientColor:
-    serializedVersion: 2
-    key0: {r: 0, g: 0, b: 0, a: 1}
-    key1: {r: 1, g: 1, b: 1, a: 1}
-    key2: {r: 0, g: 0, b: 0, a: 0}
-    key3: {r: 0, g: 0, b: 0, a: 0}
-    key4: {r: 0, g: 0, b: 0, a: 0}
-    key5: {r: 0, g: 0, b: 0, a: 0}
-    key6: {r: 0, g: 0, b: 0, a: 0}
-    key7: {r: 0, g: 0, b: 0, a: 0}
-    ctime0: 0
-    ctime1: 65535
-    ctime2: 0
-    ctime3: 0
-    ctime4: 0
-    ctime5: 0
-    ctime6: 0
-    ctime7: 0
-    atime0: 0
-    atime1: 65535
-    atime2: 0
-    atime3: 0
-    atime4: 0
-    atime5: 0
-    atime6: 0
-    atime7: 0
-    m_Mode: 0
-    m_ColorSpace: -1
-    m_NumColorKeys: 2
-    m_NumAlphaKeys: 2
-  m_Direction: 0
-  m_LinearToGamma: 0
-  m_GammaToLinear: 0
-  m_EnableGrey: 0
-  m_EnableRadiusCorner: 0
-  m_Contrast: 1
-  m_Saturation: 0
-  m_CornerRadius: {x: 10, y: 10, z: 10, w: 10}
-  rect2props: {x: 0, y: 0, z: 0, w: 0}
-  image: {fileID: 0}
-  m_OriginFlipMode: 0
-  m_FlipMode: 0
-  m_FlipWithCopy: 1
-  m_FlipEdgeHorizontal: 2
-  m_FlipEdgeVertical: 5
-  m_FlipFillCenter: 3
-  m_FlipDirection: 3
 --- !u!1 &4450053000601760839
 GameObject:
   m_ObjectHideFlags: 0
@@ -7423,7 +3190,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4450053000601760856}
   - component: {fileID: 4450053000601760859}
-  - component: {fileID: 4450053000601760858}
   m_Layer: 5
   m_Name: rb
   m_TagString: Untagged
@@ -7458,86 +3224,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4450053000601760839}
   m_CullTransparentMesh: 0
---- !u!114 &4450053000601760858
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4450053000601760839}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18cf37a4c7625df4fad10d60af217b5e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: ba6a7efaa30b4ed478cdd6c14656df32, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
-  m_ignoreLocalization: 1
-  origin_name: 
-  m_ColorType: 0
-  m_GradientColor:
-    serializedVersion: 2
-    key0: {r: 0, g: 0, b: 0, a: 1}
-    key1: {r: 1, g: 1, b: 1, a: 1}
-    key2: {r: 0, g: 0, b: 0, a: 0}
-    key3: {r: 0, g: 0, b: 0, a: 0}
-    key4: {r: 0, g: 0, b: 0, a: 0}
-    key5: {r: 0, g: 0, b: 0, a: 0}
-    key6: {r: 0, g: 0, b: 0, a: 0}
-    key7: {r: 0, g: 0, b: 0, a: 0}
-    ctime0: 0
-    ctime1: 65535
-    ctime2: 0
-    ctime3: 0
-    ctime4: 0
-    ctime5: 0
-    ctime6: 0
-    ctime7: 0
-    atime0: 0
-    atime1: 65535
-    atime2: 0
-    atime3: 0
-    atime4: 0
-    atime5: 0
-    atime6: 0
-    atime7: 0
-    m_Mode: 0
-    m_ColorSpace: -1
-    m_NumColorKeys: 2
-    m_NumAlphaKeys: 2
-  m_Direction: 0
-  m_LinearToGamma: 0
-  m_GammaToLinear: 0
-  m_EnableGrey: 0
-  m_EnableRadiusCorner: 0
-  m_Contrast: 1
-  m_Saturation: 0
-  m_CornerRadius: {x: 10, y: 10, z: 10, w: 10}
-  rect2props: {x: 0, y: 0, z: 0, w: 0}
-  image: {fileID: 0}
-  m_OriginFlipMode: 0
-  m_FlipMode: 0
-  m_FlipWithCopy: 1
-  m_FlipEdgeHorizontal: 2
-  m_FlipEdgeVertical: 5
-  m_FlipFillCenter: 3
-  m_FlipDirection: 3
 --- !u!1 &4450053000612483409
 GameObject:
   m_ObjectHideFlags: 0
@@ -7548,7 +3234,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4450053000612483410}
   - component: {fileID: 4450053000612483413}
-  - component: {fileID: 4450053000612483412}
   m_Layer: 5
   m_Name: lb
   m_TagString: Untagged
@@ -7583,86 +3268,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4450053000612483409}
   m_CullTransparentMesh: 0
---- !u!114 &4450053000612483412
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4450053000612483409}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18cf37a4c7625df4fad10d60af217b5e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 2be2915609f5656438eea96db8b37793, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
-  m_ignoreLocalization: 1
-  origin_name: 
-  m_ColorType: 0
-  m_GradientColor:
-    serializedVersion: 2
-    key0: {r: 0, g: 0, b: 0, a: 1}
-    key1: {r: 1, g: 1, b: 1, a: 1}
-    key2: {r: 0, g: 0, b: 0, a: 0}
-    key3: {r: 0, g: 0, b: 0, a: 0}
-    key4: {r: 0, g: 0, b: 0, a: 0}
-    key5: {r: 0, g: 0, b: 0, a: 0}
-    key6: {r: 0, g: 0, b: 0, a: 0}
-    key7: {r: 0, g: 0, b: 0, a: 0}
-    ctime0: 0
-    ctime1: 65535
-    ctime2: 0
-    ctime3: 0
-    ctime4: 0
-    ctime5: 0
-    ctime6: 0
-    ctime7: 0
-    atime0: 0
-    atime1: 65535
-    atime2: 0
-    atime3: 0
-    atime4: 0
-    atime5: 0
-    atime6: 0
-    atime7: 0
-    m_Mode: 0
-    m_ColorSpace: -1
-    m_NumColorKeys: 2
-    m_NumAlphaKeys: 2
-  m_Direction: 0
-  m_LinearToGamma: 0
-  m_GammaToLinear: 0
-  m_EnableGrey: 0
-  m_EnableRadiusCorner: 0
-  m_Contrast: 1
-  m_Saturation: 0
-  m_CornerRadius: {x: 10, y: 10, z: 10, w: 10}
-  rect2props: {x: 0, y: 0, z: 0, w: 0}
-  image: {fileID: 0}
-  m_OriginFlipMode: 0
-  m_FlipMode: 0
-  m_FlipWithCopy: 1
-  m_FlipEdgeHorizontal: 2
-  m_FlipEdgeVertical: 5
-  m_FlipFillCenter: 3
-  m_FlipDirection: 3
 --- !u!1 &4450053000625835710
 GameObject:
   m_ObjectHideFlags: 0
@@ -7673,7 +3278,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4450053000625835711}
   - component: {fileID: 4450053000625835698}
-  - component: {fileID: 4450053000625835697}
+  - component: {fileID: 2954880323431114343}
   m_Layer: 5
   m_Name: lb
   m_TagString: Untagged
@@ -7708,7 +3313,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4450053000625835710}
   m_CullTransparentMesh: 0
---- !u!114 &4450053000625835697
+--- !u!114 &2954880323431114343
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -7717,7 +3322,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 4450053000625835710}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18cf37a4c7625df4fad10d60af217b5e, type: 3}
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
@@ -7738,56 +3343,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
-  m_ignoreLocalization: 1
-  origin_name: 
-  m_ColorType: 0
-  m_GradientColor:
-    serializedVersion: 2
-    key0: {r: 0, g: 0, b: 0, a: 1}
-    key1: {r: 1, g: 1, b: 1, a: 1}
-    key2: {r: 0, g: 0, b: 0, a: 0}
-    key3: {r: 0, g: 0, b: 0, a: 0}
-    key4: {r: 0, g: 0, b: 0, a: 0}
-    key5: {r: 0, g: 0, b: 0, a: 0}
-    key6: {r: 0, g: 0, b: 0, a: 0}
-    key7: {r: 0, g: 0, b: 0, a: 0}
-    ctime0: 0
-    ctime1: 65535
-    ctime2: 0
-    ctime3: 0
-    ctime4: 0
-    ctime5: 0
-    ctime6: 0
-    ctime7: 0
-    atime0: 0
-    atime1: 65535
-    atime2: 0
-    atime3: 0
-    atime4: 0
-    atime5: 0
-    atime6: 0
-    atime7: 0
-    m_Mode: 0
-    m_ColorSpace: -1
-    m_NumColorKeys: 2
-    m_NumAlphaKeys: 2
-  m_Direction: 0
-  m_LinearToGamma: 0
-  m_GammaToLinear: 0
-  m_EnableGrey: 0
-  m_EnableRadiusCorner: 0
-  m_Contrast: 1
-  m_Saturation: 0
-  m_CornerRadius: {x: 10, y: 10, z: 10, w: 10}
-  rect2props: {x: 0, y: 0, z: 0, w: 0}
-  image: {fileID: 0}
-  m_OriginFlipMode: 0
-  m_FlipMode: 0
-  m_FlipWithCopy: 1
-  m_FlipEdgeHorizontal: 2
-  m_FlipEdgeVertical: 5
-  m_FlipFillCenter: 3
-  m_FlipDirection: 3
 --- !u!1 &4450053000640816205
 GameObject:
   m_ObjectHideFlags: 0
@@ -7798,7 +3353,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4450053000640816206}
   - component: {fileID: 4450053000640816193}
-  - component: {fileID: 4450053000640816192}
+  - component: {fileID: 3314246820249071317}
   m_Layer: 5
   m_Name: buttonWest
   m_TagString: Untagged
@@ -7833,7 +3388,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4450053000640816205}
   m_CullTransparentMesh: 0
---- !u!114 &4450053000640816192
+--- !u!114 &3314246820249071317
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -7842,7 +3397,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 4450053000640816205}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18cf37a4c7625df4fad10d60af217b5e, type: 3}
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
@@ -7863,56 +3418,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
-  m_ignoreLocalization: 1
-  origin_name: 
-  m_ColorType: 0
-  m_GradientColor:
-    serializedVersion: 2
-    key0: {r: 0, g: 0, b: 0, a: 1}
-    key1: {r: 1, g: 1, b: 1, a: 1}
-    key2: {r: 0, g: 0, b: 0, a: 0}
-    key3: {r: 0, g: 0, b: 0, a: 0}
-    key4: {r: 0, g: 0, b: 0, a: 0}
-    key5: {r: 0, g: 0, b: 0, a: 0}
-    key6: {r: 0, g: 0, b: 0, a: 0}
-    key7: {r: 0, g: 0, b: 0, a: 0}
-    ctime0: 0
-    ctime1: 65535
-    ctime2: 0
-    ctime3: 0
-    ctime4: 0
-    ctime5: 0
-    ctime6: 0
-    ctime7: 0
-    atime0: 0
-    atime1: 65535
-    atime2: 0
-    atime3: 0
-    atime4: 0
-    atime5: 0
-    atime6: 0
-    atime7: 0
-    m_Mode: 0
-    m_ColorSpace: -1
-    m_NumColorKeys: 2
-    m_NumAlphaKeys: 2
-  m_Direction: 0
-  m_LinearToGamma: 0
-  m_GammaToLinear: 0
-  m_EnableGrey: 0
-  m_EnableRadiusCorner: 0
-  m_Contrast: 1
-  m_Saturation: 0
-  m_CornerRadius: {x: 10, y: 10, z: 10, w: 10}
-  rect2props: {x: 0, y: 0, z: 0, w: 0}
-  image: {fileID: 0}
-  m_OriginFlipMode: 0
-  m_FlipMode: 0
-  m_FlipWithCopy: 1
-  m_FlipEdgeHorizontal: 2
-  m_FlipEdgeVertical: 5
-  m_FlipFillCenter: 3
-  m_FlipDirection: 3
 --- !u!1 &4450053000648445727
 GameObject:
   m_ObjectHideFlags: 0
@@ -7923,7 +3428,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4450053000648445712}
   - component: {fileID: 4450053000648445715}
-  - component: {fileID: 4450053000648445714}
   m_Layer: 5
   m_Name: buttonEast
   m_TagString: Untagged
@@ -7958,86 +3462,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4450053000648445727}
   m_CullTransparentMesh: 0
---- !u!114 &4450053000648445714
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4450053000648445727}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18cf37a4c7625df4fad10d60af217b5e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: e6c8d6e6694015d4d8dac8c72319bef1, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
-  m_ignoreLocalization: 1
-  origin_name: 
-  m_ColorType: 0
-  m_GradientColor:
-    serializedVersion: 2
-    key0: {r: 0, g: 0, b: 0, a: 1}
-    key1: {r: 1, g: 1, b: 1, a: 1}
-    key2: {r: 0, g: 0, b: 0, a: 0}
-    key3: {r: 0, g: 0, b: 0, a: 0}
-    key4: {r: 0, g: 0, b: 0, a: 0}
-    key5: {r: 0, g: 0, b: 0, a: 0}
-    key6: {r: 0, g: 0, b: 0, a: 0}
-    key7: {r: 0, g: 0, b: 0, a: 0}
-    ctime0: 0
-    ctime1: 65535
-    ctime2: 0
-    ctime3: 0
-    ctime4: 0
-    ctime5: 0
-    ctime6: 0
-    ctime7: 0
-    atime0: 0
-    atime1: 65535
-    atime2: 0
-    atime3: 0
-    atime4: 0
-    atime5: 0
-    atime6: 0
-    atime7: 0
-    m_Mode: 0
-    m_ColorSpace: -1
-    m_NumColorKeys: 2
-    m_NumAlphaKeys: 2
-  m_Direction: 0
-  m_LinearToGamma: 0
-  m_GammaToLinear: 0
-  m_EnableGrey: 0
-  m_EnableRadiusCorner: 0
-  m_Contrast: 1
-  m_Saturation: 0
-  m_CornerRadius: {x: 10, y: 10, z: 10, w: 10}
-  rect2props: {x: 0, y: 0, z: 0, w: 0}
-  image: {fileID: 0}
-  m_OriginFlipMode: 0
-  m_FlipMode: 0
-  m_FlipWithCopy: 1
-  m_FlipEdgeHorizontal: 2
-  m_FlipEdgeVertical: 5
-  m_FlipFillCenter: 3
-  m_FlipDirection: 3
 --- !u!1 &4450053000705086917
 GameObject:
   m_ObjectHideFlags: 0
@@ -8048,7 +3472,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4450053000705086918}
   - component: {fileID: 4450053000705086937}
-  - component: {fileID: 4450053000705086936}
   m_Layer: 5
   m_Name: buttonNorth
   m_TagString: Untagged
@@ -8083,86 +3506,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4450053000705086917}
   m_CullTransparentMesh: 0
---- !u!114 &4450053000705086936
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4450053000705086917}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18cf37a4c7625df4fad10d60af217b5e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 350877d497c139d46be852cf635a4c33, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
-  m_ignoreLocalization: 1
-  origin_name: 
-  m_ColorType: 0
-  m_GradientColor:
-    serializedVersion: 2
-    key0: {r: 0, g: 0, b: 0, a: 1}
-    key1: {r: 1, g: 1, b: 1, a: 1}
-    key2: {r: 0, g: 0, b: 0, a: 0}
-    key3: {r: 0, g: 0, b: 0, a: 0}
-    key4: {r: 0, g: 0, b: 0, a: 0}
-    key5: {r: 0, g: 0, b: 0, a: 0}
-    key6: {r: 0, g: 0, b: 0, a: 0}
-    key7: {r: 0, g: 0, b: 0, a: 0}
-    ctime0: 0
-    ctime1: 65535
-    ctime2: 0
-    ctime3: 0
-    ctime4: 0
-    ctime5: 0
-    ctime6: 0
-    ctime7: 0
-    atime0: 0
-    atime1: 65535
-    atime2: 0
-    atime3: 0
-    atime4: 0
-    atime5: 0
-    atime6: 0
-    atime7: 0
-    m_Mode: 0
-    m_ColorSpace: -1
-    m_NumColorKeys: 2
-    m_NumAlphaKeys: 2
-  m_Direction: 0
-  m_LinearToGamma: 0
-  m_GammaToLinear: 0
-  m_EnableGrey: 0
-  m_EnableRadiusCorner: 0
-  m_Contrast: 1
-  m_Saturation: 0
-  m_CornerRadius: {x: 10, y: 10, z: 10, w: 10}
-  rect2props: {x: 0, y: 0, z: 0, w: 0}
-  image: {fileID: 0}
-  m_OriginFlipMode: 0
-  m_FlipMode: 0
-  m_FlipWithCopy: 1
-  m_FlipEdgeHorizontal: 2
-  m_FlipEdgeVertical: 5
-  m_FlipFillCenter: 3
-  m_FlipDirection: 3
 --- !u!1 &4450053000770023246
 GameObject:
   m_ObjectHideFlags: 0
@@ -8173,7 +3516,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4450053000770023247}
   - component: {fileID: 4450053000770023234}
-  - component: {fileID: 4450053000770023233}
   m_Layer: 5
   m_Name: lt
   m_TagString: Untagged
@@ -8208,86 +3550,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4450053000770023246}
   m_CullTransparentMesh: 0
---- !u!114 &4450053000770023233
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4450053000770023246}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18cf37a4c7625df4fad10d60af217b5e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: d4c4df527d8b7184b94a679bdec19898, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
-  m_ignoreLocalization: 1
-  origin_name: 
-  m_ColorType: 0
-  m_GradientColor:
-    serializedVersion: 2
-    key0: {r: 0, g: 0, b: 0, a: 1}
-    key1: {r: 1, g: 1, b: 1, a: 1}
-    key2: {r: 0, g: 0, b: 0, a: 0}
-    key3: {r: 0, g: 0, b: 0, a: 0}
-    key4: {r: 0, g: 0, b: 0, a: 0}
-    key5: {r: 0, g: 0, b: 0, a: 0}
-    key6: {r: 0, g: 0, b: 0, a: 0}
-    key7: {r: 0, g: 0, b: 0, a: 0}
-    ctime0: 0
-    ctime1: 65535
-    ctime2: 0
-    ctime3: 0
-    ctime4: 0
-    ctime5: 0
-    ctime6: 0
-    ctime7: 0
-    atime0: 0
-    atime1: 65535
-    atime2: 0
-    atime3: 0
-    atime4: 0
-    atime5: 0
-    atime6: 0
-    atime7: 0
-    m_Mode: 0
-    m_ColorSpace: -1
-    m_NumColorKeys: 2
-    m_NumAlphaKeys: 2
-  m_Direction: 0
-  m_LinearToGamma: 0
-  m_GammaToLinear: 0
-  m_EnableGrey: 0
-  m_EnableRadiusCorner: 0
-  m_Contrast: 1
-  m_Saturation: 0
-  m_CornerRadius: {x: 10, y: 10, z: 10, w: 10}
-  rect2props: {x: 0, y: 0, z: 0, w: 0}
-  image: {fileID: 0}
-  m_OriginFlipMode: 0
-  m_FlipMode: 0
-  m_FlipWithCopy: 1
-  m_FlipEdgeHorizontal: 2
-  m_FlipEdgeVertical: 5
-  m_FlipFillCenter: 3
-  m_FlipDirection: 3
 --- !u!1 &4450053000798871988
 GameObject:
   m_ObjectHideFlags: 0
@@ -8298,7 +3560,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4450053000798871989}
   - component: {fileID: 4450053000798872008}
-  - component: {fileID: 4450053000798871991}
   m_Layer: 5
   m_Name: select
   m_TagString: Untagged
@@ -8333,86 +3594,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4450053000798871988}
   m_CullTransparentMesh: 0
---- !u!114 &4450053000798871991
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4450053000798871988}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18cf37a4c7625df4fad10d60af217b5e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3e9ef7dd787132643bb3be71dc2120bd, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
-  m_ignoreLocalization: 1
-  origin_name: 
-  m_ColorType: 0
-  m_GradientColor:
-    serializedVersion: 2
-    key0: {r: 0, g: 0, b: 0, a: 1}
-    key1: {r: 1, g: 1, b: 1, a: 1}
-    key2: {r: 0, g: 0, b: 0, a: 0}
-    key3: {r: 0, g: 0, b: 0, a: 0}
-    key4: {r: 0, g: 0, b: 0, a: 0}
-    key5: {r: 0, g: 0, b: 0, a: 0}
-    key6: {r: 0, g: 0, b: 0, a: 0}
-    key7: {r: 0, g: 0, b: 0, a: 0}
-    ctime0: 0
-    ctime1: 65535
-    ctime2: 0
-    ctime3: 0
-    ctime4: 0
-    ctime5: 0
-    ctime6: 0
-    ctime7: 0
-    atime0: 0
-    atime1: 65535
-    atime2: 0
-    atime3: 0
-    atime4: 0
-    atime5: 0
-    atime6: 0
-    atime7: 0
-    m_Mode: 0
-    m_ColorSpace: -1
-    m_NumColorKeys: 2
-    m_NumAlphaKeys: 2
-  m_Direction: 0
-  m_LinearToGamma: 0
-  m_GammaToLinear: 0
-  m_EnableGrey: 0
-  m_EnableRadiusCorner: 0
-  m_Contrast: 1
-  m_Saturation: 0
-  m_CornerRadius: {x: 10, y: 10, z: 10, w: 10}
-  rect2props: {x: 0, y: 0, z: 0, w: 0}
-  image: {fileID: 0}
-  m_OriginFlipMode: 0
-  m_FlipMode: 0
-  m_FlipWithCopy: 1
-  m_FlipEdgeHorizontal: 2
-  m_FlipEdgeVertical: 5
-  m_FlipFillCenter: 3
-  m_FlipDirection: 3
 --- !u!1 &4450053000848904902
 GameObject:
   m_ObjectHideFlags: 0
@@ -8423,7 +3604,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4450053000848904903}
   - component: {fileID: 4450053000848904922}
-  - component: {fileID: 4450053000848904921}
   m_Layer: 5
   m_Name: Ps5
   m_TagString: Untagged
@@ -8474,86 +3654,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4450053000848904902}
   m_CullTransparentMesh: 0
---- !u!114 &4450053000848904921
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4450053000848904902}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18cf37a4c7625df4fad10d60af217b5e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6a20488bc1db41d47bf65a05117a877d, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
-  m_ignoreLocalization: 1
-  origin_name: 
-  m_ColorType: 0
-  m_GradientColor:
-    serializedVersion: 2
-    key0: {r: 0, g: 0, b: 0, a: 1}
-    key1: {r: 1, g: 1, b: 1, a: 1}
-    key2: {r: 0, g: 0, b: 0, a: 0}
-    key3: {r: 0, g: 0, b: 0, a: 0}
-    key4: {r: 0, g: 0, b: 0, a: 0}
-    key5: {r: 0, g: 0, b: 0, a: 0}
-    key6: {r: 0, g: 0, b: 0, a: 0}
-    key7: {r: 0, g: 0, b: 0, a: 0}
-    ctime0: 0
-    ctime1: 65535
-    ctime2: 0
-    ctime3: 0
-    ctime4: 0
-    ctime5: 0
-    ctime6: 0
-    ctime7: 0
-    atime0: 0
-    atime1: 65535
-    atime2: 0
-    atime3: 0
-    atime4: 0
-    atime5: 0
-    atime6: 0
-    atime7: 0
-    m_Mode: 0
-    m_ColorSpace: -1
-    m_NumColorKeys: 2
-    m_NumAlphaKeys: 2
-  m_Direction: 0
-  m_LinearToGamma: 0
-  m_GammaToLinear: 0
-  m_EnableGrey: 0
-  m_EnableRadiusCorner: 0
-  m_Contrast: 1
-  m_Saturation: 0
-  m_CornerRadius: {x: 10, y: 10, z: 10, w: 10}
-  rect2props: {x: 0, y: 0, z: 0, w: 0}
-  image: {fileID: 0}
-  m_OriginFlipMode: 0
-  m_FlipMode: 0
-  m_FlipWithCopy: 1
-  m_FlipEdgeHorizontal: 2
-  m_FlipEdgeVertical: 5
-  m_FlipFillCenter: 3
-  m_FlipDirection: 3
 --- !u!1 &4450053000851204308
 GameObject:
   m_ObjectHideFlags: 0
@@ -8564,7 +3664,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4450053000851204309}
   - component: {fileID: 4450053000851204328}
-  - component: {fileID: 4450053000851204311}
   m_Layer: 5
   m_Name: right
   m_TagString: Untagged
@@ -8599,86 +3698,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4450053000851204308}
   m_CullTransparentMesh: 0
---- !u!114 &4450053000851204311
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4450053000851204308}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18cf37a4c7625df4fad10d60af217b5e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 17fe8e89dccbc164bb2aad7895be004d, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
-  m_ignoreLocalization: 1
-  origin_name: 
-  m_ColorType: 0
-  m_GradientColor:
-    serializedVersion: 2
-    key0: {r: 0, g: 0, b: 0, a: 1}
-    key1: {r: 1, g: 1, b: 1, a: 1}
-    key2: {r: 0, g: 0, b: 0, a: 0}
-    key3: {r: 0, g: 0, b: 0, a: 0}
-    key4: {r: 0, g: 0, b: 0, a: 0}
-    key5: {r: 0, g: 0, b: 0, a: 0}
-    key6: {r: 0, g: 0, b: 0, a: 0}
-    key7: {r: 0, g: 0, b: 0, a: 0}
-    ctime0: 0
-    ctime1: 65535
-    ctime2: 0
-    ctime3: 0
-    ctime4: 0
-    ctime5: 0
-    ctime6: 0
-    ctime7: 0
-    atime0: 0
-    atime1: 65535
-    atime2: 0
-    atime3: 0
-    atime4: 0
-    atime5: 0
-    atime6: 0
-    atime7: 0
-    m_Mode: 0
-    m_ColorSpace: -1
-    m_NumColorKeys: 2
-    m_NumAlphaKeys: 2
-  m_Direction: 0
-  m_LinearToGamma: 0
-  m_GammaToLinear: 0
-  m_EnableGrey: 0
-  m_EnableRadiusCorner: 0
-  m_Contrast: 1
-  m_Saturation: 0
-  m_CornerRadius: {x: 10, y: 10, z: 10, w: 10}
-  rect2props: {x: 0, y: 0, z: 0, w: 0}
-  image: {fileID: 0}
-  m_OriginFlipMode: 0
-  m_FlipMode: 0
-  m_FlipWithCopy: 1
-  m_FlipEdgeHorizontal: 2
-  m_FlipEdgeVertical: 5
-  m_FlipFillCenter: 3
-  m_FlipDirection: 3
 --- !u!1 &6000227227188715879
 GameObject:
   m_ObjectHideFlags: 0
@@ -8821,7 +3840,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   serialize: {fileID: 1022402115014984503}
-  inputActionAsset: {fileID: -944628639613478452, guid: 8d42b919fb94e5f4f998957f2ac1ff81, type: 3}
 --- !u!114 &3997970788264149791
 MonoBehaviour:
   m_ObjectHideFlags: 0
