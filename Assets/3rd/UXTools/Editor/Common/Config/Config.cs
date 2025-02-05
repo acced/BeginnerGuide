@@ -34,7 +34,6 @@ namespace ThunderFireUITool
             // 提取出路径部分，去掉文件名
             string parentDirectory = fullPath.Substring(0, lastSlashIndex);
             
-            Debug.Log(parentDirectory);
             return parentDirectory;
         }
         
