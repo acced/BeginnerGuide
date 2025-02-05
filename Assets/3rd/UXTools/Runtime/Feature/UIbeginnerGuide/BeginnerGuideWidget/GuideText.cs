@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -21,9 +22,51 @@ public class GuideText : GuideWidgetBase
 
             defaultStyle.SetActive(guideTextData.textBgStyle == TextBgStyle.Default);
             withTitleStyle.SetActive(guideTextData.textBgStyle == TextBgStyle.WithTitle);
-            defaultContent.GetComponent<Text>().text = guideTextData.guideTextContent;
-            withTitleTitle.GetComponent<Text>().text = guideTextData.guideTextTitle;
-            withTitleContent.GetComponent<Text>().text = guideTextData.guideTextContent;
+
+            if (guideTextData.textBgStyle == TextBgStyle.Default)
+            {
+                var defaultContentText = defaultContent.GetComponent<Text>();
+
+                if (defaultContentText != null)
+                {
+                    defaultContentText.text = guideTextData.guideTextContent;
+                }
+
+                var defaultContentTextMeshPro = defaultContent.GetComponent<TextMeshProUGUI>();
+
+                if (defaultContentTextMeshPro != null)
+                {
+                    defaultContentTextMeshPro.text = guideTextData.guideTextContent;
+                }
+            }
+            else
+            {
+                var withTitleTitleText = withTitleTitle.GetComponent<Text>();
+                var withTitleContentText = withTitleContent.GetComponent<Text>();
+
+                if (withTitleTitleText != null)
+                {
+                    withTitleTitleText.text = guideTextData.guideTextTitle;
+                }
+
+                if (withTitleContentText != null)
+                {
+                    withTitleContentText.text = guideTextData.guideTextContent;
+                }
+
+                var withTitleTitleTextMeshPro = withTitleTitle.GetComponent<TextMeshProUGUI>();
+                var withTitleContentTextMeshPro = withTitleContent.GetComponent<TextMeshProUGUI>();
+
+                if (withTitleTitleTextMeshPro != null)
+                {
+                    withTitleTitleTextMeshPro.text = guideTextData.guideTextTitle;
+                }
+
+                if (withTitleContentTextMeshPro != null)
+                {
+                    withTitleContentTextMeshPro.text = guideTextData.guideTextContent;
+                }
+            }
         }
     }
 
@@ -36,7 +79,6 @@ public class GuideText : GuideWidgetBase
 
     public override void Show()
     {
-
     }
 
     public override void Stop()
