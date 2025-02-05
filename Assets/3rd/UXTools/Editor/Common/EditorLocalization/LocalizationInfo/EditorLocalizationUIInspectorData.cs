@@ -9,12 +9,17 @@ namespace ThunderFireUITool
 {
     public class InspectorLocalizationDecode : Editor
     {
+        
+       
+        
 #if UXTOOLS_DEV
         [MenuItem(ThunderFireUIToolConfig.Menu_CreateAssets + "/" + ThunderFireUIToolConfig.Menu_UXToolLocalization + "/EditorLocalizationUIInspectorDecode", false, -97)]
 #endif
         public static void Decode()
         {
+            
             var jsonText = AssetDatabase.LoadAssetAtPath<TextAsset>(EditorLocalizationConfig.LocalizationUIInspectorJsonPath);
+            Debug.Log(EditorLocalizationConfig.LocalizationUIInspectorJsonPath);
             List<LocalizationUIInspectorData> data = JsonUtilityEx.FromJsonLegacy<LocalizationUIInspectorData>(jsonText.text);
             GenData(data);
             EditorLocalization.RefreshDict();

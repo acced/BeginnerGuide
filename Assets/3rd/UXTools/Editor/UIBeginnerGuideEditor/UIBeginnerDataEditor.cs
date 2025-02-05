@@ -134,12 +134,12 @@ namespace ThunderFireUITool
                 if (templateProperty.intValue == 0)
                 {
                     prefabProperty.objectReferenceValue =
-                    AssetDatabase.LoadAssetAtPath<GameObject>("Assets/UXTools/Res/UX-GUI-Feature/BeginnerGuide/Resources/BeginnerGuideTemplate/GuideTemplate_Gesture.prefab");
+                    AssetDatabase.LoadAssetAtPath<GameObject>($"{ThunderFireUIToolConfig.AssetsRootPath}UX-GUI-Feature/BeginnerGuide/Resources/BeginnerGuideTemplate/GuideTemplate_Gesture.prefab");
                 }
                 else if (templateProperty.intValue == 1)
                 {
                     prefabProperty.objectReferenceValue =
-                    AssetDatabase.LoadAssetAtPath<GameObject>("Assets/UXTools/Res/UX-GUI-Feature/BeginnerGuide/Resources/BeginnerGuideTemplate/GuideTemplate_GamePad.prefab");
+                    AssetDatabase.LoadAssetAtPath<GameObject>($"{ThunderFireUIToolConfig.AssetsRootPath}UX-GUI-Feature/BeginnerGuide/Resources/BeginnerGuideTemplate/GuideTemplate_GamePad.prefab");
                 }
             }
 

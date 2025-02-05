@@ -32,30 +32,7 @@ namespace ThunderFireUITool
         public static readonly string WidgetLibraryDefaultLabel = "All";
         #endregion
 
-        #region HierarchyManagement
-        public static readonly string HierarchyManagementSettingsPath = UXToolsPath + "Assets/Editor/Settings/HierarchyManagement/";
-        //层级管理工具 层级配置 用于绘制编辑器窗口
-        public static readonly string HierarchyManagementSettingPath =
-            HierarchyManagementSettingsPath + "HierarchyManagementSetting.json";
-        //层级管理工具 编辑器中层级数据 用于绘制编辑器窗口 保存了Tag等Editor信息
-        public static readonly string HierarchyManagemenEditorDataPath =
-            HierarchyManagementSettingsPath + "HierarchyManagementEditorData.json";
 
-        //层级管理工具 导出后的层级数据 用于项目实际读取 只保存Channel和Level
-        public static readonly string HierarchyManagementDataPath =
-            HierarchyManagementSettingsPath + "HierarchyManagementData.json";
-
-        //层级管理工具 Sample中 层级配置
-        public static readonly string HierarchyManagementSettingPath_Sample =
-            SamplesRootPath + "HierarchyManageSample/Resources/HierarchyManagementSetting_Sample.json";
-        //层级管理工具 Sample中 编辑器层级数据
-        public static readonly string HierarchyManagementEditorDataPath_Sample =
-            SamplesRootPath + "HierarchyManageSample/Resources/HierarchyManagementEditorData_Sample.json";
-
-        //层级管理工具 Sample中 导出后层级配置
-        public static readonly string HierarchyManagementDataPath_Sample =
-            SamplesRootPath + "HierarchyManageSample/Resources/HierarchyManagementData_Sample.json";
-        #endregion
 
 
         #region User Data
